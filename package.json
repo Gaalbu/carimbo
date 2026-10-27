@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build:packages": "npm run build -w @carimbo/core -w @carimbo/sources",
-    "lint": "eslint . && prettier --check .",
+    "lint": "npm run build:packages && eslint . && prettier --check .",
     "format": "prettier --write .",
     "typecheck": "npm run build:packages && npm run typecheck --workspaces --if-present",
     "test": "npm run build:packages && npm run test --workspaces --if-present",
