@@ -66,8 +66,8 @@ describe('search page', () => {
 
     expect(page.text()).toContain('Ainda não checado. Envie para um checador')
     const submit = page.findAll('.submit a').map((a) => a.attributes('href'))
-    // Only checkers with an official channel are listed.
-    expect(submit).toEqual(['https://www.aosfatos.org/fatima'])
+    // Official channel when there is one, the checker's site otherwise.
+    expect(submit).toEqual(['https://www.aosfatos.org/fatima', 'https://lupa.uol.com.br'])
   })
 })
 

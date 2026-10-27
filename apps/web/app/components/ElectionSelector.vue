@@ -27,13 +27,12 @@ const current = computed(() => {
 <style scoped>
 .elections {
   min-width: 0;
-  overflow-x: auto;
-  scrollbar-width: none;
 }
 
 ul {
   display: flex;
-  gap: 2px;
+  flex-wrap: wrap;
+  gap: 0 2px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -43,7 +42,7 @@ a {
   display: inline-flex;
   align-items: center;
   min-height: 36px;
-  padding: 0 8px;
+  padding: 0 6px;
   color: var(--fg-3);
   font-size: 13px;
   font-weight: 600;

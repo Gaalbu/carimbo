@@ -3,15 +3,27 @@ import type { SearchResult } from '@carimbo/core'
 
 import { truncate } from '~/utils/format'
 
+// The API answers 400 below this length.
+const MIN_QUERY = 3
+
 const route = useRoute()
 const q = computed(() => (typeof route.query.q === 'string' ? route.query.q.trim() : ''))
 
 const { names } = await useCheckers()
+const markFailed = useMarkApiFailure()
+
 // Reactive key: a new query is a new request; an empty query never reaches the API.
 const { data, error, status } = await useAsyncData(
   () => `search:${q.value}`,
-  () => (q.value ? apiFetch<SearchResult>('/v1/search', { q: q.value }) : Promise.resolve(null)),
+  () =>
+    q.value.length >= MIN_QUERY
+      ? apiFetch<SearchResult>('/v1/search', { q: q.value }).catch((cause: unknown) => {
+          markFailed({ error: cause })
+          throw cause
+        })
+      : Promise.resolve(null),
 )
+const tooShort = computed(() => q.value.length > 0 && q.value.length < MIN_QUERY)
 
 const items = computed(() => (q.value ? (data.value?.items ?? []) : []))
 
@@ -26,7 +38,8 @@ usePageSeo(() => ({
     <h1 class="manchete">Isso já foi checado?</h1>
     <SearchBox :initial="q" :autofocus="!q" />
 
-    <template v-if="q">
+    <StateMessage v-if="tooShort" title="Digite pelo menos 3 letras para buscar." />
+    <template v-else-if="q">
       <StateMessage v-if="error" kind="error" title="A busca não respondeu agora.">
         A API do Carimbo está fora do ar ou demorou demais. Tente de novo em alguns minutos.
       </StateMessage>

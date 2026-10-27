@@ -1,6 +1,5 @@
 <script setup lang="ts">
 const { checkers, error } = useCheckers()
-const withChannel = computed(() => checkers.value.filter((checker) => checker.submitUrl))
 </script>
 
 <template>
@@ -9,14 +8,23 @@ const withChannel = computed(() => checkers.value.filter((checker) => checker.su
       A lista de canais não carregou agora. Veja os checadores em
       <NuxtLink to="/fontes">/fontes</NuxtLink>.
     </p>
-    <ul v-else-if="withChannel.length" class="submit__list">
-      <li v-for="checker in withChannel" :key="checker.id">
-        <a :href="checker.submitUrl!" rel="noopener" target="_blank" class="button">
-          {{ checker.name }}<span class="visually-hidden"> (abre o canal oficial em nova aba)</span>
+    <ul v-else-if="checkers.length" class="submit__list">
+      <!-- Official submission channel when there is one; otherwise the checker's site. -->
+      <li v-for="checker in checkers" :key="checker.id">
+        <a
+          :href="checker.submitUrl ?? checker.homepage"
+          rel="noopener"
+          target="_blank"
+          class="button"
+          :class="{ 'button--primary': checker.submitUrl }"
+        >
+          {{ checker.name }}
+          <span class="micro">{{ checker.submitUrl ? 'canal de envio' : 'site' }}</span>
+          <span class="visually-hidden"> (abre em nova aba)</span>
         </a>
       </li>
     </ul>
-    <p v-else class="muted">Nenhum canal oficial de envio cadastrado ainda.</p>
+    <p v-else class="muted">Nenhum checador cadastrado ainda.</p>
   </div>
 </template>
 
@@ -28,5 +36,10 @@ const withChannel = computed(() => checkers.value.filter((checker) => checker.su
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.submit__list .micro {
+  font-weight: 400;
+  opacity: 0.8;
 }
 </style>
