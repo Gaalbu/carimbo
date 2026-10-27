@@ -51,9 +51,10 @@ describe('isSameClaim', () => {
 })
 
 describe('groupReviews', () => {
-  it('never duplicates a review URL, keeping the latest fetch', () => {
+  it('never duplicates a review id, keeping the latest fetch', () => {
     const first = makeReview({ claimText: DEBATE, reviewUrl: 'https://exemplo.invalid/a' })
     const refetched = makeReview({
+      id: first.id,
       claimText: DEBATE,
       reviewUrl: 'https://exemplo.invalid/a',
       textualRating: 'Enganoso',
@@ -62,6 +63,15 @@ describe('groupReviews', () => {
     const groups = groupReviews([first, refetched])
     expect(groups).toHaveLength(1)
     expect(groups[0]?.reviews).toEqual([refetched])
+  })
+
+  it('keeps distinct claims checked on the same page', () => {
+    const page = 'https://exemplo.invalid/varias'
+    const groups = groupReviews([
+      makeReview({ claimText: DEBATE, reviewUrl: page }),
+      makeReview({ claimText: 'Vacina altera o DNA de quem toma', reviewUrl: page }),
+    ])
+    expect(groups).toHaveLength(2)
   })
 
   it('keeps every verdict side by side in one group', () => {

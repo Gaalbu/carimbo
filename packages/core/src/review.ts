@@ -20,7 +20,10 @@ export interface Provenance {
 
 /** One fact-check of one claim by one checker. Only structured fields, never the article text. */
 export interface Review {
-  /** Stable id: first 16 hex chars of SHA-256 of `reviewUrl`. */
+  /**
+   * Stable id: first 16 hex chars of SHA-256 of `reviewUrl`; for the 2nd+ review of a page that
+   * shares one URL, of `reviewUrl + "\n" + claimText`.
+   */
   readonly id: string
   /** Key into the checker catalog (`FactChecker.id`). */
   readonly checkerId: string

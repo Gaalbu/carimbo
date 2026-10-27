@@ -1,5 +1,6 @@
 import type { Review } from '@carimbo/core'
 import { describe, expect, it } from 'vitest'
+import { reviewIdFor } from '@carimbo/sources'
 
 import type { CheckerSource } from '../src/checkers.js'
 import {
@@ -132,7 +133,7 @@ describe('extract + normalize', () => {
     expect(reviews[0]?.provenance.rawSha256).toMatch(/^[0-9a-f]{64}$/)
   })
 
-  it('keeps one review when two ClaimReviews share a url', () => {
+  it('keeps every claim when two ClaimReviews share a url, each with its own id', () => {
     const block = {
       '@type': 'ClaimReview',
       claimReviewed: 'B',
@@ -143,7 +144,21 @@ describe('extract + normalize', () => {
       claimReviewPage({ claimReviewed: 'A', reviewRating: { alternateName: 'Falso' } }, block),
     )
     const { reviews, duplicates } = normalize(extract(twice), twice, 'comprova')
-    expect(reviews.map((review) => review.claimText)).toEqual(['A'])
+    expect(reviews.map((review) => review.claimText)).toEqual(['A', 'B'])
+    expect(reviews[0]?.id).toBe(reviewIdFor('https://example.org/x'))
+    expect(reviews[1]?.id).toBe(reviewIdFor('https://example.org/x', 'B'))
+    expect(duplicates).toBe(0)
+  })
+
+  it('drops an exact repeat of a ClaimReview on the same page', () => {
+    const block = {
+      '@type': 'ClaimReview',
+      claimReviewed: 'A',
+      reviewRating: { alternateName: 'Falso' },
+    }
+    const twice = resource('https://example.org/x', claimReviewPage(block, block))
+    const { reviews, duplicates } = normalize(extract(twice), twice, 'comprova')
+    expect(reviews).toHaveLength(1)
     expect(duplicates).toBe(1)
   })
 })

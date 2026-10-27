@@ -10,9 +10,13 @@ export function sha256Hex(content: string | Uint8Array): string {
   return createHash('sha256').update(content).digest('hex')
 }
 
-/** Stable review id: first 16 hex chars of SHA-256 of the review URL. */
-export function reviewIdFor(reviewUrl: string): string {
-  return sha256Hex(reviewUrl).slice(0, REVIEW_ID_LENGTH)
+/**
+ * Stable review id: first 16 hex chars of SHA-256 of the review URL. When one page carries
+ * several ClaimReviews with the same URL, the extra ones also hash their claim text.
+ */
+export function reviewIdFor(reviewUrl: string, claimText?: string): string {
+  const key = claimText === undefined ? reviewUrl : `${reviewUrl}\n${claimText}`
+  return sha256Hex(key).slice(0, REVIEW_ID_LENGTH)
 }
 
 export interface ReviewOrigin {
@@ -20,6 +24,8 @@ export interface ReviewOrigin {
   readonly provenance: Provenance
   /** Wayback snapshot URL when the page came from the Internet Archive. */
   readonly archivedUrl?: string | null
+  /** Set for the 2nd+ ClaimReview of a page that shares one URL (see `reviewIdFor`). */
+  readonly sharedUrl?: boolean
 }
 
 /**
@@ -28,7 +34,9 @@ export interface ReviewOrigin {
  */
 export function buildReview(extracted: ExtractedClaimReview, origin: ReviewOrigin): Review {
   return {
-    id: reviewIdFor(extracted.reviewUrl),
+    id: origin.sharedUrl
+      ? reviewIdFor(extracted.reviewUrl, extracted.claimText)
+      : reviewIdFor(extracted.reviewUrl),
     checkerId: origin.checkerId,
     claimText: extracted.claimText,
     claimant: extracted.claimant,

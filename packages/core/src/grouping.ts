@@ -72,16 +72,19 @@ function sameWords(a: ClaimKey, b: ClaimKey): boolean {
   return coveredBy(a.content, b.content) && coveredBy(b.content, a.content)
 }
 
-/** Same `reviewUrl` is the same review: keep the most recently fetched copy. */
+/**
+ * Same `id` is the same review: keep the most recently fetched copy. One page may hold several
+ * reviews (one URL, different claims), each with its own id.
+ */
 export function dedupeReviews(reviews: readonly Review[]): Review[] {
-  const byUrl = new Map<string, Review>()
+  const byId = new Map<string, Review>()
   for (const review of reviews) {
-    const current = byUrl.get(review.reviewUrl)
+    const current = byId.get(review.id)
     if (current === undefined || review.provenance.fetchedAt > current.provenance.fetchedAt) {
-      byUrl.set(review.reviewUrl, review)
+      byId.set(review.id, review)
     }
   }
-  return [...byUrl.values()]
+  return [...byId.values()]
 }
 
 /** Whether two claim texts are similar enough to be grouped as the same claim. */

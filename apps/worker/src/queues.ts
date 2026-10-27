@@ -165,8 +165,9 @@ export function extract(page: FetchedResource): ClaimReviewExtraction {
 
 /**
  * Stage `normalize`: extracted fields → `Review`, with full provenance and the stamp from
- * `normalizeRating` only. Pure. Several ClaimReviews of a page sharing one URL would share an
- * id; only the first is kept and the rest are reported.
+ * `normalizeRating` only. Pure. When several ClaimReviews of a page share one URL, the first keeps
+ * the URL-only id and the others also hash their claim text; exact repeats are dropped and
+ * reported.
  */
 export function normalize(
   extraction: ClaimReviewExtraction,
@@ -181,9 +182,19 @@ export function normalize(
     rawSha256: sha256Hex(page.body),
   } as const
   const reviews = new Map<string, Review>()
+  const seenUrls = new Set<string>()
+  const seenClaims = new Set<string>()
   let duplicates = 0
   for (const extracted of extraction.reviews) {
-    const review = buildReview(extracted, { checkerId, provenance })
+    const claimKey = `${extracted.reviewUrl}\n${extracted.claimText}`
+    if (seenClaims.has(claimKey)) {
+      duplicates++
+      continue
+    }
+    seenClaims.add(claimKey)
+    const sharedUrl = seenUrls.has(extracted.reviewUrl)
+    seenUrls.add(extracted.reviewUrl)
+    const review = buildReview(extracted, { checkerId, provenance, sharedUrl })
     if (reviews.has(review.id)) duplicates++
     else reviews.set(review.id, review)
   }

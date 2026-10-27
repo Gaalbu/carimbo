@@ -13,7 +13,7 @@ import {
 export interface StoreSnapshot {
   /** `ReviewStore.generatedAt`, or null when no store file exists yet. */
   readonly generatedAt: string | null
-  /** Unique by `reviewUrl`. */
+  /** Unique by `id`. */
   readonly reviews: readonly Review[]
   /** Newest first. */
   readonly claims: readonly ClaimSummary[]
