@@ -4,7 +4,7 @@ import type { KnownVerdict, Verdict } from './verdict.js'
  * Bump on any change to the lists below, so reviews stored with an older map can be found and
  * normalized again. History and sources: docs/spikes/S3-vocabulario.md.
  */
-export const RATING_MAP_VERSION = 2
+export const RATING_MAP_VERSION = 3
 
 const FALSE_RATINGS = ['falso', 'falsa', 'fake', 'montagem', 'inventado', 'inventada'] as const
 
@@ -13,6 +13,8 @@ const OUT_OF_CONTEXT_RATINGS = [
   'enganosa',
   'sem contexto',
   'falta contexto',
+  // Aos Fatos's own label (sent as `não_é_bem_assim`); mapped by editorial decision, see S3.
+  'nao e bem assim',
   'fora de contexto',
   'distorcido',
   'distorcida',

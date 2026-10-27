@@ -101,8 +101,14 @@ describe('rating map version 2 (docs/spikes/S3-vocabulario.md)', () => {
     expect(normalizeRating('Comprovado')).toBe('true')
   })
 
-  it('keeps ratings whose meaning needs interpretation as unknown', () => {
-    expect(normalizeRating('não_é_bem_assim')).toBe('unknown')
+  it('keeps satire as unknown: it is neither false nor out of context', () => {
     expect(normalizeRating('Sátira')).toBe('unknown')
+  })
+})
+
+describe('rating map version 3', () => {
+  it("maps Aos Fatos's 'não é bem assim' to out of context", () => {
+    expect(normalizeRating('não_é_bem_assim')).toBe('out_of_context')
+    expect(normalizeRating('Não é bem assim')).toBe('out_of_context')
   })
 })

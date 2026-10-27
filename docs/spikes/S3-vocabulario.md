@@ -14,7 +14,7 @@ Levantado em 26/10/2026 a partir das 341 checagens coletadas na primeira ingest�
 
 | Avaliação original | Checador | Ocorrências | Motivo |
 |---|---|---:|---|
-| não é bem assim | Aos Fatos | 13 | pode significar impreciso ou exagerado; mapear exige ler a definição publicada pelo Aos Fatos |
+| não é bem assim | Aos Fatos | 18 | **v3 (decisão editorial, 27/10/2026): fora de contexto** |
 | Sátira | Comprova | 2 | não é falso nem fora de contexto; merece carimbo próprio ou fica como está |
 
 Regra: só entra no mapa avaliação cujo sentido não depende de interpretação. O resto fica em
