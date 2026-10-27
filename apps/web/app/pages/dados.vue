@@ -1,6 +1,5 @@
 <script setup lang="ts">
-const jsonUrl = apiUrl('/v1/export.json')
-const csvUrl = apiUrl('/v1/export.csv')
+const { json: jsonUrl, csv: csvUrl } = useExportUrls()
 
 const FIELDS: readonly { name: string; meaning: string }[] = [
   { name: 'checkerId', meaning: 'Agência que publicou a checagem.' },

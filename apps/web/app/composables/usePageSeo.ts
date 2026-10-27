@@ -14,6 +14,8 @@ export function usePageSeo(input: MaybeRefOrGetter<PageSeo>) {
   const config = useRuntimeConfig()
   const requestUrl = useRequestURL()
   const origin = (config.public.siteUrl || requestUrl.origin).replace(/\/$/, '')
+  // The site may live under a base path (GitHub Pages: /carimbo/).
+  const ogImage = `${origin}${withAppBase(config.app.baseURL, 'og.png')}`
   const seo = computed(() => toValue(input))
   const social = computed(() => seo.value.socialTitle ?? seo.value.title)
 
@@ -26,7 +28,7 @@ export function usePageSeo(input: MaybeRefOrGetter<PageSeo>) {
     ogSiteName: 'Carimbo',
     ogLocale: 'pt_BR',
     ogUrl: () => `${origin}${requestUrl.pathname}`,
-    ogImage: `${origin}/og.png`,
+    ogImage,
     ogImageWidth: 1200,
     ogImageHeight: 630,
     ogImageType: 'image/png',
@@ -34,7 +36,7 @@ export function usePageSeo(input: MaybeRefOrGetter<PageSeo>) {
     twitterCard: 'summary_large_image',
     twitterTitle: () => social.value,
     twitterDescription: () => seo.value.description,
-    twitterImage: `${origin}/og.png`,
+    twitterImage: ogImage,
     twitterImageAlt: OG_IMAGE_ALT,
   })
 }

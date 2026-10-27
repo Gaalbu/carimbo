@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
+    "generate:static": "node scripts/prepare-static-data.mjs && NUXT_PUBLIC_STATIC_DATA=dados/reviews.json nuxt generate",
     "preview": "nuxt preview",
     "typecheck": "nuxt typecheck",
     "test": "vitest run",
