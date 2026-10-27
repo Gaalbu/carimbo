@@ -12,7 +12,7 @@
     "preview": "nuxt preview",
     "typecheck": "nuxt typecheck",
     "test": "vitest run",
-    "postinstall": "nuxt prepare"
+    "postinstall": "tsc -p ../../packages/core/tsconfig.build.json && nuxt prepare"
   },
   "dependencies": {
     "@carimbo/core": "^0.0.0",
