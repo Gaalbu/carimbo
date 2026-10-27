@@ -1,9 +1,6 @@
 {
   "@context": "http://schema.org",
-  "@type": [
-    "Review",
-    "ClaimReview"
-  ],
+  "@type": ["Review", "ClaimReview"],
   "url": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
   "datePublished": "2026-10-23",
   "dateModified": "2026-10-23",
