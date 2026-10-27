@@ -7,6 +7,8 @@ O Carimbo não checa nada. Ele junta checagens já publicadas (via `ClaimReview`
 checadores), normaliza o veredito em quatro carimbos e mostra a avaliação original ao lado. Plano
 completo em [`docs/PLANO.md`](docs/PLANO.md).
 
+No ar em **https://gaalbu.github.io/carimbo/** (versão estática, atualizada a cada coleta).
+
 ## Regras
 
 - **Sem veredito próprio.** Todo carimbo vem de um checador, com nome e link.

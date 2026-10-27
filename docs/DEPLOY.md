@@ -8,6 +8,19 @@ versiona o arquivo de dados no próprio repositório.
 GitHub Actions (a cada 6 h) ──► data/reviews.json no main ──► imagem/volume da API ──► site
 ```
 
+## Produção atual: GitHub Pages (estático)
+
+O site no ar é a versão estática, em https://gaalbu.github.io/carimbo/, publicada por
+`.github/workflows/pages.yml` a cada push na `main` e depois de cada coleta bem-sucedida.
+
+- `npm run generate:static -w @carimbo/web` copia `data/reviews.json` (e gera o CSV) para
+  `dados/` e pré-renderiza todas as páginas com `NUXT_PUBLIC_STATIC_DATA=dados/reviews.json`.
+- Sem servidor de API: busca, filtros e "carregar mais" rodam no navegador com as mesmas funções
+  de `packages/core` que a API usa, sobre o mesmo arquivo.
+- Saída em `apps/web/.output/public`, servida sob `NUXT_APP_BASE_URL=/carimbo/`.
+
+As opções abaixo (container da API + site SSR) continuam valendo para quando o volume pedir.
+
 ## Imagens
 
 | Arquivo          | O que gera                                       | Porta | Healthcheck |
