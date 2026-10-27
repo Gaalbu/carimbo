@@ -4,7 +4,7 @@ import { buildApp } from '../src/app.js'
 import type { HealthResponse } from '../src/routes/health.js'
 
 describe('GET /health', () => {
-  const app = buildApp()
+  const app = buildApp({ dataFile: '/nonexistent/reviews.json' })
 
   afterAll(async () => {
     await app.close()
@@ -18,9 +18,14 @@ describe('GET /health', () => {
     expect(response.json<HealthResponse>()).toEqual({ status: 'ok' })
   })
 
-  it('answers 404 for routes that do not exist yet', async () => {
-    const response = await app.inject({ method: 'GET', url: '/v1/claims' })
+  it('answers a JSON 404 for unknown routes', async () => {
+    const response = await app.inject({ method: 'GET', url: '/v1/nada' })
 
     expect(response.statusCode).toBe(404)
+    expect(response.json()).toEqual({
+      statusCode: 404,
+      error: 'Not Found',
+      message: 'Rota não encontrada',
+    })
   })
 })

@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T12:00:00.000Z",
+  "reviews": [
+    {
+      "id": "c3b1ce8c3cfcb263",
+      "checkerId": "aos-fatos",
+      "claimText": "Lula passou mal e não irá ao debate da Globo no dia 23 de outubro de 2026",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-23",
+      "reviewDate": "2026-10-23",
+      "reviewUrl": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "cf43b98da1d8823985e003c747c1ac79576fd112a9702570531029cddc6a994f"
+      }
+    },
+    {
+      "id": "c29dd365c6873ba6",
+      "checkerId": "comprova",
+      "claimText": "Eleitor pode perder o voto ao apertar a tecla confirma",
+      "claimant": "Boatos nas redes sociais",
+      "claimDate": "2024-09-04",
+      "reviewDate": "2024-09-09",
+      "reviewUrl": "https://projetocomprova.com.br/publicações/eleitor-nao-perde-voto-ao-apertar-confirma-durante-aviso-para-conferir-escolha-na-urna-eletronica/",
+      "headline": null,
+      "textualRating": "Falso: O aviso de “Confira seu voto” foi implementado nas últimas eleições gerais para permitir que o eleitor revise o voto antes da confirmação.",
+      "verdict": "false",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://projetocomprova.com.br/publicações/eleitor-nao-perde-voto-ao-apertar-confirma-durante-aviso-para-conferir-escolha-na-urna-eletronica/",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "915dc2e7c90d6072f892533204ff2abfba1567d5b8ee812071401d42d8310279"
+      }
+    },
+    {
+      "id": "288470f998bebb7c",
+      "checkerId": "estadao-verifica",
+      "claimText": "Porcentagem de Flávio diminiui entre 21,96% e 24,95% da apuração mesmo ele tendo tido mais votos que os outros candidatos",
+      "claimant": "Redes Sociais",
+      "claimDate": "2026-10-09",
+      "reviewDate": null,
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/queda-porcentagem-flavio-bolsonaro-apuracao-nao-e-erro/",
+      "headline": null,
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/queda-porcentagem-flavio-bolsonaro-apuracao-nao-e-erro/",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "0c8f8af31998fad2300f89b6b8625ad28c9c5761158eb606653e315f51e9e0bb"
+      }
+    },
+    {
+      "id": "210cb929090cfb21",
+      "checkerId": "lupa",
+      "claimText": "Lula passou mal e não vai ao debate da Globo no dia 23 de outubro de 2026",
+      "claimant": null,
+      "claimDate": null,
+      "reviewDate": "2026-10-24",
+      "reviewUrl": "https://exemplo.invalid/sintetico/lula-debate-sem-contexto",
+      "headline": "Sintético: Lula e o debate da Globo",
+      "textualRating": "Sem contexto",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://exemplo.invalid/sintetico/lula-debate-sem-contexto",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "synthetic@test",
+        "rawSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "id": "c3b1ce8c3cfcb263",
+      "checkerId": "aos-fatos",
+      "claimText": "Lula passou mal e não irá ao debate da Globo no dia 23 de outubro de 2026",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-23",
+      "reviewDate": "2026-10-23",
+      "reviewUrl": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
+        "fetchedAt": "2026-10-25T09:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "synthetic@test",
+        "rawSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "id": "87ad506539bf0ff1",
+      "checkerId": "uol-confere",
+      "claimText": "Bolsonaro passou mal e não irá ao debate da Globo no dia 23 de outubro de 2026",
+      "claimant": null,
+      "claimDate": null,
+      "reviewDate": "2026-10-24",
+      "reviewUrl": "https://exemplo.invalid/sintetico/bolsonaro-debate",
+      "headline": null,
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://exemplo.invalid/sintetico/bolsonaro-debate",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "synthetic@test",
+        "rawSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "id": "e12a51bd0e25ce78",
+      "checkerId": "g1-fato-ou-fake",
+      "claimText": "Urna eletrônica foi hackeada nas eleições de 2022",
+      "claimant": null,
+      "claimDate": null,
+      "reviewDate": "2022-10-10",
+      "reviewUrl": "https://exemplo.invalid/sintetico/urna-hackeada-2022",
+      "headline": "É #FAKE que urna eletrônica foi hackeada",
+      "textualRating": "#FAKE",
+      "verdict": "false",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://exemplo.invalid/sintetico/urna-hackeada-2022",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "synthetic@test",
+        "rawSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "id": "0d415feff8f2f8c9",
+      "checkerId": "estadao-verifica",
+      "claimText": "Urna completa o voto sozinha com o número de um candidato",
+      "claimant": null,
+      "claimDate": null,
+      "reviewDate": "2018-09-20",
+      "reviewUrl": "https://exemplo.invalid/sintetico/urna-2018",
+      "headline": null,
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://exemplo.invalid/sintetico/urna-2018",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "synthetic@test",
+        "rawSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "id": "b003fa1c323c36ba",
+      "checkerId": "afp-checamos",
+      "claimText": "Vacina contra a gripe causa \"paralisia\", diz post;\nsegunda linha, com vírgula",
+      "claimant": "Perfil \"Saúde, já\"",
+      "claimDate": null,
+      "reviewDate": "2026-10-25",
+      "reviewUrl": "https://exemplo.invalid/sintetico/vacina-csv",
+      "headline": null,
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://exemplo.invalid/sintetico/vacina-csv",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "synthetic@test",
+        "rawSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "id": "bfd545c2e6f8b8c0",
+      "checkerId": "g1-fato-ou-fake",
+      "claimText": "Governo vai taxar o Pix a partir de novembro",
+      "claimant": null,
+      "claimDate": null,
+      "reviewDate": "2026-10-26",
+      "reviewUrl": "https://exemplo.invalid/sintetico/pix-hoje",
+      "headline": null,
+      "textualRating": "#NÃOÉBEMASSIM",
+      "verdict": "unknown",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://exemplo.invalid/sintetico/pix-hoje",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "synthetic@test",
+        "rawSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "id": "4652f2b7be818c37",
+      "checkerId": "lupa",
+      "claimText": "Imposto sobre o Pix começa a valer em janeiro",
+      "claimant": null,
+      "claimDate": null,
+      "reviewDate": "2026-10-25",
+      "reviewUrl": "https://exemplo.invalid/sintetico/pix-ontem-sp",
+      "headline": null,
+      "textualRating": "Verdadeiro",
+      "verdict": "true",
+      "ratingMapVersion": 1,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://exemplo.invalid/sintetico/pix-ontem-sp",
+        "fetchedAt": "2026-10-26T12:00:00.000Z",
+        "method": "claimreview",
+        "parserVersion": "synthetic@test",
+        "rawSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    }
+  ]
+}

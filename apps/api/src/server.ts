@@ -3,7 +3,11 @@ import { buildApp } from './app.js'
 const DEFAULT_HOST = '127.0.0.1'
 const DEFAULT_PORT = 3001
 
-const app = buildApp({ logger: true })
+const app = buildApp({
+  logger: true,
+  ...(process.env.DATA_FILE === undefined ? {} : { dataFile: process.env.DATA_FILE }),
+  ...(process.env.WEB_ORIGIN === undefined ? {} : { webOrigin: process.env.WEB_ORIGIN }),
+})
 const host = process.env.API_HOST ?? DEFAULT_HOST
 const port = Number(process.env.API_PORT ?? DEFAULT_PORT)
 
