@@ -35,11 +35,16 @@ usePageSeo({
         kind="error"
         :title="`Os números da eleição de ${year} não carregaram agora.`"
       />
+      <!-- A gap is a gap: no indexed check means "sem cobertura", never a scoreboard of zeros. -->
       <StateMessage
-        v-else-if="!election"
-        :title="`Ainda não há checagens indexadas da eleição de ${year}.`"
+        v-else-if="!election || election.total === 0"
+        :title="`Eleição de ${year}: sem cobertura`"
       >
-        Quando houver checagens coletadas do período de campanha, elas aparecem aqui.
+        O Carimbo ainda não tem checagens indexadas do período de campanha<template v-if="election">
+          ({{ formatDate(election.campaignStart) }} a
+          {{ formatDate(election.campaignEnd) }})</template
+        >. Isso não quer dizer que nada foi checado: os checadores cobertos podem não existir
+        naquele ano ou o arquivo deles ainda não foi coletado.
       </StateMessage>
       <template v-else>
         <Scoreboard
@@ -55,7 +60,9 @@ usePageSeo({
           </template>
         </Scoreboard>
       </template>
-      <h1 v-if="error || !election" class="visually-hidden">Eleição de {{ year }}</h1>
+      <h1 v-if="error || !election || election.total === 0" class="visually-hidden">
+        Eleição de {{ year }}
+      </h1>
     </header>
 
     <section v-if="coverage" aria-labelledby="cobertura-ano">
