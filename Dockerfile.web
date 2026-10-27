@@ -1,0 +1,31 @@
+# syntax=docker/dockerfile:1
+# Site do Carimbo (Nuxt 4, preset node-server). Build: docker build -f Dockerfile.web -t carimbo-web .
+# A URL da API é lida em tempo de execução: NUXT_PUBLIC_API_BASE=https://api.exemplo
+
+ARG NODE_IMAGE=node:22-alpine
+
+FROM ${NODE_IMAGE} AS build
+WORKDIR /app
+COPY package.json package-lock.json tsconfig.base.json ./
+COPY packages/core/package.json packages/core/
+COPY apps/web/package.json apps/web/
+RUN npm ci --ignore-scripts --include-workspace-root \
+      -w @carimbo/core -w @carimbo/web
+COPY packages/core packages/core
+COPY apps/web apps/web
+RUN npm run build -w @carimbo/core \
+  && npm run build -w @carimbo/web
+
+FROM ${NODE_IMAGE} AS runtime
+ENV NODE_ENV=production \
+    HOST=0.0.0.0 \
+    PORT=3000 \
+    NUXT_PUBLIC_API_BASE=http://localhost:3001
+WORKDIR /app
+# .output é autocontido (Nitro copia as dependências de runtime para .output/server).
+COPY --from=build --chown=node:node /app/apps/web/.output .output
+USER node
+EXPOSE 3000
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
+  CMD wget -qO- "http://127.0.0.1:${PORT}/" >/dev/null || exit 1
+CMD ["node", ".output/server/index.mjs"]

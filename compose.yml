@@ -33,6 +33,43 @@ services:
       retries: 10
     restart: unless-stopped
 
+  # Site e API em containers: docker compose --profile app up --build
+  # O site usa a mesma NUXT_PUBLIC_API_BASE no SSR e no navegador, então o container web
+  # compartilha a rede do container api: "127.0.0.1:<API_PORT>" vale para os dois lados
+  # (127.0.0.1, não localhost: no Alpine, localhost resolve para ::1 e a API escuta em IPv4).
+  api:
+    profiles: [app]
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    environment:
+      API_HOST: 0.0.0.0
+      API_PORT: ${API_PORT:-3001}
+      DATA_FILE: /app/data/reviews.json
+      WEB_ORIGIN: http://localhost:${WEB_PORT:-3000}
+    ports:
+      - '127.0.0.1:${API_PORT:-3001}:${API_PORT:-3001}'
+      - '127.0.0.1:${WEB_PORT:-3000}:${WEB_PORT:-3000}'
+    volumes:
+      # Lê o data/reviews.json do repositório; a API relê o arquivo quando ele muda.
+      - ./data:/app/data:ro
+    restart: unless-stopped
+
+  web:
+    profiles: [app]
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    environment:
+      HOST: 0.0.0.0
+      PORT: ${WEB_PORT:-3000}
+      NUXT_PUBLIC_API_BASE: http://127.0.0.1:${API_PORT:-3001}
+    network_mode: service:api
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
 volumes:
   postgres-data:
   redis-data:

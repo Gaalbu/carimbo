@@ -1,0 +1,21 @@
+# Contexto mínimo para Dockerfile.api e Dockerfile.web.
+**/node_modules
+**/.nuxt
+**/.output
+**/.nitro
+**/.cache
+**/dist
+**/coverage
+**/*.tsbuildinfo
+**/*.log
+data/raw
+.git
+.github
+.env
+.env.*
+!.env.example
+.vscode
+.idea
+.DS_Store
+Dockerfile.*
+compose.yml

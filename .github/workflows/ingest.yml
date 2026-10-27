@@ -1,0 +1,59 @@
+name: Ingest
+
+# Coleta checagens novas e versiona data/reviews.json (ADR 0003, PLANO §6 opção B).
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Build packages
+        run: npm run build:packages
+
+      - name: Ingest
+        run: npm run ingest:once -w @carimbo/worker
+        env:
+          FACTCHECK_API_KEY: ${{ secrets.FACTCHECK_API_KEY }}
+
+      - name: Commit data/reviews.json
+        run: |
+          if [ ! -f data/reviews.json ]; then
+            echo "data/reviews.json não foi gerado." >&2
+            exit 1
+          fi
+          git add -- data/reviews.json
+          if git diff --cached --quiet; then
+            echo "Sem mudanças em data/reviews.json."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "data: ingestão agendada $(date -u +%Y-%m-%dT%H:%MZ)"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((attempt * 10))
+          done
+          exit 1

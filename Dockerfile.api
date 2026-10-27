@@ -1,0 +1,45 @@
+# syntax=docker/dockerfile:1
+# API do Carimbo (Fastify). Build: docker build -f Dockerfile.api -t carimbo-api .
+
+ARG NODE_IMAGE=node:22-alpine
+
+FROM ${NODE_IMAGE} AS build
+WORKDIR /app
+COPY package.json package-lock.json tsconfig.base.json ./
+COPY packages/core/package.json packages/core/
+COPY apps/api/package.json apps/api/
+RUN npm ci --ignore-scripts --include-workspace-root \
+      -w @carimbo/core -w @carimbo/api
+COPY packages/core packages/core
+COPY apps/api apps/api
+RUN npm run build -w @carimbo/core -w @carimbo/api
+
+FROM ${NODE_IMAGE} AS deps
+WORKDIR /app
+COPY package.json package-lock.json ./
+COPY packages/core/package.json packages/core/
+COPY apps/api/package.json apps/api/
+RUN npm ci --ignore-scripts --omit=dev -w @carimbo/core -w @carimbo/api \
+  && npm cache clean --force
+
+FROM ${NODE_IMAGE} AS runtime
+ENV NODE_ENV=production \
+    API_HOST=0.0.0.0 \
+    API_PORT=3001 \
+    DATA_FILE=/app/data/reviews.json
+WORKDIR /app
+COPY --from=deps --chown=node:node /app/node_modules node_modules
+COPY --from=build --chown=node:node /app/package.json package.json
+COPY --from=build --chown=node:node /app/packages/core/package.json packages/core/package.json
+COPY --from=build --chown=node:node /app/packages/core/dist packages/core/dist
+COPY --from=build --chown=node:node /app/apps/api/package.json apps/api/package.json
+COPY --from=build --chown=node:node /app/apps/api/dist apps/api/dist
+# Snapshot do ReviewStore no momento do build. A pasta pode estar vazia: sem arquivo, a API
+# serve vazio. Em produção, monte um volume em /app/data para trocar o arquivo sem rebuild.
+COPY --chown=node:node data/ data/
+USER node
+WORKDIR /app/apps/api
+EXPOSE 3001
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
+  CMD wget -qO- "http://127.0.0.1:${API_PORT}/health" >/dev/null || exit 1
+CMD ["node", "dist/server.js"]
