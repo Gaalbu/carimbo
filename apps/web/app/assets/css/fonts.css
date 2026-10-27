@@ -1,0 +1,26 @@
+/* Latin subsets only (docs/PLANO.md §2 #5): the app is Portuguese-only. */
+@font-face {
+  font-family: 'Faustina';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 800;
+  src: url('@fontsource-variable/faustina/files/faustina-latin-wght-normal.woff2')
+    format('woff2-variations');
+}
+
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('@fontsource-variable/geist/files/geist-latin-wght-normal.woff2')
+    format('woff2-variations');
+}
+
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('@fontsource/anton/files/anton-latin-400-normal.woff2') format('woff2');
+}
