@@ -95,12 +95,14 @@ export class FactCheckApiClient {
     if (params.pageToken !== undefined) url.searchParams.set('pageToken', params.pageToken)
 
     const response = await this.fetchImpl(url, {
-      headers: { 'x-goog-api-key': this.apiKey, 'user-agent': CARIMBO_USER_AGENT },
+      headers: { 'x-goog-api-key': this.apiKey.trim(), 'user-agent': CARIMBO_USER_AGENT },
       signal: AbortSignal.timeout(this.timeoutMs),
     })
     const raw = await response.text()
     if (!response.ok) {
-      throw new Error(`Fact Check API respondeu HTTP ${String(response.status)}`)
+      throw new Error(
+        `Fact Check API respondeu HTTP ${String(response.status)}${googleErrorReason(raw)}`,
+      )
     }
     const parsed = responseSchema.parse(JSON.parse(raw))
     return {
@@ -135,4 +137,16 @@ function toReview(claim: ApiClaim, review: z.infer<typeof reviewSchema>): FactCh
 function blankToNull(value: string | undefined): string | null {
   const trimmed = value?.trim() ?? ''
   return trimmed === '' ? null : trimmed
+}
+
+/** Google's own explanation (`error.status: error.message`), so a 401/403 can be diagnosed. */
+function googleErrorReason(raw: string): string {
+  try {
+    const body = JSON.parse(raw) as { error?: { status?: unknown; message?: unknown } }
+    const { status, message } = body.error ?? {}
+    if (typeof message !== 'string') return ''
+    return typeof status === 'string' ? ` (${status}: ${message})` : ` (${message})`
+  } catch {
+    return ''
+  }
 }
