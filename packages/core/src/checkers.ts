@@ -17,7 +17,7 @@ export const FACT_CHECKERS: readonly FactChecker[] = [
   {
     id: 'lupa',
     name: 'Agência Lupa',
-    homepage: 'https://lupa.uol.com.br/',
+    homepage: 'https://www.agencialupa.org/',
     submitUrl: null,
   },
   {

@@ -2,7 +2,7 @@ import { mkdtemp, readFile, readdir } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 
-import { CHECKER_IDS, type ReviewStore } from '@carimbo/core'
+import { CHECKER_IDS, RATING_MAP_VERSION, type ReviewStore } from '@carimbo/core'
 import { reviewIdFor } from '@carimbo/sources'
 import { describe, expect, it } from 'vitest'
 
@@ -93,7 +93,7 @@ describe('runIngest', () => {
       claimant: 'desinformação',
       claimDate: '2026-10-22',
       reviewDate: '2026-10-23',
-      ratingMapVersion: 1,
+      ratingMapVersion: RATING_MAP_VERSION,
       archivedUrl: null,
     })
     // No date in the ClaimReview and no Article: stays missing.

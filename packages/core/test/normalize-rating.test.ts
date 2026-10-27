@@ -94,3 +94,15 @@ describe('canonicalizeRating', () => {
     expect(canonicalizeRating(' Sem   contexto. ')).toBe('sem contexto')
   })
 })
+
+describe('rating map version 2 (docs/spikes/S3-vocabulario.md)', () => {
+  it("maps Comprova's 'Falta contexto' and 'Comprovado'", () => {
+    expect(normalizeRating('Falta contexto')).toBe('out_of_context')
+    expect(normalizeRating('Comprovado')).toBe('true')
+  })
+
+  it('keeps ratings whose meaning needs interpretation as unknown', () => {
+    expect(normalizeRating('não_é_bem_assim')).toBe('unknown')
+    expect(normalizeRating('Sátira')).toBe('unknown')
+  })
+})

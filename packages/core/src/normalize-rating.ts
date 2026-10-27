@@ -4,7 +4,7 @@ import type { KnownVerdict, Verdict } from './verdict.js'
  * Bump on any change to the lists below, so reviews stored with an older map can be found and
  * normalized again. History and sources: docs/spikes/S3-vocabulario.md.
  */
-export const RATING_MAP_VERSION = 1
+export const RATING_MAP_VERSION = 2
 
 const FALSE_RATINGS = ['falso', 'falsa', 'fake', 'montagem', 'inventado', 'inventada'] as const
 
@@ -12,6 +12,7 @@ const OUT_OF_CONTEXT_RATINGS = [
   'enganoso',
   'enganosa',
   'sem contexto',
+  'falta contexto',
   'fora de contexto',
   'distorcido',
   'distorcida',
@@ -21,7 +22,15 @@ const OUT_OF_CONTEXT_RATINGS = [
   'imprecisa',
 ] as const
 
-const TRUE_RATINGS = ['verdadeiro', 'verdadeira', 'verdade', 'correto', 'correta'] as const
+const TRUE_RATINGS = [
+  'verdadeiro',
+  'verdadeira',
+  'verdade',
+  'correto',
+  'correta',
+  'comprovado',
+  'comprovada',
+] as const
 
 /** The map as lists per stamp, for display (e.g. the methodology page). Same source as the map. */
 export const RATING_LISTS: Readonly<Record<KnownVerdict, readonly string[]>> = {
