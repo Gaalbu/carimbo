@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T17:59:02.713Z",
+  "generatedAt": "2026-10-27T20:10:03.389Z",
   "reviews": [
+    {
+      "id": "8bc169a9b805a0d3",
+      "checkerId": "aos-fatos",
+      "claimText": "Passada a eleição, governo Lula recua e vai manter escala 6x1 para vários setores",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-27",
+      "reviewDate": "2026-10-27",
+      "reviewUrl": "https://www.aosfatos.org/noticias/Lula-fim-escala-6x1/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/Lula-fim-escala-6x1/",
+        "fetchedAt": "2026-10-27T20:09:53.869Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "28300bedede2c7b2e313e915d9aa911ed4d3217bd209d9c7c18ae9f4c8fc602b"
+      }
+    },
     {
       "id": "acd37f90a6744b0d",
       "checkerId": "estadao-verifica",
