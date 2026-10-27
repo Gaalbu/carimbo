@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       // NUXT_PUBLIC_API_BASE overrides it at runtime.
-      apiBase: 'http://localhost:3001',
+      apiBase: 'http://127.0.0.1:3001',
       // NUXT_PUBLIC_SITE_URL: absolute origin for og:url/og:image; falls back to the request host.
       siteUrl: '',
     },

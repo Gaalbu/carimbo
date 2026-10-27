@@ -27,11 +27,13 @@ const current = computed(() => {
 <style scoped>
 .elections {
   min-width: 0;
+  /* One row on phones: the page never scrolls sideways, only this strip does. */
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 ul {
   display: flex;
-  flex-wrap: wrap;
   gap: 0 2px;
   margin: 0;
   padding: 0;
