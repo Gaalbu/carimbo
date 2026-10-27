@@ -12,7 +12,12 @@ export type {
   ThemeWithCount,
   VerdictCounts,
 } from './api-contract.js'
-export { canonicalizeRating, normalizeRating, RATING_MAP_VERSION } from './normalize-rating.js'
+export {
+  canonicalizeRating,
+  normalizeRating,
+  RATING_LISTS,
+  RATING_MAP_VERSION,
+} from './normalize-rating.js'
 export { SOURCE_METHODS } from './review.js'
 export type { FactChecker, Provenance, Review, ReviewStore, SourceMethod } from './review.js'
 export { VERDICTS } from './verdict.js'

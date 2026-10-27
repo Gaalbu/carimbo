@@ -1,17 +1,10 @@
 <script setup lang="ts">
-import type { Verdict } from '@carimbo/core'
+import { RATING_LISTS, RATING_MAP_VERSION, type Verdict } from '@carimbo/core'
 
-// Mirrors packages/core/src/normalize-rating.ts (RATING_MAP_VERSION 1). The web app imports only
-// types from @carimbo/core, so the table is kept here as text; update both together.
-const RATING_MAP_VERSION = 1
 const NORMALIZATION: readonly { verdict: Verdict; ratings: string }[] = [
-  { verdict: 'false', ratings: 'falso, falsa, fake, montagem, inventado, inventada' },
-  {
-    verdict: 'out_of_context',
-    ratings:
-      'enganoso, enganosa, sem contexto, fora de contexto, distorcido, distorcida, exagerado, exagerada, impreciso, imprecisa',
-  },
-  { verdict: 'true', ratings: 'verdadeiro, verdadeira, verdade, correto, correta' },
+  { verdict: 'false', ratings: RATING_LISTS.false.join(', ') },
+  { verdict: 'out_of_context', ratings: RATING_LISTS.out_of_context.join(', ') },
+  { verdict: 'true', ratings: RATING_LISTS.true.join(', ') },
   {
     verdict: 'unknown',
     ratings:

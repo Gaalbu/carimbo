@@ -23,6 +23,13 @@ const OUT_OF_CONTEXT_RATINGS = [
 
 const TRUE_RATINGS = ['verdadeiro', 'verdadeira', 'verdade', 'correto', 'correta'] as const
 
+/** The map as lists per stamp, for display (e.g. the methodology page). Same source as the map. */
+export const RATING_LISTS: Readonly<Record<KnownVerdict, readonly string[]>> = {
+  false: FALSE_RATINGS,
+  out_of_context: OUT_OF_CONTEXT_RATINGS,
+  true: TRUE_RATINGS,
+}
+
 // Comprova appends its explanation to the label ("Falso: O aviso de ... foi implementado ..."),
 // so only the text before the first colon is the rating.
 const EXPLANATION_SEPARATOR = ':'
