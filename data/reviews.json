@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T02:09:29.099Z",
+  "generatedAt": "2026-10-27T12:07:55.246Z",
   "reviews": [
     {
       "id": "30d271bb10e17257",
@@ -227,7 +227,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/eleitores-impedidos-londres-primeiro-turno/",
-        "fetchedAt": "2026-10-27T02:06:08.042Z",
+        "fetchedAt": "2026-10-27T12:07:54.080Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "c37da2c0620944dfe18b1714fb1e057e8740c31a191038241ec11949c1a7be87"
@@ -311,7 +311,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-debate-globo-marginais/",
-        "fetchedAt": "2026-10-27T02:06:11.066Z",
+        "fetchedAt": "2026-10-27T12:07:45.086Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8e9fb4a27cd77df87b83db45f78179017bcc0e42a0199ccc3d82d0b82613a5a8"
@@ -332,10 +332,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/",
-        "fetchedAt": "2026-10-27T02:06:10.063Z",
+        "fetchedAt": "2026-10-27T12:07:48.084Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "0190388d34e03e2b80c95a5fc0d08f975d1d347a30e42d44f7e9344abf7e2149"
+        "rawSha256": "5dd564cf44d5762b64d84bd07bcee40f91c07c51c19e1cba0cb2267c4a502447"
       }
     },
     {
@@ -395,7 +395,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
-        "fetchedAt": "2026-10-27T02:06:13.033Z",
+        "fetchedAt": "2026-10-27T12:07:41.049Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "d5e58a501e01ceb831db84e2bb00727676721ef32052d1874d368b6fb8ea70a2"
@@ -458,7 +458,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
-        "fetchedAt": "2026-10-27T02:06:14.040Z",
+        "fetchedAt": "2026-10-27T12:07:50.231Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "cf0bae0335008369a89c58496b5f928537fae02acfb010cf875debc0249a5482"
@@ -689,10 +689,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/",
-        "fetchedAt": "2026-10-27T02:06:16.038Z",
+        "fetchedAt": "2026-10-27T12:07:51.079Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "980e4d0fe02b7a16d9e8a6c86f5a0d29287e1e547871def141327c800dfcfbb0"
+        "rawSha256": "258c08d11af37a552c404d137641357d695d6680c185eb1d28f691d7ab96bce1"
       }
     },
     {
