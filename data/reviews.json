@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T01:53:34.121Z",
+  "generatedAt": "2026-10-27T02:09:29.099Z",
   "reviews": [
     {
       "id": "30d271bb10e17257",
@@ -17,7 +17,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
-        "fetchedAt": "2026-10-27T01:45:24.828Z",
+        "fetchedAt": "2026-10-27T02:06:04.045Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "fe6f2b75558b48c2fd6ab25340ae96b29114f9ab7533c3116dae478ffe53ba0b"
@@ -80,7 +80,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-antigo-circula-nas-redes-para-sugerir-que-flavio-foi-para-os-eua/",
-        "fetchedAt": "2026-10-27T01:45:25.861Z",
+        "fetchedAt": "2026-10-27T02:06:05.039Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "af0571325a3c9c867978dac717999552e11bfe5a53f14e4de6ee6c40dd7b9b4c"
@@ -101,10 +101,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-flavio-chorando/",
-        "fetchedAt": "2026-10-27T01:45:21.125Z",
+        "fetchedAt": "2026-10-27T02:06:00.951Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "3c295b2395fe1656fa725c4ad45f903e8abd19d1908e35956d4112d2848ce902"
+        "rawSha256": "48028ac2cffa18da557435c923b668a24764218f8c84dc00a1b2c33720010b13"
       }
     },
     {
@@ -122,10 +122,31 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/presos-comemorando-gol-santa-cruz-lula/",
-        "fetchedAt": "2026-10-27T01:45:23.986Z",
+        "fetchedAt": "2026-10-27T02:06:03.033Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "64f3b0fdc410e69db653d4dc37cec9c6c5e926e24af71d54a00b6014a82a05dc"
+      }
+    },
+    {
+      "id": "c9c157467123b6f1",
+      "checkerId": "aos-fatos",
+      "claimText": "O ministro da Suprema Corte, pela primeira vez na história, ex-advogado do Lula, dá uma canetada a pedido de um ex-sócio dele e muda a regra do jogo no meio do jogo.",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-10-26",
+      "reviewDate": "2026-10-26",
+      "reviewUrl": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
+        "fetchedAt": "2026-10-27T02:06:04.045Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "fe6f2b75558b48c2fd6ab25340ae96b29114f9ab7533c3116dae478ffe53ba0b"
       }
     },
     {
@@ -143,7 +164,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/jair-bolsonaro-nao-foi-preso-desacato/",
-        "fetchedAt": "2026-10-27T01:45:22.115Z",
+        "fetchedAt": "2026-10-27T02:06:02.044Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8c9c97f5d0885d433db4b43358dd98eddb4ec51fe3a402bee61b40fcb1c0737c"
@@ -206,7 +227,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/eleitores-impedidos-londres-primeiro-turno/",
-        "fetchedAt": "2026-10-27T01:45:28.165Z",
+        "fetchedAt": "2026-10-27T02:06:08.042Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "c37da2c0620944dfe18b1714fb1e057e8740c31a191038241ec11949c1a7be87"
@@ -290,7 +311,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-debate-globo-marginais/",
-        "fetchedAt": "2026-10-27T01:45:32.170Z",
+        "fetchedAt": "2026-10-27T02:06:11.066Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8e9fb4a27cd77df87b83db45f78179017bcc0e42a0199ccc3d82d0b82613a5a8"
@@ -311,10 +332,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/",
-        "fetchedAt": "2026-10-27T01:45:31.176Z",
+        "fetchedAt": "2026-10-27T02:06:10.063Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "5dd564cf44d5762b64d84bd07bcee40f91c07c51c19e1cba0cb2267c4a502447"
+        "rawSha256": "0190388d34e03e2b80c95a5fc0d08f975d1d347a30e42d44f7e9344abf7e2149"
       }
     },
     {
@@ -374,7 +395,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
-        "fetchedAt": "2026-10-27T01:44:02.597Z",
+        "fetchedAt": "2026-10-27T02:06:13.033Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "d5e58a501e01ceb831db84e2bb00727676721ef32052d1874d368b6fb8ea70a2"
@@ -437,7 +458,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
-        "fetchedAt": "2026-10-27T01:45:36.246Z",
+        "fetchedAt": "2026-10-27T02:06:14.040Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "cf0bae0335008369a89c58496b5f928537fae02acfb010cf875debc0249a5482"
@@ -668,10 +689,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/",
-        "fetchedAt": "2026-10-27T01:45:39.170Z",
+        "fetchedAt": "2026-10-27T02:06:16.038Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "258c08d11af37a552c404d137641357d695d6680c185eb1d28f691d7ab96bce1"
+        "rawSha256": "980e4d0fe02b7a16d9e8a6c86f5a0d29287e1e547871def141327c800dfcfbb0"
       }
     },
     {
@@ -815,10 +836,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-cirio-nazare-ato-flavio/",
-        "fetchedAt": "2026-10-27T01:45:42.173Z",
+        "fetchedAt": "2026-10-27T02:06:23.105Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ce1c474a9a0728d7d48942473588bdcccf3b638af8f9caf921be28c500ae2c87"
+        "rawSha256": "cee2f94ae6da446e5e5aad92a5adfa24a52ed2fd078184393aa6f87508521834"
       }
     },
     {
@@ -920,7 +941,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/foto-janja-beijando-estatua-satanica-ia/",
-        "fetchedAt": "2026-10-27T01:45:46.554Z",
+        "fetchedAt": "2026-10-27T02:06:27.046Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "eda93632f9991a99b0d46f654d4dccd0a043e63db1ad041bfde7e59fe0162fe8"
@@ -941,10 +962,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/coca-cola-nao-fechou-fabricas-nem-demitiu/",
-        "fetchedAt": "2026-10-27T01:45:45.514Z",
+        "fetchedAt": "2026-10-27T02:06:26.042Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "03ea240352e2ce6d8742cbb6204ec12751e439338beb570d881119fae91e010d"
+        "rawSha256": "7b38f1853b8e22370e59e1518f7da07ac5fb94632a4249c8bb6f6478a93ced34"
       }
     },
     {
@@ -1130,10 +1151,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-nao-mostra-ritual-satanico-ato-lula-paulista/",
-        "fetchedAt": "2026-10-27T01:45:52.615Z",
+        "fetchedAt": "2026-10-27T02:06:33.038Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "fdceffe5f33fb2348caab73cb452f6fea731042f7d7a9ff76915f3399bb45d82"
+        "rawSha256": "5eec3a4ad82d98f657fab8dc6b641326e8110e4b5e0d0763b7acbe379c231257"
       }
     },
     {
@@ -1151,10 +1172,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/manifestantes-no-mcdonalds/",
-        "fetchedAt": "2026-10-27T01:45:50.545Z",
+        "fetchedAt": "2026-10-27T02:06:31.041Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "e9a96854396b53d56f81125de0a25bd8918f674e6ea248ea1deaea183a6d3fe5"
+        "rawSha256": "8fca7919b2ebd350bba5c7d7a1aee34ccc9cdf40f2874ad6ce06a8c5accc51e9"
       }
     },
     {
@@ -1235,7 +1256,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/foto-renan-santos-fazendo-L-ia/",
-        "fetchedAt": "2026-10-27T01:45:51.528Z",
+        "fetchedAt": "2026-10-27T02:06:32.043Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "736c620343d54dd20037dec451862be4754ec95a4c959d8ad9b0d114675d1089"
@@ -1256,10 +1277,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-mulher-droga-ato-pro-lula-na-paulista/",
-        "fetchedAt": "2026-10-27T01:45:54.518Z",
+        "fetchedAt": "2026-10-27T02:06:35.044Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "9885feb959c2a307f40e7cb4ea8edebaff7fe80d0d558c044ccfe25e16a2f0e5"
+        "rawSha256": "9863607f1a27b094af12c2298919f6fedbc71e41eee5aea7948fddf81429827a"
       }
     },
     {
@@ -1277,10 +1298,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/imagem-de-trabalhadora-limpando-metro-na-paulista-foi-alterada-por-ia/",
-        "fetchedAt": "2026-10-27T01:45:53.536Z",
+        "fetchedAt": "2026-10-27T02:06:34.046Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "49cdea988fa3861754bf74d06e8bfd7053615f247bb629a5492d50d1f71cd0d7"
+        "rawSha256": "ddab75a98193317b7145b7afba237cea42e6bacfd6f7fe98ec78a2648b05098b"
       }
     },
     {
@@ -1319,10 +1340,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-lula-extinguir-bolsa-familia/",
-        "fetchedAt": "2026-10-27T01:45:59.531Z",
+        "fetchedAt": "2026-10-27T02:06:40.042Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "71d67d0613969376424a0482465c5ba822646586cdab770ded7d3a40b5babf9d"
+        "rawSha256": "5fd50e060287a0438d6e6381f24f0907200abc4a26cbfd04f7ff4348ad838817"
       }
     },
     {
@@ -1445,7 +1466,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/corinthians-apoio-flavio-bolsonaro-falso/",
-        "fetchedAt": "2026-10-27T01:45:57.526Z",
+        "fetchedAt": "2026-10-27T02:06:38.057Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "783d3438bafa8d5866cc13cc91c5888d3f55a04e821af11334128f48268ed351"
@@ -1508,7 +1529,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/pcc-comando-vermelho-apoio-lula-falso/",
-        "fetchedAt": "2026-10-27T01:45:58.527Z",
+        "fetchedAt": "2026-10-27T02:06:39.045Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "14197a7ee4b668a83188f3f562ec2d24cac79d2302bf98e1bab6495d9aebf18c"
@@ -1529,7 +1550,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/foto-eleitores-pt-tornozeleira-IA/",
-        "fetchedAt": "2026-10-27T01:46:00.527Z",
+        "fetchedAt": "2026-10-27T02:06:41.049Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "feb3b85f499c09434139f151d39c13e328008b0117bc86a59f4784dc9df72355"
@@ -1550,7 +1571,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/montagem-g1-declaracao-falsa-lula-pedofilia/",
-        "fetchedAt": "2026-10-27T01:46:01.631Z",
+        "fetchedAt": "2026-10-27T02:06:42.050Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "1d51017feaed1a7576ddbc903a9d3ec2f1e100af54f734d8b1ed64a8d8649b12"
@@ -1592,10 +1613,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/urna-trocada-votos-lula-rn/",
-        "fetchedAt": "2026-10-27T01:46:08.569Z",
+        "fetchedAt": "2026-10-27T02:06:49.049Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "7a0b9f3617ca199e6f1865e66063a24c07f37f175891c27b4d3310dd79e1e057"
+        "rawSha256": "2e6b5876e1c7ca93a4319ef4936c35717e6561a9a83f1f701a7836a0c82c4b5a"
       }
     },
     {
@@ -1613,7 +1634,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/pf-esquema-compra-votos-flavio/",
-        "fetchedAt": "2026-10-27T01:46:06.803Z",
+        "fetchedAt": "2026-10-27T02:06:47.058Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "da1e6b7638a422b73de1b3682f456aadf711af22f15a33e26613141b11badadb"
@@ -1634,7 +1655,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-cortes-pensoes-deepfake/",
-        "fetchedAt": "2026-10-27T01:46:07.557Z",
+        "fetchedAt": "2026-10-27T02:06:48.051Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "d806372337985808761ed49594792d695c0f8656a32d358a6e5fdc05cb4fe2b4"
@@ -1655,7 +1676,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-bolsonaro-farmacia-popular/",
-        "fetchedAt": "2026-10-27T01:46:09.548Z",
+        "fetchedAt": "2026-10-27T02:06:50.051Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "036411083f0fe325744bfe24d3d370ab4184a0ca2bd2b2c8a315a7e19f7fb48e"
@@ -1680,6 +1701,27 @@
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "d479292617b34282c2217ac8115cf81ce44510d93c3c8487a18cd96cbab7cd8e"
+      }
+    },
+    {
+      "id": "80918f0fc7cb6539",
+      "checkerId": "aos-fatos",
+      "claimText": "Lula disse que: “com 10 reais eu compro um baiano” e que “basta colocar um grão de arroz na mesa do nordestino, ele vota em você”.",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-07",
+      "reviewDate": "2026-10-07",
+      "reviewUrl": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
+        "fetchedAt": "2026-10-27T02:06:43.047Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "e33ce26b9b1e5497b5683b1d60ac9430ab81b16195e277c1ec2243f9c275750c"
       }
     },
     {
@@ -1718,7 +1760,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falas-lula-nordestinos/",
-        "fetchedAt": "2026-10-27T01:46:02.536Z",
+        "fetchedAt": "2026-10-27T02:06:43.047Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "e33ce26b9b1e5497b5683b1d60ac9430ab81b16195e277c1ec2243f9c275750c"
@@ -1739,10 +1781,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/aviso-faltou-tse-voto-computado/",
-        "fetchedAt": "2026-10-27T01:46:12.581Z",
+        "fetchedAt": "2026-10-27T02:06:53.066Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ccb6d06d53e5bba89ebe4cc675076fc15db4386959429123e286f5af172a6c5a"
+        "rawSha256": "f00eac8f41702baa0c9746ae35661c7807a9df14d17ed37737e0083b85a5293b"
       }
     },
     {
@@ -1760,7 +1802,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/queda-percentual-flavio-apuracao-fraude/",
-        "fetchedAt": "2026-10-27T01:46:13.559Z",
+        "fetchedAt": "2026-10-27T02:06:54.067Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "3e8483a80edce6341c4112537600d1ee02550be2c5f3813cc713ef804f2a73ed"
@@ -1781,7 +1823,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/foto-virginia-lula/",
-        "fetchedAt": "2026-10-27T01:46:11.582Z",
+        "fetchedAt": "2026-10-27T02:06:52.068Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "4918559e93d851d5a3d48696e50bc31c85fb8a7f6cedddf12ece959dbfc996a3"
@@ -1865,10 +1907,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/urnas-apuracao-votos-primeiro-turno/",
-        "fetchedAt": "2026-10-27T01:46:15.557Z",
+        "fetchedAt": "2026-10-27T02:06:56.055Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "9a6cb3446007a2520ed790886c6775e4b9269884615dc25c95d4be9a9eae6f52"
+        "rawSha256": "2b3792e95b42f4cf8223d7a2fffb4d3445024a0cf90c0479e670f4c83054b735"
       }
     },
     {
@@ -1928,10 +1970,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/votos-senadores-pl-flavio-fraude/",
-        "fetchedAt": "2026-10-27T01:46:03.581Z",
+        "fetchedAt": "2026-10-27T02:06:44.044Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "928baff09a67be827d3c69d265f56a2a6c323efd6d7466e7fed5fbb5108f8003"
+        "rawSha256": "4f74b08e19108a5122321d75e923bc3996707675a5ea7e3625a63c268a7f88e5"
       }
     },
     {
@@ -1949,10 +1991,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-7-bilhoes-viagens/",
-        "fetchedAt": "2026-10-27T01:46:16.641Z",
+        "fetchedAt": "2026-10-27T02:06:57.059Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "e3ba929371e9cc76189d400bf90d9828727000b125178b61a7c0306aa76dca3a"
+        "rawSha256": "cd283b5ee424e14bafe91441dc39682085dd26d3474eabd29b6d676a2d9db73f"
       }
     },
     {
@@ -1991,10 +2033,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/gilmar-mendes-cabine-votacao-celular/",
-        "fetchedAt": "2026-10-27T01:46:17.562Z",
+        "fetchedAt": "2026-10-27T02:06:58.065Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "482973b15c7a698ec463800ac0aeaeabaf7c1cc4cdd3342f5a23cf8d618aa765"
+        "rawSha256": "f53ee71172fbbcd99befd97f38b34a2627e506d1db58cca75e6ce9910317d594"
       }
     },
     {
@@ -2012,10 +2054,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/apertar-confirma-duas-vezes/",
-        "fetchedAt": "2026-10-27T01:46:20.559Z",
+        "fetchedAt": "2026-10-27T02:07:01.066Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "e63bbbc7729f839cc4600ef79dfc2d95816ca8cdd79d70ef6df416491e8537ea"
+        "rawSha256": "02f7ad8e86fa6c4f37625122272a127d0f35e04334075260364502869b6ed3fe"
       }
     },
     {
@@ -2054,7 +2096,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/entrega-colas-branco-mesarios-irregularidade/",
-        "fetchedAt": "2026-10-27T01:46:18.560Z",
+        "fetchedAt": "2026-10-27T02:06:59.061Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "a86e38952a837f4311a345a9faf953e6e165aa9f16dac8f1d23d5293cadab1b9"
@@ -2096,10 +2138,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/mendonca-locais-votacao-rio/",
-        "fetchedAt": "2026-10-27T01:46:24.562Z",
+        "fetchedAt": "2026-10-27T02:07:05.088Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "b33055aaf3eda31fd3d27dfcf826d295592d976d852dfbeb6bc974f5c2ca62fd"
+        "rawSha256": "b81dc5a8a7f821c8af7ab108a5627acf175c77b43ab7c99a314cb3de80c7de0c"
       }
     },
     {
@@ -2117,7 +2159,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/pesquisa-flavio-61-intencoes-voto/",
-        "fetchedAt": "2026-10-27T01:46:19.555Z",
+        "fetchedAt": "2026-10-27T02:07:00.056Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8b67f9a3e286bec19103562fc6d09f2c0eb93a3bfb39dbcca1f6c8274f5d4c12"
@@ -2138,7 +2180,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-ia-flavio-direitos-trabalhistas/",
-        "fetchedAt": "2026-10-27T01:46:21.560Z",
+        "fetchedAt": "2026-10-27T02:07:02.200Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "a22327cbf17c14d8685736888398d941f9c92b8ad017fe64fcd4143f15c0e9c4"
@@ -2159,10 +2201,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-bandeira-brasil-chao/",
-        "fetchedAt": "2026-10-27T01:46:22.574Z",
+        "fetchedAt": "2026-10-27T02:07:03.054Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c230d1cbfb36d000e6ea12ea9dd5e553e7e2abcbe9a6824e171d3e4f34df8ac9"
+        "rawSha256": "da629469f7d4fa5d189cdc3fa77726099216218a1748906a80816f9cdf814147"
       }
     },
     {
@@ -2180,7 +2222,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/exercito-interferencia-externa-eleicoes/",
-        "fetchedAt": "2026-10-27T01:46:04.550Z",
+        "fetchedAt": "2026-10-27T02:06:45.039Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "91467210960bd4af478ef25d6faf4cf9a9b4cf6d298ef42bc244e83fbf8adb3b"
@@ -2222,10 +2264,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/tse-nao-liberou-voto-celular-eleicoes/",
-        "fetchedAt": "2026-10-27T01:46:23.558Z",
+        "fetchedAt": "2026-10-27T02:07:04.059Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "21131b8394177e99fb63f1e2d0d9b38848c9587ece64b7b1776d88e29e9e973d"
+        "rawSha256": "5096e3a16d0485662c4ab58ce7d89666af55e37a0da9c73bd1bf89c7f339e02d"
       }
     },
     {
@@ -2285,10 +2327,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/eleitores-flavio-votar-4-outubro/",
-        "fetchedAt": "2026-10-27T01:46:38.568Z",
+        "fetchedAt": "2026-10-27T02:07:19.831Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "7ab2e84d6a0a6b9cc62446af06be5e3ad7dae43542726d40ab5b4a87138462da"
+        "rawSha256": "f4a49d78b1c9e3df6407eda101ba943f4da4c888c4774e3d8b5527215ec24806"
       }
     },
     {
@@ -2306,10 +2348,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/policiais-urna-fraudada-df/",
-        "fetchedAt": "2026-10-27T01:46:32.705Z",
+        "fetchedAt": "2026-10-27T02:07:13.064Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "91b4559b146850355b35f1ce888a667413592e9bdf3392aa1cc6827ccfd8aa5e"
+        "rawSha256": "6ce425b71c90758013c12f7143e1c51e0c3f847a094c2d7afc7e01dd1a42d41e"
       }
     },
     {
@@ -2327,7 +2369,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/policia-sp-plano-pcc-flavio/",
-        "fetchedAt": "2026-10-27T01:46:33.618Z",
+        "fetchedAt": "2026-10-27T02:07:14.066Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "731d185ee90dca48cc67fbd129e6b5e54dd855b3479c5796e14c163a77d4f667"
@@ -2348,10 +2390,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/william-waack-lula-golpe-eleicoes/",
-        "fetchedAt": "2026-10-27T01:46:35.566Z",
+        "fetchedAt": "2026-10-27T02:07:16.060Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "5f59b4fde0572a72b9dd6fc5efd8e08937bf3cdd07015b5c896211902abc0488"
+        "rawSha256": "d2c44889a60f9fece79d8927a7e81a246155db7955b46522ccebc24b7d955c19"
       }
     },
     {
@@ -2369,10 +2411,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/carro-janja-ovos/",
-        "fetchedAt": "2026-10-27T01:46:37.580Z",
+        "fetchedAt": "2026-10-27T02:07:18.063Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "3bab55284d83f36d19550a882f8ed06dfebb2f0dae4f205656f32ded63707393"
+        "rawSha256": "385ad6a1c7965dec614e23db11103c91c85a8f0261a55cb61400856c335382ec"
       }
     },
     {
@@ -2411,10 +2453,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/revogacao-visto-embaixadora-eua-eleicoes/",
-        "fetchedAt": "2026-10-27T01:46:34.568Z",
+        "fetchedAt": "2026-10-27T02:07:15.058Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "5ec56ce39bb82305f0545b78b86219e35ae75146b2341f50b0550fb91e70c02c"
+        "rawSha256": "3e8b3e80f66682c3bb691967800025f906ca257619e8d0c075cd0d1994664e00"
       }
     },
     {
@@ -2453,10 +2495,31 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/movimentacao-militar-americana-brasil-eleicao/",
-        "fetchedAt": "2026-10-27T01:46:36.576Z",
+        "fetchedAt": "2026-10-27T02:07:17.064Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "b91f4b4fea150e2cddaa46f279184fd4393f4d7acfa2ef7253f7b81e8e86249c"
+        "rawSha256": "01c0abd0dec4ed156dbc47015c82503c11f70dee876bd2d25a5e80a322678cfa"
+      }
+    },
+    {
+      "id": "0477db2059cdc375",
+      "checkerId": "aos-fatos",
+      "claimText": "Você [Lula] que deixou o povo brasileiro endividado",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-10-02",
+      "reviewDate": "2026-10-02",
+      "reviewUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+      "headline": null,
+      "textualRating": "não_é_bem_assim",
+      "verdict": "unknown",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+        "fetchedAt": "2026-10-27T02:07:23.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "1e5e87d81cb1fa3e396e613f032f9a9f6dd7e4e6b5f8e293daa3b15c2bf4a43f"
       }
     },
     {
@@ -2474,7 +2537,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/janja-deus-eleicao-lula/",
-        "fetchedAt": "2026-10-27T01:46:40.569Z",
+        "fetchedAt": "2026-10-27T02:07:21.067Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "5b5084b205011852d84dc05d0ab003ff3daf9a27ea9392580b9279efab6bbdb3"
@@ -2523,6 +2586,27 @@
       }
     },
     {
+      "id": "58133f36d1505f26",
+      "checkerId": "aos-fatos",
+      "claimText": "Nós estamos no Rio de Janeiro, e fomos impedidos [de ir ao debate] por causa de uma censura e uma interferência do Poder Judiciário.",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-10-02",
+      "reviewDate": "2026-10-02",
+      "reviewUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+        "fetchedAt": "2026-10-27T02:07:23.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "1e5e87d81cb1fa3e396e613f032f9a9f6dd7e4e6b5f8e293daa3b15c2bf4a43f"
+      }
+    },
+    {
       "id": "665fa3f7dcc37da9",
       "checkerId": "aos-fatos",
       "claimText": "Ministra do TSE proibiu candidatos de mencionar Lula em debate da Globo",
@@ -2537,10 +2621,52 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/ministra-tse-lula-debate-globo/",
-        "fetchedAt": "2026-10-27T01:46:43.568Z",
+        "fetchedAt": "2026-10-27T02:07:24.064Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "83abeb412bb742b22607e3acdd4c542bbb83598e87b3e082435d0161399ad5ed"
+        "rawSha256": "50ab5b7c3120a20c16819f6de7351a97e2faf1c2da06dff41bd04df18e5eb064"
+      }
+    },
+    {
+      "id": "6b5c95532f8b08c4",
+      "checkerId": "aos-fatos",
+      "claimText": "Recorde de empresas fechadas [em 2026]",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-10-02",
+      "reviewDate": "2026-10-02",
+      "reviewUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+        "fetchedAt": "2026-10-27T02:07:23.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "1e5e87d81cb1fa3e396e613f032f9a9f6dd7e4e6b5f8e293daa3b15c2bf4a43f"
+      }
+    },
+    {
+      "id": "87ba8b2deea5ead6",
+      "checkerId": "aos-fatos",
+      "claimText": "[Lula deixou o povo brasileiro] com fome",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-10-02",
+      "reviewDate": "2026-10-02",
+      "reviewUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+        "fetchedAt": "2026-10-27T02:07:23.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "1e5e87d81cb1fa3e396e613f032f9a9f6dd7e4e6b5f8e293daa3b15c2bf4a43f"
       }
     },
     {
@@ -2565,6 +2691,48 @@
       }
     },
     {
+      "id": "9cd182e7730e524b",
+      "checkerId": "aos-fatos",
+      "claimText": "Cerca de 32 milhões que não votaram nas últimas eleições",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-10-02",
+      "reviewDate": "2026-10-02",
+      "reviewUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+      "headline": null,
+      "textualRating": "verdadeiro",
+      "verdict": "true",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+        "fetchedAt": "2026-10-27T02:07:23.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "1e5e87d81cb1fa3e396e613f032f9a9f6dd7e4e6b5f8e293daa3b15c2bf4a43f"
+      }
+    },
+    {
+      "id": "ab6d32b9c98db3fc",
+      "checkerId": "aos-fatos",
+      "claimText": "Eu tenho um irmão exilado nos Estados Unidos",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-10-02",
+      "reviewDate": "2026-10-02",
+      "reviewUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+        "fetchedAt": "2026-10-27T02:07:23.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "1e5e87d81cb1fa3e396e613f032f9a9f6dd7e4e6b5f8e293daa3b15c2bf4a43f"
+      }
+    },
+    {
       "id": "ae83bcfaee39924f",
       "checkerId": "aos-fatos",
       "claimText": "XUXA SE REVOLTA CONTRA LULA E PEDE PARA BRASILEIROS NÃO VOTAREM NELE",
@@ -2579,10 +2747,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/xuxa-lula-tomar-toque/",
-        "fetchedAt": "2026-10-27T01:46:44.637Z",
+        "fetchedAt": "2026-10-27T02:07:25.138Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "4edb30e7e78e6ac2198928ddd009d58dbd92737dd98a9e416c1140e1abba2539"
+        "rawSha256": "6b161478c4759b916cda5d4a354101b43326f4b6f4ee613606e4dd2e0a3f88dc"
       }
     },
     {
@@ -2621,10 +2789,31 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/papa-leao-14-flavio-bolsonaro/",
-        "fetchedAt": "2026-10-27T01:46:41.592Z",
+        "fetchedAt": "2026-10-27T02:07:22.088Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "67c8905018059a9f5f8c3553a55e1612fbd27c90a39f4c520bc00de110e9df42"
+      }
+    },
+    {
+      "id": "ed081b01167c6ac6",
+      "checkerId": "aos-fatos",
+      "claimText": "Eu não posso compactuar com censura, com interferência do Judiciário.",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-10-02",
+      "reviewDate": "2026-10-02",
+      "reviewUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
+        "fetchedAt": "2026-10-27T02:07:23.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "1e5e87d81cb1fa3e396e613f032f9a9f6dd7e4e6b5f8e293daa3b15c2bf4a43f"
       }
     },
     {
@@ -2642,7 +2831,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/checamos-live-flavio-bolsonaro/",
-        "fetchedAt": "2026-10-27T01:46:42.658Z",
+        "fetchedAt": "2026-10-27T02:07:23.141Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "1e5e87d81cb1fa3e396e613f032f9a9f6dd7e4e6b5f8e293daa3b15c2bf4a43f"
@@ -2705,10 +2894,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-medium-joao-de-deus-hospital-para/",
-        "fetchedAt": "2026-10-27T01:46:50.576Z",
+        "fetchedAt": "2026-10-27T02:07:31.067Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "e2eadc6560b6865e37b2604d4a2e002a4f77c28abe4fc1c4e845bd9de3ec71e4"
+        "rawSha256": "39761c77cf1d45365d599588665dcd3624d2e13aefc4403102682324964c308a"
       }
     },
     {
@@ -2768,10 +2957,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/fogo-nossa-senhora-evangelicos/",
-        "fetchedAt": "2026-10-27T01:46:49.579Z",
+        "fetchedAt": "2026-10-27T02:07:30.065Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "b91df747b57a7f425ac2ce57cda50e5472e4fdf5b70dcbcbe4a66b1d9786af1e"
+        "rawSha256": "ed216706970cf443a4b62fe0fc54b11b5b8a7a5882a1402b48f7910b93464193"
       }
     },
     {
@@ -2789,10 +2978,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/simone-tebet-lula-tomar-toque/",
-        "fetchedAt": "2026-10-27T01:46:48.577Z",
+        "fetchedAt": "2026-10-27T02:07:29.069Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "112e16c5366158a1d021705d7e1002741b08e2bfb2423d0c9f41a35ee34c20e2"
+        "rawSha256": "879b3827b2ad746b1bc3ecd2ea122500136a945cd46cfca8c55ecba9cea9a151"
       }
     },
     {
@@ -2810,10 +2999,31 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/capas-veja-janja-erika-hilton-cristaos/",
-        "fetchedAt": "2026-10-27T01:46:51.641Z",
+        "fetchedAt": "2026-10-27T02:07:32.207Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "4fd030a1df000e1b1c46f8634adf5ec4150a54a4a377f37d33a3cb9a5a557da7"
+        "rawSha256": "1981f03201601e63fadd01c7f517cc76f7e581c50ed716d28f027cbc0a21bc4b"
+      }
+    },
+    {
+      "id": "c2e834378158e0d3",
+      "checkerId": "aos-fatos",
+      "claimText": "A chamada Lei Érika, que obrigaria igrejas a celebrar casamentos de pessoas trans, deve começar a tramitar no Congresso antes das eleições. A recusa poderia levar pastores à prisão por 10 a 13 anos e transforma a liberdade religiosa no tema central da campanha.",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-01",
+      "reviewDate": "2026-10-01",
+      "reviewUrl": "https://www.aosfatos.org/noticias/capas-veja-janja-erika-hilton-cristaos/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/capas-veja-janja-erika-hilton-cristaos/",
+        "fetchedAt": "2026-10-27T02:07:32.207Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "1981f03201601e63fadd01c7f517cc76f7e581c50ed716d28f027cbc0a21bc4b"
       }
     },
     {
@@ -2831,7 +3041,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-ao-flow/",
-        "fetchedAt": "2026-10-27T01:46:45.656Z",
+        "fetchedAt": "2026-10-27T02:07:26.139Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "42d7af2a62980faeee67f10f7166447b10850602ae6017ad9a6d96b77e9678bc"
@@ -2964,6 +3174,27 @@
       }
     },
     {
+      "id": "193fcfed8bbd137c",
+      "checkerId": "aos-fatos",
+      "claimText": "Flamenguistas protestam contra Lula e decisões recentes do governo",
+      "claimant": "desinformação",
+      "claimDate": "2026-09-29",
+      "reviewDate": "2026-09-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
+        "fetchedAt": "2026-10-27T02:07:35.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "f6dceebc0435b206ae67529192d461c83d31c70d38ace4e74e3d101f5cd916a0"
+      }
+    },
+    {
       "id": "3a6bc4edb1a69fd4",
       "checkerId": "aos-fatos",
       "claimText": "ROMÁRIO CRITICA LULA  E DIZ QUE TORCIDA DO FLAMENGO JÁ REAGE À POLÊMICA DAS BETS",
@@ -2978,10 +3209,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/romario-lula-bets-ia/",
-        "fetchedAt": "2026-10-27T01:46:56.756Z",
+        "fetchedAt": "2026-10-27T02:07:37.069Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "56f563daf38004f3b6db3b15dcee6e26cb49b2c62e7f414925f656e31d31d1a5"
+        "rawSha256": "9d6f7b5d950d447aa75254aa5e7c52c8be06db3bd76d7f4128afe67a3b625446"
       }
     },
     {
@@ -3020,7 +3251,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-discursa-cancer-de-prostata-nao-sobre-defesa-pedofilia/",
-        "fetchedAt": "2026-10-27T01:46:55.585Z",
+        "fetchedAt": "2026-10-27T02:07:36.075Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "4dd6477995fc4dc0cca1ac91ee22b531cc0e1a7fba76d229cb56f8e23df00363"
@@ -3041,10 +3272,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-voto-eleicoes-prova-vida-inss/",
-        "fetchedAt": "2026-10-27T01:46:53.572Z",
+        "fetchedAt": "2026-10-27T02:07:34.065Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "9c743a47c5544877812c22c12a7043ffb97c2730dfe9731840903610172575cd"
+        "rawSha256": "1e25cdee4520a5ef493c4b66b331f52994a45e875638a767b176e650cd21e568"
       }
     },
     {
@@ -3066,6 +3297,27 @@
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "b4eecabccc00225903d399b056976d51356ca7b20d08e989837b74e602196215"
+      }
+    },
+    {
+      "id": "b5ea69ba944c2268",
+      "checkerId": "aos-fatos",
+      "claimText": "Flamenguistas protestam contra Lula e sua decisão de banir as bets",
+      "claimant": "desinformação",
+      "claimDate": "2026-09-29",
+      "reviewDate": "2026-09-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
+        "fetchedAt": "2026-10-27T02:07:35.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "f6dceebc0435b206ae67529192d461c83d31c70d38ace4e74e3d101f5cd916a0"
       }
     },
     {
@@ -3104,7 +3356,28 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
-        "fetchedAt": "2026-10-27T01:46:54.692Z",
+        "fetchedAt": "2026-10-27T02:07:35.141Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "f6dceebc0435b206ae67529192d461c83d31c70d38ace4e74e3d101f5cd916a0"
+      }
+    },
+    {
+      "id": "f2b600fcc2887b1a",
+      "checkerId": "aos-fatos",
+      "claimText": "Flamenguistas protestam contra decisão do governo sobre as bets",
+      "claimant": "desinformação",
+      "claimDate": "2026-09-29",
+      "reviewDate": "2026-09-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/posts-nao-mostram-protesto-da-torcida-do-flamengo-contra-fim-das-bets/",
+        "fetchedAt": "2026-10-27T02:07:35.141Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "f6dceebc0435b206ae67529192d461c83d31c70d38ace4e74e3d101f5cd916a0"
@@ -3146,7 +3419,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/reajustes-bolsa-familia-aposentadoria-inss/",
-        "fetchedAt": "2026-10-27T01:46:27.565Z",
+        "fetchedAt": "2026-10-27T02:07:08.058Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "700faa11858209418b5e646717ed2f53af47f5f3d3c9bf7c1b2679af70ccd04d"
@@ -3230,7 +3503,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-desistir-candidatura/",
-        "fetchedAt": "2026-10-27T01:46:59.602Z",
+        "fetchedAt": "2026-10-27T02:07:40.069Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "4c7ddbbcff6b6244b9f7bd5b3793b1597e92e26dec50e21f6c9d8274fa2d0169"
@@ -3251,7 +3524,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/presidente-paraguai-lula-migracao-empresas/",
-        "fetchedAt": "2026-10-27T01:46:58.577Z",
+        "fetchedAt": "2026-10-27T02:07:39.069Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "2c5a55e2a0a9fc76f111ef70aa685abdfc703684a694340af0f9539b1b3ddc2e"
@@ -3398,10 +3671,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-nao-mostra-ultimos-momentos-de-rick-em-helicoptero-gravacao-e-de-2023/",
-        "fetchedAt": "2026-10-27T01:47:01.604Z",
+        "fetchedAt": "2026-10-27T02:07:42.091Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "971de9ecaf91065a70e849a9123894f9eeec3a9f2f0b03cbe9474942e49bbacf"
+        "rawSha256": "fe0c6e8654b72dcc1fea214fdcd50d756918840d53b4683543dcc0d6032e61db"
       }
     },
     {
@@ -3419,7 +3692,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/foto-briga-fachin-moraes-ia/",
-        "fetchedAt": "2026-10-27T01:47:04.611Z",
+        "fetchedAt": "2026-10-27T02:07:45.080Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "12b5a121913e4f48784a95e26ac8b4098dddbfca365f1f556b9301a88f5464c9"
@@ -3440,7 +3713,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/aliado-de-vorcaro-nao-disse-em-conversa-que-mendonca-so-fala-de-deus/",
-        "fetchedAt": "2026-10-27T01:47:02.604Z",
+        "fetchedAt": "2026-10-27T02:07:43.075Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "54962b1c1c2c56645fb9425f0c6558a9af68acf55401b1b5f91757b54277a6f1"
@@ -3461,7 +3734,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/e-falso-que-lula-ja-foi-preso-por-estelionato-imagem-foi-gerada-por-ia/",
-        "fetchedAt": "2026-10-27T01:47:05.587Z",
+        "fetchedAt": "2026-10-27T02:07:46.081Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "c62b15480ff5a770626c32c1617bbfa457e783e5f35758779e56c22a2477c336"
@@ -3482,10 +3755,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-lula-higienizador-intimo-anal-chuca-sus/",
-        "fetchedAt": "2026-10-27T01:47:03.590Z",
+        "fetchedAt": "2026-10-27T02:07:44.080Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "dec582f7124a4524605024b80d2d2cdbd0c4975bd5909ab19a76bdc5cbc2f996"
+        "rawSha256": "2b64d2f89b19afb91de7397081883ca9ce325a1800f63b6ae38eb2accf4cd85a"
       }
     },
     {
@@ -3566,10 +3839,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-nao-mostra-acidente-em-sc-com-cantor-rick-mas-queda-de-helicoptero-em-sp/",
-        "fetchedAt": "2026-10-27T01:47:12.641Z",
+        "fetchedAt": "2026-10-27T02:07:53.074Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "58fcb2dd997bc699180a727f4d347d35d31def8904fe15ed9ac685d52e4f7224"
+        "rawSha256": "e2431248d1b44a82086b0cca6816f72f158d13c935b489e6394249b8723a6a5e"
       }
     },
     {
@@ -3587,10 +3860,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-nao-defendeu-que-pobres-devem-passar-a-vida-cortando-cana/",
-        "fetchedAt": "2026-10-27T01:47:13.576Z",
+        "fetchedAt": "2026-10-27T02:07:54.062Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "90cd10159d26e4f7f4c1ead6243c01091c1be127ad4dc492ed8a7e2351e2ca0b"
+        "rawSha256": "64e7b0f7a6346ed18d842a0fcf09a58bcc6e1fbf5760107ce062906e421a129f"
       }
     },
     {
@@ -3629,10 +3902,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-nao-mostra-ato-de-flavio-em-recife-mas-festa-em-campina-grande/",
-        "fetchedAt": "2026-10-27T01:47:15.586Z",
+        "fetchedAt": "2026-10-27T02:07:56.062Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "0b5e79116532c42e809de52cb4356ae62eb6936cfa8c0fd208c4d1522030e1b7"
+        "rawSha256": "202ae8a6dbb9fa3e2ee72cf90cdff90ae47d4e6cd72fc32788d41ac405233c97"
       }
     },
     {
@@ -3692,10 +3965,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/gilmar-mendes-nao-teve-encontro-secreto-com-vorcaro/",
-        "fetchedAt": "2026-10-27T01:47:16.589Z",
+        "fetchedAt": "2026-10-27T02:07:57.077Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "b478fd3812547c7a68f44772947dcf8bc44af14d8bb72f7f5827f6f73070a862"
+        "rawSha256": "b4bae6b717ba7baf3f09e4f7ad09fde723fc569902505ef06b55162bb05f08d3"
       }
     },
     {
@@ -3713,10 +3986,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/ato-pl-dosimetria-comicio-lula-sc/",
-        "fetchedAt": "2026-10-27T01:47:17.611Z",
+        "fetchedAt": "2026-10-27T02:07:58.069Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "27da51bed428b55cb5cd9d33932a0ca777c52cc9590e0af43f2cd55eb1e28604"
+        "rawSha256": "69b35029f37eafba79dc5ec22626b19d2142ad8c4354d7d9648f89904357ffb7"
       }
     },
     {
@@ -3734,10 +4007,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/checamos-discurso-lula-onu-2026/",
-        "fetchedAt": "2026-10-27T01:45:48.592Z",
+        "fetchedAt": "2026-10-27T02:06:29.141Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "375920cd98681d69d4d1d44240b5ea3738a6fe790cde9bf46871ccbd383f9828"
+        "rawSha256": "e24bf3bc6e231be6f67ce63a5d0e0a9a311cc87da0208dc804b4ce92dab1dc7a"
       }
     },
     {
@@ -3755,7 +4028,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/documentos-lula-300-milhoes-vorcaro/",
-        "fetchedAt": "2026-10-27T01:46:05.587Z",
+        "fetchedAt": "2026-10-27T02:06:46.055Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "72d0fdf22be230e53eab6608225eca4cf23ac9d573ebdc3099358c83146b98b6"
@@ -3776,7 +4049,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/dino-dark-horse-emendas/",
-        "fetchedAt": "2026-10-27T01:47:19.589Z",
+        "fetchedAt": "2026-10-27T02:08:00.080Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "6d0a0e8caf1837f159f08d7a8608a9810674449000d254bdf1c334960d02fcfb"
@@ -3797,10 +4070,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-bolsonaro-impeachment-dino/",
-        "fetchedAt": "2026-10-27T01:47:18.619Z",
+        "fetchedAt": "2026-10-27T02:07:59.065Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "01adf27b408a4c0f19700d827b3de0474f3a3ce77d4184c26a7dcebd2127155f"
+        "rawSha256": "78dc2cc07f0d707b15e4c64c2fa8216e540a4466c888e47c0c95d1e4617c36de"
       }
     },
     {
@@ -3839,7 +4112,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-bolsonaro-elefante-morto-safari-ia/",
-        "fetchedAt": "2026-10-27T01:47:20.583Z",
+        "fetchedAt": "2026-10-27T02:08:01.067Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "fb8bc5ebaf55bb5aeaee570749f5e0a5e15e3306d4a3a68235e519ea8aebe9ec"
@@ -3881,7 +4154,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/mendonca-mensagens-vorcaro-implodiria-stf/",
-        "fetchedAt": "2026-10-27T01:47:27.661Z",
+        "fetchedAt": "2026-10-27T02:08:08.074Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "b4d36c69c3b51e973dbf82732c9ba838ef123093fc4301591b64d5cc1d1ac883"
@@ -3902,10 +4175,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-lula-ministros-stf-fevereiro-nao-atual/",
-        "fetchedAt": "2026-10-27T01:47:22.638Z",
+        "fetchedAt": "2026-10-27T02:08:03.068Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "cb11d748a3cb5da0a5dcc224f90c44969e62119aaa3f72b212c6399ff73a09ed"
+        "rawSha256": "d54e042107ac95ed8ed562e7ec244db265c571fe22fb44d1decab34bb3affeba"
       }
     },
     {
@@ -3923,10 +4196,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/reajustes-bolsa-familia-salario-minimo/",
-        "fetchedAt": "2026-10-27T01:47:25.627Z",
+        "fetchedAt": "2026-10-27T02:08:06.069Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "623c3974a17c9c2e56cd8109ede180344e9b5c42ecdf2f71aeea2282b6a85497"
+        "rawSha256": "4d61aae1732747e242a78abdbe88cd275068ad313660cef2f9ce254a8f4548ae"
       }
     },
     {
@@ -3965,10 +4238,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-captura-moraes-trump/",
-        "fetchedAt": "2026-10-27T01:47:26.635Z",
+        "fetchedAt": "2026-10-27T02:08:07.071Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "e19f1cfc719d58c7dcbdadbc5bb5cad43da20e4da20faeb2e61a48cf52736b35"
+        "rawSha256": "41d5b303f36427d30a6c213e17b66ad3ed15a40e2e331551119253c0e1ead332"
       }
     },
     {
@@ -3986,7 +4259,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/moraes-nao-falsificou-minuta-golpe/",
-        "fetchedAt": "2026-10-27T01:47:25.187Z",
+        "fetchedAt": "2026-10-27T02:08:05.083Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "0ca738088e63bc70d3a1d6caeb5303f57cf244769d1ad49cf08fbaa68ee98e5c"
@@ -4070,10 +4343,52 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/stf-nao-impediu-aumento-beneficios-bolsonaro/",
-        "fetchedAt": "2026-10-27T01:47:23.636Z",
+        "fetchedAt": "2026-10-27T02:08:04.160Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "94710a245a3d80e8dcef549172b78eead888ca5b280f3593031ef69eb3dbb7a4"
+      }
+    },
+    {
+      "id": "0a05c9bf4fa02cc5",
+      "checkerId": "aos-fatos",
+      "claimText": "Alexandre de Moraes, sabe, mandou prender o cara que matou a Marielle",
+      "claimant": "Lula",
+      "claimDate": "2026-09-17",
+      "reviewDate": "2026-09-17",
+      "reviewUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+      "headline": null,
+      "textualRating": "não_é_bem_assim",
+      "verdict": "unknown",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+        "fetchedAt": "2026-10-27T02:07:49.202Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "963bcbc0591cd6ab2feb27543a7a8ee2f05cacf2e1d51c532ad249caa9e4c3b4"
+      }
+    },
+    {
+      "id": "1a39567753e2d877",
+      "checkerId": "aos-fatos",
+      "claimText": "Eu queria muito que todos do Supremo fossem iguais ao Mendonça, não pesassem para lado nenhum. Investiga tudo, todo mundo, com transparência, mostra pra imprensa, mostra pro povo",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-09-17",
+      "reviewDate": "2026-09-17",
+      "reviewUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+        "fetchedAt": "2026-10-27T02:07:49.202Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "963bcbc0591cd6ab2feb27543a7a8ee2f05cacf2e1d51c532ad249caa9e4c3b4"
       }
     },
     {
@@ -4112,10 +4427,31 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
-        "fetchedAt": "2026-10-27T01:47:08.657Z",
+        "fetchedAt": "2026-10-27T02:07:49.202Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "e9b2ddb6d8f953150b6e3bef6eb18027a3e23084ac9e366b3e2a714649c3e27b"
+        "rawSha256": "963bcbc0591cd6ab2feb27543a7a8ee2f05cacf2e1d51c532ad249caa9e4c3b4"
+      }
+    },
+    {
+      "id": "34d2089d7598c4d5",
+      "checkerId": "aos-fatos",
+      "claimText": "Só é importante você lembrar que a primeira reforma no Poder Judiciário fui eu que fiz",
+      "claimant": "Lula",
+      "claimDate": "2026-09-17",
+      "reviewDate": "2026-09-17",
+      "reviewUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+      "headline": null,
+      "textualRating": "não_é_bem_assim",
+      "verdict": "unknown",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+        "fetchedAt": "2026-10-27T02:07:49.202Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "963bcbc0591cd6ab2feb27543a7a8ee2f05cacf2e1d51c532ad249caa9e4c3b4"
       }
     },
     {
@@ -4133,7 +4469,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/diretor-quaest-flavio-bolsonaro/",
-        "fetchedAt": "2026-10-27T01:47:29.642Z",
+        "fetchedAt": "2026-10-27T02:08:10.066Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "5685cbaa678cd175d866f5090c9bc988324f6d349d818945e9bc8d43b275d6c9"
@@ -4158,6 +4494,48 @@
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "34c5678f134e31a260cf16ca3499215422007aed481cb8ae94bebe045205f000"
+      }
+    },
+    {
+      "id": "79d9c70cd4497b13",
+      "checkerId": "aos-fatos",
+      "claimText": "Todo mundo viu o PGR, que é citado nas investigações, dando sua opinião também, o que é completamente um tapa na cara da população brasileira",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-09-17",
+      "reviewDate": "2026-09-17",
+      "reviewUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+        "fetchedAt": "2026-10-27T02:07:49.202Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "963bcbc0591cd6ab2feb27543a7a8ee2f05cacf2e1d51c532ad249caa9e4c3b4"
+      }
+    },
+    {
+      "id": "892f3fc6cbf12a4d",
+      "checkerId": "aos-fatos",
+      "claimText": "Não tem absolutamente nada de errado com esse filme, não tem um centavo de dinheiro público, eu já cansei de falar.",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-09-17",
+      "reviewDate": "2026-09-17",
+      "reviewUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/lula-flavio-crise-stf/",
+        "fetchedAt": "2026-10-27T02:07:49.202Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "963bcbc0591cd6ab2feb27543a7a8ee2f05cacf2e1d51c532ad249caa9e4c3b4"
       }
     },
     {
@@ -4196,10 +4574,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/mudanca-calculo-pib-brasil-onu/",
-        "fetchedAt": "2026-10-27T01:47:28.638Z",
+        "fetchedAt": "2026-10-27T02:08:09.072Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "908b57e62073415afee5ef5246fab180e97a6d0debad2dd79ec300b17a2e9d8c"
+        "rawSha256": "bb8c2bd26ab72bc26d965efc14bc7eea5938ea0cb52a5e1483a0b7e189ffbf97"
       }
     },
     {
@@ -4238,7 +4616,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-nao-chorou-flavio-bolsonaro-record/",
-        "fetchedAt": "2026-10-27T01:47:32.651Z",
+        "fetchedAt": "2026-10-27T02:08:13.086Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8f58da2ac0d5f77d57981509ee85b0db1217d3deaad220bc1519a28d4ae62da0"
@@ -4280,10 +4658,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/danone-fabrica-brasil-alemanha/",
-        "fetchedAt": "2026-10-27T01:47:33.635Z",
+        "fetchedAt": "2026-10-27T02:08:14.105Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "df04f141d65e037297cf1011670633dd231fcf15047d4eef5f84597de7eea2bf"
+        "rawSha256": "a4ac451635171f82f7be80d60789ca63bec2e476f8e76d378dafe7f780b18d5e"
       }
     },
     {
@@ -4343,7 +4721,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/foto-moraes-dino-mendonca/",
-        "fetchedAt": "2026-10-27T01:47:34.778Z",
+        "fetchedAt": "2026-10-27T02:08:15.077Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "fd1673e4044eaa5cc5b8f4edc2d92e96b9cdb46f1bd60e1ee58281d3f647eaa5"
@@ -4427,7 +4805,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-2022-ato-lula-recente/",
-        "fetchedAt": "2026-10-27T01:47:37.652Z",
+        "fetchedAt": "2026-10-27T02:08:18.072Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "89a2814f163bb30c9f4875d36d8eb372bce20f27173880e4b70f9b3b18cb593f"
@@ -4469,10 +4847,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-moraes-defende-dino/",
-        "fetchedAt": "2026-10-27T01:47:36.679Z",
+        "fetchedAt": "2026-10-27T02:08:17.070Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "e73ac4a244aec43cf00d44838a149ceb5ed277b789d5286773931949d257c62b"
+        "rawSha256": "3da256915bfb314e5209c751f0b84c129656063532098d339c567ef5be7dd040"
       }
     },
     {
@@ -4532,10 +4910,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-ato-esquerda-copacabana-2025/",
-        "fetchedAt": "2026-10-27T01:47:42.646Z",
+        "fetchedAt": "2026-10-27T02:08:23.077Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "cb009b438767b8f705366ca1318644ee5786880d6d4429f393fb549067cc1615"
+        "rawSha256": "6d3fa51fe4eb171f16e52944d6c4fc4cdef36bfc9413201b7bfc580193a6aeea"
       }
     },
     {
@@ -4553,7 +4931,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-nao-viajou-para-eua/",
-        "fetchedAt": "2026-10-27T01:47:38.642Z",
+        "fetchedAt": "2026-10-27T02:08:19.062Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "565f98af2d0137b75389cb9decf451013008ae106cfcd17e218caf5ddd4daaed"
@@ -4595,10 +4973,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/coro-lula-rock-in-rio/",
-        "fetchedAt": "2026-10-27T01:47:43.641Z",
+        "fetchedAt": "2026-10-27T02:08:24.067Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "932a880dc97710972fad7c051a7032f6a64798dde96eaa29aeace219d9853218"
+        "rawSha256": "b19bfaf1b365a2fcd4151ca7369663fc58434433b8496942ad03a4e380a722ad"
       }
     },
     {
@@ -4616,7 +4994,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/ato-lula-torcida-mexico-copa/",
-        "fetchedAt": "2026-10-27T01:47:35.759Z",
+        "fetchedAt": "2026-10-27T02:08:16.067Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "16828a0820afb85c43687110eab6a64ba3d3208aaea02e82632227008ab1405c"
@@ -4637,10 +5015,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/helicoptero-globo-santinhos-lula-ato-flavio/",
-        "fetchedAt": "2026-10-27T01:47:44.648Z",
+        "fetchedAt": "2026-10-27T02:08:25.158Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "077ea0361b2c8453ac80d433ee733a730c7ad63a56617daa0ad212657c946712"
+        "rawSha256": "69d9539cf55a83805131a5c5db9e5d4d6ee5c0a8732b9c3f5f416e39cfb83c21"
       }
     },
     {
@@ -4721,7 +5099,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/mendonca-inquerito-flavio-bolsonaro-dark-horse/",
-        "fetchedAt": "2026-10-27T01:47:45.641Z",
+        "fetchedAt": "2026-10-27T02:08:26.072Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "14665fe4519244f16ab4bc6096d7d6edeef526d43651b6d0b39a1519abef8c7d"
@@ -4847,7 +5225,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/mendonca-sigilo-bancario/",
-        "fetchedAt": "2026-10-27T01:47:50.651Z",
+        "fetchedAt": "2026-10-27T02:08:31.085Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8244a6f93c853d46fadbc7b3bda6359c2fa319ac8ffc6bd61e37feebcf8d79f6"
@@ -4868,7 +5246,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/trump-mendonca-livre-acesso/",
-        "fetchedAt": "2026-10-27T01:47:49.643Z",
+        "fetchedAt": "2026-10-27T02:08:30.176Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "f6f4d440db5797a4ff46b741c1feab2e3e4bcef8d4323116723c29a2119194e8"
@@ -4889,7 +5267,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/brasileiros-copa-protesto-moraes-ny/",
-        "fetchedAt": "2026-10-27T01:47:48.641Z",
+        "fetchedAt": "2026-10-27T02:08:29.074Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "d8a6ebe942f8cf85ad53db6bf78e5a2d6adfe9fe63a78cdc6c3bc5ea776dc9ac"
@@ -4931,7 +5309,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/diretor-pf-afastado-depoimento-porteiro-marielle/",
-        "fetchedAt": "2026-10-27T01:47:51.713Z",
+        "fetchedAt": "2026-10-27T02:08:32.092Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "cffcb2dafc5fd0f4638900028b53d233b8b2fc98b9adb3822cdd5bb3c308f1b9"
@@ -4952,10 +5330,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-7-setembro-2024/",
-        "fetchedAt": "2026-10-27T01:47:52.647Z",
+        "fetchedAt": "2026-10-27T02:08:33.078Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "df2f9ec38f9278e25850fa4a3e701c52d68ac0feef0f72aa56adadfd954baf55"
+        "rawSha256": "39459d4568878d6a516e206e36727be00e5c16850a1a6a03b74e36b69704f5e1"
       }
     },
     {
@@ -4994,7 +5372,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/mendonca-prisao-preventiva-moraes/",
-        "fetchedAt": "2026-10-27T01:47:40.647Z",
+        "fetchedAt": "2026-10-27T02:08:21.070Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "afa8b69e7eabf8fda0adc1b38693bf4abf068297c6cd8c568da19e17d97837ad"
@@ -5015,7 +5393,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/andre-mendonca-lula-inelegivel/",
-        "fetchedAt": "2026-10-27T01:47:39.647Z",
+        "fetchedAt": "2026-10-27T02:08:20.075Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "e937881d6704f04f6f956f9e116db225e7c6f4a6211f18aa61c9146a2710f498"
@@ -5036,7 +5414,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/idoso-reu-8-janeiro-moraes/",
-        "fetchedAt": "2026-10-27T01:47:56.647Z",
+        "fetchedAt": "2026-10-27T02:08:37.081Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "c37b568ce4f7df69717e491fa8640e8cfad83bdbb28f8e3ef42fc3dc9d32a2fa"
@@ -5099,10 +5477,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-protesto-2024-ato-flavio/",
-        "fetchedAt": "2026-10-27T01:47:57.641Z",
+        "fetchedAt": "2026-10-27T02:08:38.079Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "cc7ad2b293f2e381ba0915795f66750a226fc450f0423b697827680f22334c79"
+        "rawSha256": "ed95ff52d4e9b5cb4dae42f2f6dfdccab065867eb026905c518acfdda18067c0"
       }
     },
     {
@@ -5120,7 +5498,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/daniela-lima-mendonca-moraes/",
-        "fetchedAt": "2026-10-27T01:47:55.660Z",
+        "fetchedAt": "2026-10-27T02:08:36.080Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "cee39a00a8cbfd79f24fec5ed8ca2080c7d34d170cada9b93e0ae5ecf928fd8c"
@@ -5141,10 +5519,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/filha-lula-presa-pf/",
-        "fetchedAt": "2026-10-27T01:47:54.748Z",
+        "fetchedAt": "2026-10-27T02:08:35.198Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "992674923727d20cc0742bf8b479ed584769bf7df7b2077894d2f0f29c56efad"
+        "rawSha256": "6c0329305115b00a7ab1741b6890b11de5e45cb26fbb9d5a9e97fae9a03583cf"
       }
     },
     {
@@ -5162,10 +5540,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/hackers-urnas-eletronicas-teste-seguranca/",
-        "fetchedAt": "2026-10-27T01:47:53.635Z",
+        "fetchedAt": "2026-10-27T02:08:34.085Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "cbd539f344559121903ab30ddfb558aa1713d0ce83e4857d99a7038f5280f896"
+        "rawSha256": "a27b684caf9ec34ca87f98098daf2f7764f82b676e72724babdb7d7b82cfe97c"
       }
     },
     {
@@ -5330,7 +5708,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-bolsonaro-festa-vorcaro/",
-        "fetchedAt": "2026-10-27T01:47:58.650Z",
+        "fetchedAt": "2026-10-27T02:08:39.086Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "421234fa380db7f223ce066d2a9c6758e0171313a4116c9c280b48be9f780829"
@@ -5435,10 +5813,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/fotos-falsas-protesto-garis/",
-        "fetchedAt": "2026-10-27T01:48:01.689Z",
+        "fetchedAt": "2026-10-27T02:08:42.151Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ed0dec80976ed7b4ff3f0120cfadc97ea00ba6336df5e7a919330e73edbdb6ca"
+        "rawSha256": "fde2312ce38deed44cb665ea117defccf859a16337688ef0b3b7c85c2cffa6df"
       }
     },
     {
@@ -5456,10 +5834,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/stf-moraes-presidente-2027/",
-        "fetchedAt": "2026-10-27T01:47:59.646Z",
+        "fetchedAt": "2026-10-27T02:08:40.079Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c4bb892d635f910f8bc1ebe207af4467d666149d57678b4c9d902bed80c24903"
+        "rawSha256": "1e353932410b8f181f53f622ce871fd5769f3cfaddd572d9e4968613e659df2b"
       }
     },
     {
@@ -5477,7 +5855,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/moraes-alcolumbre-impeachment/",
-        "fetchedAt": "2026-10-27T01:48:00.658Z",
+        "fetchedAt": "2026-10-27T02:08:41.073Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "6a35e580f22b8d3285a05ba4be7270210fe919d66ddc4c2979d15e863e19f208"
@@ -5540,10 +5918,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-documento-pf-nikolas-vorcaro/",
-        "fetchedAt": "2026-10-27T01:46:47.568Z",
+        "fetchedAt": "2026-10-27T02:07:28.065Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "5f804b347a858e4992c7181aff7417e48f4c96a5214ec13207782fc45faa6568"
+        "rawSha256": "d36e027ead0204476516567fe653bcf9d0a2d99cc8bd831424378de92e57598e"
       }
     },
     {
@@ -5561,10 +5939,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-renunciou-desistiu-reeleicao/",
-        "fetchedAt": "2026-10-27T01:48:02.664Z",
+        "fetchedAt": "2026-10-27T02:08:43.074Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "1f98c57216431e4b730ed16ebedf0cd26918c95c28f9bf05a9c2e11b2b0d03c0"
+        "rawSha256": "4d2ef74243ed701fb49a867c88790c03a23f09eaf6dc5fd419e5540a9fc2c010"
       }
     },
     {
@@ -5582,7 +5960,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/moraes-mendonca-discutem-stf/",
-        "fetchedAt": "2026-10-27T01:48:04.652Z",
+        "fetchedAt": "2026-10-27T02:08:45.075Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "144d66bac1c73f7104cbc39a59b44e6776dec7e3da2b474a5d54f7d63fa710a7"
@@ -5603,10 +5981,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-estribos-garis/",
-        "fetchedAt": "2026-10-27T01:48:07.659Z",
+        "fetchedAt": "2026-10-27T02:08:48.085Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ff4dfd55b112e6ea786785308924bc74d2ac26ba4732690a11f072d8e5634123"
+        "rawSha256": "e219f736d0e44ea2c6235d95e5051b1e0083bbadf78124a48cd1a154ee830d1a"
       }
     },
     {
@@ -5624,7 +6002,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lulinha-preso-espanha/",
-        "fetchedAt": "2026-10-27T01:48:05.657Z",
+        "fetchedAt": "2026-10-27T02:08:46.073Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "aee0af33317bad3d32e0122fa5bcdbc4dd0c271d5b8cf5b373df52b688bdfa3c"
@@ -5645,10 +6023,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/pronunciamento-moraes-vorcaro/",
-        "fetchedAt": "2026-10-27T01:48:03.650Z",
+        "fetchedAt": "2026-10-27T02:08:44.076Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "52578144773bb98f04b45c2590efcc9cbd40646ccc414cc695e4d39fff31023e"
+        "rawSha256": "18af21ae91116d9875d73fba60f5df2bf4496c72b6e9bbff8801ef8fff952f3b"
       }
     },
     {
@@ -5708,7 +6086,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-lei-banheiro-sem-genero/",
-        "fetchedAt": "2026-10-27T01:48:06.649Z",
+        "fetchedAt": "2026-10-27T02:08:47.089Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "73618fba033f142f65baad2a4326f3ae458af8351fe28ceee13b7cf169888b56"
@@ -5792,7 +6170,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/bmw-demissao-8000-funcionarios-brasil/",
-        "fetchedAt": "2026-10-27T01:48:08.703Z",
+        "fetchedAt": "2026-10-27T02:08:49.091Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "b90ec00b2eb7e5e559fbbea1247b95f9b4ae9539549e23e29fa3365d86ea3465"
@@ -5876,7 +6254,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/prf-granizo-sc/",
-        "fetchedAt": "2026-10-27T01:48:09.644Z",
+        "fetchedAt": "2026-10-27T02:08:50.084Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "2f18df30c27240027c16591cb9e7ebe3a41e75e585fa10ed74e2a6c3a2cd3bcb"
@@ -5897,7 +6275,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/avalanche-nepal-enxurrada-india/",
-        "fetchedAt": "2026-10-27T01:48:10.645Z",
+        "fetchedAt": "2026-10-27T02:08:51.081Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "459667c5a94d6ba335b741f78ad75b0bfd9a7fe65ed2920578eb89f70124de78"
@@ -5918,7 +6296,28 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/imagens-terremoto-colombia-peru/",
-        "fetchedAt": "2026-10-27T01:48:11.655Z",
+        "fetchedAt": "2026-10-27T02:08:52.087Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "a03cc36c02f97a2a1b0237c36741b962a7fee4713f7545b684609630540f1f41"
+      }
+    },
+    {
+      "id": "91657d37d9510157",
+      "checkerId": "aos-fatos",
+      "claimText": "Terremoto de magnitude 6,7 atinge o Peru e é sentido em várias regiões",
+      "claimant": "desinformação",
+      "claimDate": "2026-08-31",
+      "reviewDate": "2026-08-31",
+      "reviewUrl": "https://www.aosfatos.org/noticias/imagens-terremoto-colombia-peru/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/imagens-terremoto-colombia-peru/",
+        "fetchedAt": "2026-10-27T02:08:52.087Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "a03cc36c02f97a2a1b0237c36741b962a7fee4713f7545b684609630540f1f41"
@@ -6002,7 +6401,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/construcao-ponte-china-brasil/",
-        "fetchedAt": "2026-10-27T01:48:13.642Z",
+        "fetchedAt": "2026-10-27T02:08:54.079Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "906b67af2eeb854f3a372acb7ac8f288a4cc40eb9d9ee66789e0a56c3cc610d8"
@@ -6023,7 +6422,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/trump-capturar-prender-lula/",
-        "fetchedAt": "2026-10-27T01:48:14.668Z",
+        "fetchedAt": "2026-10-27T02:08:55.081Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "a8651d29382af2bd9fb03731a3d9ddc135338fe07fd756b40eb3aa69e87a86de"
@@ -6086,7 +6485,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/checamos-entrevista-lula-globo/",
-        "fetchedAt": "2026-10-27T01:45:49.608Z",
+        "fetchedAt": "2026-10-27T02:06:30.134Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "23efaab257a1bbe242494a93a53f5cf64a70e434d9f8def6b8ea8abae935eb54"
@@ -6128,10 +6527,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/fazenda-robos-cerimedo/",
-        "fetchedAt": "2026-10-27T01:48:24.659Z",
+        "fetchedAt": "2026-10-27T02:09:05.088Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "f2d0e513d284b2b6a89daf3424b068522d1cb02f27b85c9df66d23f525d4fa1f"
+        "rawSha256": "b7e17357d068669129b48d81749d9d52ce1f7f445431cdef512fa7340e2542d4"
       }
     },
     {
@@ -6149,10 +6548,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/vacina-dengue-lulinha/",
-        "fetchedAt": "2026-10-27T01:48:24.052Z",
+        "fetchedAt": "2026-10-27T02:09:04.241Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c90a7e9dc849ed4997513e4d218b500de0dcfd0f2b01d40494a315a0b4ad71d5"
+        "rawSha256": "728951295ce55e9c260b887809cea36cc8f7cfbc3aeef219e7883beef09f603c"
       }
     },
     {
@@ -6170,7 +6569,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/tse-preso-eleicoes-2026/",
-        "fetchedAt": "2026-10-27T01:48:19.661Z",
+        "fetchedAt": "2026-10-27T02:09:00.078Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "72f70ac18b6f56e7f4ab75f12d599aefbc417c17a62e7fed83b25a3e708b3dbe"
@@ -6212,10 +6611,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/jair-bolsonaro-carreata-flavio/",
-        "fetchedAt": "2026-10-27T01:48:21.653Z",
+        "fetchedAt": "2026-10-27T02:09:02.084Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "3be33ff6159b84c2dccacea7f601167c6d0aaa644bf517d9957db54484234932"
+        "rawSha256": "224afc169cbe6eb063250473323d7a2afb6c30175b23aa0518a78cb5e9f4f587"
       }
     },
     {
@@ -6254,7 +6653,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/nissan-fechar-fabricas-demitir-funcionarios/",
-        "fetchedAt": "2026-10-27T01:48:22.654Z",
+        "fetchedAt": "2026-10-27T02:09:03.085Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8302bdd29c4ce28972a1acfbe06b4a913eb13a304bb55d82aee6e2cba5f3ac44"
@@ -6275,7 +6674,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/ataque-aereo-iraniano-israel-ia/",
-        "fetchedAt": "2026-10-27T01:48:20.646Z",
+        "fetchedAt": "2026-10-27T02:09:01.089Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "710b8bbec74cf6031b43ea910009a0ce4b0e7ced0e4c47fb87cb4cab9a3da125"
@@ -6296,7 +6695,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-acredita-deus/",
-        "fetchedAt": "2026-10-27T01:48:28.649Z",
+        "fetchedAt": "2026-10-27T02:09:09.091Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "57b601f288cc5081715997d32423d22a199d70760f6ed066aa421548d7353a5c"
@@ -6317,7 +6716,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/tropas-posicionadas-defesa-eua/",
-        "fetchedAt": "2026-10-27T01:48:27.711Z",
+        "fetchedAt": "2026-10-27T02:09:08.088Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "67559d485228e0f8ae24cbb746c149edd06704f5007762df8cbd4bb75dfd553b"
@@ -6380,7 +6779,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/8000-empresas-faliram-brasil-junho/",
-        "fetchedAt": "2026-10-27T01:48:31.652Z",
+        "fetchedAt": "2026-10-27T02:09:12.084Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "721e1b60f8fb28a26608daa5433ed6f31d1096d1ced83a49074bb0be50cd1052"
@@ -6422,10 +6821,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/tropas-eua-brasil-lula-moraes/",
-        "fetchedAt": "2026-10-27T01:48:30.645Z",
+        "fetchedAt": "2026-10-27T02:09:11.078Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "d69c7395d94546ab59b7953f24e33db604663bf3983f119d34d5c6161edeed71"
+        "rawSha256": "e19c8c24aa09877a459d0c3e4d4345521168e7ceffa7b169471328a89a86606f"
       }
     },
     {
@@ -6506,10 +6905,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lupo-brasil-paraguai/",
-        "fetchedAt": "2026-10-27T01:48:34.854Z",
+        "fetchedAt": "2026-10-27T02:09:15.084Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "be3e1bd6f3671ee52c09fd000861af919cdc7f3bce99da4c4b95b4316c66ed92"
+        "rawSha256": "6184b87d705ae234eb15eb8ff7fcbc9dc02fef0d8dafc412bf52458d4f299893"
       }
     },
     {
@@ -6590,7 +6989,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/brasileiro-arrependido-paraguai-satira/",
-        "fetchedAt": "2026-10-27T01:48:35.715Z",
+        "fetchedAt": "2026-10-27T02:09:16.087Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "806cb612df730c230822272187b4d976b36314519d75e2631e790a23f3048251"
@@ -6611,7 +7010,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/dominos-fechou-lojas-brasil/",
-        "fetchedAt": "2026-10-27T01:48:33.651Z",
+        "fetchedAt": "2026-10-27T02:09:14.088Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "b6e93594a8e355e7db2391ab06219b84334b018f8aeeba0bd0c95824e60956bb"
@@ -6660,6 +7059,27 @@
       }
     },
     {
+      "id": "89a73851b123ecc2",
+      "checkerId": "aos-fatos",
+      "claimText": "Ulysses Guimarães disse que Bolsonaro era uma vergonha para a nação",
+      "claimant": "desinformação",
+      "claimDate": "2026-08-20",
+      "reviewDate": "2026-08-20",
+      "reviewUrl": "https://www.aosfatos.org/noticias/tancredo-ulysses-bolsonaro/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/tancredo-ulysses-bolsonaro/",
+        "fetchedAt": "2026-10-27T02:09:21.081Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "080647d1ca2ff33cdd95053adf1585e8cb358d1108a8949ab826ae37a603d39f"
+      }
+    },
+    {
       "id": "913e9cdf199ffc7a",
       "checkerId": "aos-fatos",
       "claimText": "Tancredo Neves disse que Bolsonaro era um traidor da pátria",
@@ -6674,7 +7094,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/tancredo-ulysses-bolsonaro/",
-        "fetchedAt": "2026-10-27T01:48:40.658Z",
+        "fetchedAt": "2026-10-27T02:09:21.081Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "080647d1ca2ff33cdd95053adf1585e8cb358d1108a8949ab826ae37a603d39f"
@@ -6695,7 +7115,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-xingou-pt/",
-        "fetchedAt": "2026-10-27T01:48:38.736Z",
+        "fetchedAt": "2026-10-27T02:09:19.079Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "60f1ef6f5bd73314ca496554c7ae1ef69601732381575fc02dbe872957adc968"
@@ -6716,10 +7136,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/nestle-fabricas-demitiu-brasil/",
-        "fetchedAt": "2026-10-27T01:48:39.653Z",
+        "fetchedAt": "2026-10-27T02:09:20.085Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "855e1857f0cc28e332d08db8f531a293eccdad627bc348c62a41df3b8ac7b7e9"
+        "rawSha256": "404ac73c0222e9353b9ef1110aca4ba8a2f87ad9d5b185d10da44d01e613ea31"
       }
     },
     {
@@ -6758,7 +7178,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/homem-ataca-onibus-amapa-sao-paulo/",
-        "fetchedAt": "2026-10-27T01:48:43.804Z",
+        "fetchedAt": "2026-10-27T02:09:24.090Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "f85b798a8d48879ab33f80ca0df504cfb19a9e0f07b0f311258f9a1780921a29"
@@ -6779,7 +7199,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/trump-nao-cancelou-tarifa/",
-        "fetchedAt": "2026-10-27T01:48:42.740Z",
+        "fetchedAt": "2026-10-27T02:09:23.104Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "a71f88722a4aa27e3aa0d961de17852e1bfed0dd9c9fda56641dd8be23f76127"
@@ -6863,10 +7283,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/tropas-americanas-brasilia/",
-        "fetchedAt": "2026-10-27T01:48:47.698Z",
+        "fetchedAt": "2026-10-27T02:09:28.090Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ec69b7320f2ece26be74fb30cf4878dbe9426dc5edf68923b1ca77ed50e4e1d1"
+        "rawSha256": "1bd3ae71c8228af4e4b9b3819fffe482cf5de9f70672c7dffe0acdfb23eaa830"
       }
     },
     {
@@ -6884,7 +7304,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/evento-militar-parana-exercito-eua/",
-        "fetchedAt": "2026-10-27T01:48:44.744Z",
+        "fetchedAt": "2026-10-27T02:09:25.089Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "337b6115c3061e3ae580b439e5d3e3bdc7a8b8ffb2acbf61f26d29462c1c449a"
@@ -6968,10 +7388,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-perna-amputada-2023/",
-        "fetchedAt": "2026-10-27T01:48:48.652Z",
+        "fetchedAt": "2026-10-27T02:09:29.088Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "777329c35cbbec78e548251895346b5ff353714544cabc8cb1c40fd0d2da675e"
+        "rawSha256": "bf5f8a00138fdc5a037cb4d4b2d7b0bb1c1cba0bcebdbe89f8f6f744680a5c79"
       }
     },
     {
@@ -7010,10 +7430,136 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/pecuaria-gases-efeito-estufa/",
-        "fetchedAt": "2026-10-27T01:48:41.664Z",
+        "fetchedAt": "2026-10-27T02:09:22.197Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "8c80b673ab85ab4fa2463a32796d8730ee852716133d61fb383c1e5fc5075ebd"
+        "rawSha256": "77a2c9b4f65e98f859a16b42a588d78a2a299ae75057b0960f18613e03d8accf"
+      }
+    },
+    {
+      "id": "14480289ed60a896",
+      "checkerId": "aos-fatos",
+      "claimText": "Eu lembro de uma frase que o Luiz falou, aquele mesmo Luiz, disse assim, ele falou: eu vou fazer o diabo para me eleger.",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-08-05",
+      "reviewDate": "2026-08-05",
+      "reviewUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+        "fetchedAt": "2026-10-27T02:08:56.263Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "c2c29c3d3fa30b2e228e79c8019fce96d42bbf4beceff10de4b925c51b6b6c7e"
+      }
+    },
+    {
+      "id": "41aa876aa1f7f231",
+      "checkerId": "aos-fatos",
+      "claimText": "O Brasil, naqueles dois anos [2015 e 2016], foi o único país do mundo que engatou marcha ré. O mundo todo crescendo, todos os alunos tirando nota nove e o Brasil tirando nota dois por causa do PT, do Lula e da Dilma.",
+      "claimant": "Romeu Zema",
+      "claimDate": "2026-08-05",
+      "reviewDate": "2026-08-05",
+      "reviewUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+      "headline": null,
+      "textualRating": "não_é_bem_assim",
+      "verdict": "unknown",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+        "fetchedAt": "2026-10-27T02:08:56.263Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "c2c29c3d3fa30b2e228e79c8019fce96d42bbf4beceff10de4b925c51b6b6c7e"
+      }
+    },
+    {
+      "id": "5316252696feaef8",
+      "checkerId": "aos-fatos",
+      "claimText": "Ele mesmo [Lula] falou ‘quanto mais inteligente for o povo menos o povo vota no PT’",
+      "claimant": "Flávio Bolsonaro",
+      "claimDate": "2026-08-05",
+      "reviewDate": "2026-08-05",
+      "reviewUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+      "headline": null,
+      "textualRating": "não_é_bem_assim",
+      "verdict": "unknown",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+        "fetchedAt": "2026-10-27T02:08:56.263Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "c2c29c3d3fa30b2e228e79c8019fce96d42bbf4beceff10de4b925c51b6b6c7e"
+      }
+    },
+    {
+      "id": "54bcd3095078a93e",
+      "checkerId": "aos-fatos",
+      "claimText": "[O Flávio] apoiou a maior parte das nomeações dos ministros do STF ligados ao petismo agora.",
+      "claimant": "Renan Santos",
+      "claimDate": "2026-08-05",
+      "reviewDate": "2026-08-05",
+      "reviewUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+        "fetchedAt": "2026-10-27T02:08:56.263Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "c2c29c3d3fa30b2e228e79c8019fce96d42bbf4beceff10de4b925c51b6b6c7e"
+      }
+    },
+    {
+      "id": "bd1e304fde7eee08",
+      "checkerId": "aos-fatos",
+      "claimText": "O Lula criou o MST, e eu criei a UDR. O MST para invadir propriedade rural e a UDR para proteger o direito de propriedade",
+      "claimant": "Ronaldo Caiado",
+      "claimDate": "2026-08-05",
+      "reviewDate": "2026-08-05",
+      "reviewUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+        "fetchedAt": "2026-10-27T02:08:56.263Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "c2c29c3d3fa30b2e228e79c8019fce96d42bbf4beceff10de4b925c51b6b6c7e"
+      }
+    },
+    {
+      "id": "eb83548bb4f7ae14",
+      "checkerId": "aos-fatos",
+      "claimText": "Caiado fez acordo com empresas americanas, fazendo concessão de coisas que ele não pode fazer porque é da União. Então se a gente não tomar cuidado, essa gente vai vender o Brasil e nós não podemos permitir.",
+      "claimant": "Lula",
+      "claimDate": "2026-08-05",
+      "reviewDate": "2026-08-05",
+      "reviewUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+      "headline": null,
+      "textualRating": "não_é_bem_assim",
+      "verdict": "unknown",
+      "ratingMapVersion": 2,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
+        "fetchedAt": "2026-10-27T02:08:56.263Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "c2c29c3d3fa30b2e228e79c8019fce96d42bbf4beceff10de4b925c51b6b6c7e"
       }
     },
     {
@@ -7031,10 +7577,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/presidenciaveis-distorcem-inventam-fatos-atacar-adversarios/",
-        "fetchedAt": "2026-10-27T01:48:15.734Z",
+        "fetchedAt": "2026-10-27T02:08:56.263Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c0ca0b85162fcca06d66c9beea59d05f5fe485efb48ebecf0a7062cfaa001f81"
+        "rawSha256": "c2c29c3d3fa30b2e228e79c8019fce96d42bbf4beceff10de4b925c51b6b6c7e"
       }
     },
     {
@@ -7073,7 +7619,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-bolsonaro-nao-disse-vai-extinguir-pix-agradar-trump/",
-        "fetchedAt": "2026-10-27T01:46:10.630Z",
+        "fetchedAt": "2026-10-27T02:06:51.137Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "4f2fb8729a8860d37ac528b93a320e1599f37e1fb28060a6622360fd555cc063"
@@ -7094,7 +7640,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/temer-lula-bets/",
-        "fetchedAt": "2026-10-27T01:47:00.585Z",
+        "fetchedAt": "2026-10-27T02:07:41.153Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "b509991c53274e6ffcd572e31b7bb825eaad0d658858dabca1c99fe390c035ea"
@@ -7115,7 +7661,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-flavio-bolsonaro-disse-privatizar-sus-se-eleito-presidente/",
-        "fetchedAt": "2026-10-27T01:46:14.561Z",
+        "fetchedAt": "2026-10-27T02:06:55.053Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "225972cbe8ba39e511c9b9e17d9f577793796d8d9230aee573940bc4208158fe"
@@ -7136,7 +7682,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/voto-ainda-nao-serve-como-prova-de-vida-inss/",
-        "fetchedAt": "2026-10-27T01:46:57.593Z",
+        "fetchedAt": "2026-10-27T02:07:38.070Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "bcbbed211a3a969db6ba23e1f9114855c677e185d6b708205354022e3d7c6dbd"
@@ -7157,7 +7703,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/nao-e-crime-eleitoral-fotografar-comprovante-de-votacao/",
-        "fetchedAt": "2026-10-27T01:46:31.572Z",
+        "fetchedAt": "2026-10-27T02:07:12.056Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "be0ca98cbd955d6792cac456dbb1dc0c9304a0f1379629f1767cc51332f8565e"
