@@ -55,6 +55,8 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  /* The stamp animation starts at scale 1.4: never let it widen the page. */
+  overflow-x: clip;
   padding-bottom: calc(53px + env(safe-area-inset-bottom));
 }
 
