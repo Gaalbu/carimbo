@@ -1,9 +1,9 @@
 import { readFile, stat } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 
+import { buildSnapshot, EMPTY_SNAPSHOT, type StoreSnapshot } from '@carimbo/core'
 import type { FastifyBaseLogger } from 'fastify'
 
-import { buildSnapshot, EMPTY_SNAPSHOT, type StoreSnapshot } from './snapshot.js'
 import { parseReviewStore } from './store-schema.js'
 
 /** `<repo root>/data/reviews.json`, resolved from this file (src/ or dist/, same depth). */

@@ -1,4 +1,4 @@
-import { FACT_CHECKERS, THEMES, type CheckerWithCount, type ThemeWithCount } from '@carimbo/core'
+import { checkersWithCounts, themesWithCounts } from '@carimbo/core'
 
 import type { RouteDeps, ZodApp } from './deps.js'
 
@@ -11,17 +11,7 @@ export function registerCatalogRoutes(app: ZodApp, { store }: RouteDeps): void {
         tags: ['catálogo'],
       },
     },
-    async () => {
-      const snapshot = await store.current()
-      const counts = new Map<string, number>()
-      for (const review of snapshot.reviews) {
-        counts.set(review.checkerId, (counts.get(review.checkerId) ?? 0) + 1)
-      }
-      return FACT_CHECKERS.map((checker): CheckerWithCount => ({
-        ...checker,
-        count: counts.get(checker.id) ?? 0,
-      }))
-    },
+    async () => checkersWithCounts(await store.current()),
   )
 
   app.get(
@@ -32,15 +22,6 @@ export function registerCatalogRoutes(app: ZodApp, { store }: RouteDeps): void {
         tags: ['catálogo'],
       },
     },
-    async () => {
-      const snapshot = await store.current()
-      return THEMES.map((theme): ThemeWithCount => ({
-        slug: theme.slug,
-        name: theme.name,
-        count: snapshot.claims
-          .filter((claim) => claim.themes.includes(theme.slug))
-          .reduce((sum, claim) => sum + claim.reviews.length, 0),
-      }))
-    },
+    async () => themesWithCounts(await store.current()),
   )
 }

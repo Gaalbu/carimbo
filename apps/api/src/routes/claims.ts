@@ -1,15 +1,13 @@
 import {
   CHECKER_IDS,
+  claimDetail,
   ELECTION_YEARS,
-  findElection,
-  findRelated,
-  isInCampaign,
+  listClaims,
+  searchSnapshot,
   THEME_SLUGS,
   VERDICTS,
-  type ClaimDetail,
   type ClaimSummary,
   type Page,
-  type SearchResult,
 } from '@carimbo/core'
 import { z } from 'zod'
 
@@ -52,8 +50,6 @@ const searchQuerySchema = z.object({
   limit: z.coerce.number().int().min(1).max(MAX_SEARCH_SIZE).default(DEFAULT_SEARCH_SIZE),
 })
 
-type ClaimsQuery = z.infer<typeof claimsQuerySchema>
-
 export function encodeCursor(offset: number): string {
   return Buffer.from(`${CURSOR_PREFIX}${String(offset)}`).toString('base64url')
 }
@@ -63,23 +59,6 @@ export function decodeCursor(cursor: string): number | null {
   if (!decoded.startsWith(CURSOR_PREFIX)) return null
   const offset = Number(decoded.slice(CURSOR_PREFIX.length))
   return Number.isSafeInteger(offset) && offset >= 0 ? offset : null
-}
-
-function matches(claim: ClaimSummary, query: ClaimsQuery): boolean {
-  const { verdict, checker, theme, election } = query
-  if (verdict !== undefined && !claim.reviews.some((review) => review.verdict === verdict)) {
-    return false
-  }
-  if (checker !== undefined && !claim.reviews.some((review) => review.checkerId === checker)) {
-    return false
-  }
-  if (theme !== undefined && !claim.themes.includes(theme)) return false
-  if (election !== undefined) {
-    const period = findElection(election)
-    if (period === undefined) return false
-    return claim.reviews.some((review) => isInCampaign(review.reviewDate, period))
-  }
-  return true
 }
 
 export function registerClaimRoutes(app: ZodApp, { store }: RouteDeps): void {
@@ -99,13 +78,12 @@ export function registerClaimRoutes(app: ZodApp, { store }: RouteDeps): void {
     async (request, reply) => {
       const offset = request.query.cursor === undefined ? 0 : decodeCursor(request.query.cursor)
       if (offset === null) return sendError(reply, 400, 'Bad Request', 'Cursor inválido')
-      const snapshot = await store.current()
-      const filtered = snapshot.claims.filter((claim) => matches(claim, request.query))
-      const end = offset + request.query.limit
+      const { query } = request
+      const result = listClaims(await store.current(), query, offset, query.limit)
       const page: Page<ClaimSummary> = {
-        items: filtered.slice(offset, end),
-        total: filtered.length,
-        nextCursor: end < filtered.length ? encodeCursor(end) : null,
+        items: result.items,
+        total: result.total,
+        nextCursor: result.nextOffset === null ? null : encodeCursor(result.nextOffset),
       }
       return page
     },
@@ -121,12 +99,8 @@ export function registerClaimRoutes(app: ZodApp, { store }: RouteDeps): void {
       },
     },
     async (request, reply) => {
-      const snapshot = await store.current()
-      const claim = snapshot.claimsBySlug.get(request.params.slug)
-      if (claim === undefined) {
-        return sendError(reply, 404, 'Not Found', 'Alegação não encontrada')
-      }
-      const detail: ClaimDetail = { ...claim, related: findRelated(claim, snapshot.claims) }
+      const detail = claimDetail(await store.current(), request.params.slug)
+      if (detail === null) return sendError(reply, 404, 'Not Found', 'Alegação não encontrada')
       return detail
     },
   )
@@ -140,13 +114,6 @@ export function registerClaimRoutes(app: ZodApp, { store }: RouteDeps): void {
         querystring: searchQuerySchema,
       },
     },
-    async (request) => {
-      const snapshot = await store.current()
-      const result: SearchResult = {
-        query: request.query.q,
-        items: snapshot.search.search(request.query.q, { limit: request.query.limit }),
-      }
-      return result
-    },
+    async (request) => searchSnapshot(await store.current(), request.query.q, request.query.limit),
   )
 }

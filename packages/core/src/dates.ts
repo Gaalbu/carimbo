@@ -1,8 +1,10 @@
-const TIME_ZONE = 'America/Sao_Paulo'
+/** Brasília time: "today" for the scoreboard and the coverage years. */
+export const SITE_TIME_ZONE = 'America/Sao_Paulo'
+
 const DAY_MS = 86_400_000
 
 const formatter = new Intl.DateTimeFormat('en-CA', {
-  timeZone: TIME_ZONE,
+  timeZone: SITE_TIME_ZONE,
   year: 'numeric',
   month: '2-digit',
   day: '2-digit',

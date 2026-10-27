@@ -47,3 +47,22 @@ export { createSearchIndex, DEFAULT_MIN_SEARCH_SCORE, searchClaims } from './sea
 export type { ScoredClaim, SearchIndex, SearchOptions } from './search.js'
 export { claimSlug, slugify } from './slug.js'
 export { foldText, tokenize, trigramSimilarity } from './text.js'
+export { addDays, saoPauloDay, SITE_TIME_ZONE } from './dates.js'
+export { CSV_COLUMNS, escapeCsv, toCsv } from './csv.js'
+export {
+  buildSnapshot,
+  checkersWithCounts,
+  claimDetail,
+  countVerdicts,
+  coverage,
+  electionsWithCounts,
+  EMPTY_SNAPSHOT,
+  exportJson,
+  FIRST_COVERAGE_YEAR,
+  listClaims,
+  matchesFilters,
+  searchSnapshot,
+  statsForWindow,
+  themesWithCounts,
+} from './queries.js'
+export type { ClaimFilters, ExportBody, OffsetPage, StoreSnapshot } from './queries.js'
