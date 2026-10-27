@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "tsx": "^4.23.15"
+  },
+  "dependencies": {
+    "@carimbo/core": "^0.0.0",
+    "@carimbo/sources": "^0.0.0"
   }
 }
