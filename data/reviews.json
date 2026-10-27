@@ -1,7 +1,70 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T12:07:55.246Z",
+  "generatedAt": "2026-10-27T17:59:02.713Z",
   "reviews": [
+    {
+      "id": "acd37f90a6744b0d",
+      "checkerId": "estadao-verifica",
+      "claimText": "Foto de Flávio chorando após a reeleição de Lula",
+      "claimant": "Redes Sociais",
+      "claimDate": "2026-10-27",
+      "reviewDate": "2026-10-27",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/video-flavio-bolsonaro-chorando-fora-de-contexto/",
+      "headline": "Vídeo que mostra Flávio Bolsonaro chorando foi gravado antes do resultado das eleições",
+      "textualRating": "Fora de contexto",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-flavio-bolsonaro-chorando-fora-de-contexto/",
+        "fetchedAt": "2026-10-27T17:58:52.462Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "b7bdf9352ad2ee3169e941cc5ca61f2fe6e8e07097aa2d2759f42eb6969a2c0d"
+      }
+    },
+    {
+      "id": "bc4ae2fd8c25c3d9",
+      "checkerId": "estadao-verifica",
+      "claimText": "CNN noticiou que vídeo de Nikolas Ferreira bateu recorde de conteúdo sem som mais visto do Instagram",
+      "claimant": "Redes Sociais",
+      "claimDate": "2026-10-27",
+      "reviewDate": "2026-10-27",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/video-simula-inteligencia-artificial-recorde-nikolas-ferreira-nordeste/",
+      "headline": "Trecho de programa da CNN é adulterado para simular  notícia sobre vídeo de Nikolas Ferreira",
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-simula-inteligencia-artificial-recorde-nikolas-ferreira-nordeste/",
+        "fetchedAt": "2026-10-27T17:58:54.785Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "e1d2f04dbb9cf5a03f91a12b2416b4c220381b90e68d370daf34b7e09e0cc4e3"
+      }
+    },
+    {
+      "id": "d33997e1d90fbf7c",
+      "checkerId": "estadao-verifica",
+      "claimText": "Vídeo mostra jovens se reunindo para retirar um carro que estava congestionando a passagem dos ônibus em São Paulo no segundo turno das eleições",
+      "claimant": "Boatos de redes sociais",
+      "claimDate": "2026-10-27",
+      "reviewDate": "2026-10-27",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/video-de-jovens-carregando-carro-para-liberar-passagem-de-onibus-foi-gravado-antes-do-segundo-turno/",
+      "headline": "Vídeo de jovens carregando carro para liberar passagem de ônibus foi gravado antes do segundo turno",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-de-jovens-carregando-carro-para-liberar-passagem-de-onibus-foi-gravado-antes-do-segundo-turno/",
+        "fetchedAt": "2026-10-27T17:58:53.733Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "8bb8177e870900e0e259a25a63b53c1f41f992e37d5c545c0fce311b2d716b92"
+      }
+    },
     {
       "id": "30d271bb10e17257",
       "checkerId": "aos-fatos",
@@ -7623,6 +7686,27 @@
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "4f2fb8729a8860d37ac528b93a320e1599f37e1fb28060a6622360fd555cc063"
+      }
+    },
+    {
+      "id": "f245b488df7a5c15",
+      "checkerId": "estadao-verifica",
+      "claimText": "Traição à pátria é o único crime com pena de morte no Brasil",
+      "claimant": "Redes Sociais",
+      "claimDate": "2026-06-03",
+      "reviewDate": "2026-06-03",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/pena-de-morte-traicao-a-patria-so-existe-em-guerra-declarada/",
+      "headline": "Pena de morte por traição à pátria só existe em contexto de guerra declarada no Brasil",
+      "textualRating": "Fora de contexto",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/pena-de-morte-traicao-a-patria-so-existe-em-guerra-declarada/",
+        "fetchedAt": "2026-10-27T17:58:51.736Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "290c14a3c3925c2b085afcb03b2936dbe1a4ef6577b7cc1a19f2b60577c31a70"
       }
     },
     {
