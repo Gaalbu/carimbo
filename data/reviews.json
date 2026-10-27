@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T20:15:24.395Z",
+  "generatedAt": "2026-10-27T22:11:36.148Z",
   "reviews": [
     {
       "id": "8bc169a9b805a0d3",
@@ -101,10 +101,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
-        "fetchedAt": "2026-10-27T02:06:04.045Z",
+        "fetchedAt": "2026-10-27T22:11:33.136Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "fe6f2b75558b48c2fd6ab25340ae96b29114f9ab7533c3116dae478ffe53ba0b"
+        "rawSha256": "d8e10cc9195821d72f7c91e6ef9155ebe6777165136c3ea08301f4b11a708cf9"
       }
     },
     {
@@ -164,10 +164,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-antigo-circula-nas-redes-para-sugerir-que-flavio-foi-para-os-eua/",
-        "fetchedAt": "2026-10-27T02:06:05.039Z",
+        "fetchedAt": "2026-10-27T22:11:24.997Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "af0571325a3c9c867978dac717999552e11bfe5a53f14e4de6ee6c40dd7b9b4c"
+        "rawSha256": "6c45b40bb15c8cef6eb948568963de018227a7e63a2136f10d8540e867cf0915"
       }
     },
     {
@@ -185,7 +185,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-flavio-chorando/",
-        "fetchedAt": "2026-10-27T02:06:00.951Z",
+        "fetchedAt": "2026-10-27T22:11:34.996Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "48028ac2cffa18da557435c923b668a24764218f8c84dc00a1b2c33720010b13"
@@ -206,7 +206,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/presos-comemorando-gol-santa-cruz-lula/",
-        "fetchedAt": "2026-10-27T02:06:03.033Z",
+        "fetchedAt": "2026-10-27T22:11:32.002Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "64f3b0fdc410e69db653d4dc37cec9c6c5e926e24af71d54a00b6014a82a05dc"
@@ -227,10 +227,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
-        "fetchedAt": "2026-10-27T02:06:04.045Z",
+        "fetchedAt": "2026-10-27T22:11:33.136Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "fe6f2b75558b48c2fd6ab25340ae96b29114f9ab7533c3116dae478ffe53ba0b"
+        "rawSha256": "d8e10cc9195821d72f7c91e6ef9155ebe6777165136c3ea08301f4b11a708cf9"
       }
     },
     {
@@ -248,7 +248,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/jair-bolsonaro-nao-foi-preso-desacato/",
-        "fetchedAt": "2026-10-27T02:06:02.044Z",
+        "fetchedAt": "2026-10-27T22:11:33.997Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8c9c97f5d0885d433db4b43358dd98eddb4ec51fe3a402bee61b40fcb1c0737c"
@@ -311,7 +311,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/eleitores-impedidos-londres-primeiro-turno/",
-        "fetchedAt": "2026-10-27T12:07:54.080Z",
+        "fetchedAt": "2026-10-27T22:11:28.031Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "c37da2c0620944dfe18b1714fb1e057e8740c31a191038241ec11949c1a7be87"
@@ -395,7 +395,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-debate-globo-marginais/",
-        "fetchedAt": "2026-10-27T12:07:45.086Z",
+        "fetchedAt": "2026-10-27T22:11:21.994Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8e9fb4a27cd77df87b83db45f78179017bcc0e42a0199ccc3d82d0b82613a5a8"
@@ -416,10 +416,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/",
-        "fetchedAt": "2026-10-27T12:07:48.084Z",
+        "fetchedAt": "2026-10-27T22:11:20.998Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "5dd564cf44d5762b64d84bd07bcee40f91c07c51c19e1cba0cb2267c4a502447"
+        "rawSha256": "0190388d34e03e2b80c95a5fc0d08f975d1d347a30e42d44f7e9344abf7e2149"
       }
     },
     {
@@ -479,7 +479,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
-        "fetchedAt": "2026-10-27T12:07:41.049Z",
+        "fetchedAt": "2026-10-27T22:11:19.999Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "d5e58a501e01ceb831db84e2bb00727676721ef32052d1874d368b6fb8ea70a2"
@@ -542,7 +542,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
-        "fetchedAt": "2026-10-27T12:07:50.231Z",
+        "fetchedAt": "2026-10-27T22:11:29.998Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "cf0bae0335008369a89c58496b5f928537fae02acfb010cf875debc0249a5482"
@@ -773,10 +773,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/",
-        "fetchedAt": "2026-10-27T12:07:51.079Z",
+        "fetchedAt": "2026-10-27T22:11:26.995Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "258c08d11af37a552c404d137641357d695d6680c185eb1d28f691d7ab96bce1"
+        "rawSha256": "980e4d0fe02b7a16d9e8a6c86f5a0d29287e1e547871def141327c800dfcfbb0"
       }
     },
     {
