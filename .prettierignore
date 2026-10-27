@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+.nuxt
+.output
+package-lock.json
+# Docs are hand-wrapped prose with compact tables, as in Confere.
+*.md
+# Fixtures are real data captured from the checkers; keep them byte-for-byte.
+packages/sources/test/fixtures

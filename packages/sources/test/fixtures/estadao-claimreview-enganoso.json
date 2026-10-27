@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ClaimReview",
+  "url": "/estadao-verifica/queda-porcentagem-flavio-bolsonaro-apuracao-nao-e-erro/",
+  "claimReviewed": "Porcentagem de Flávio diminiui entre 21,96% e 24,95% da apuração mesmo ele tendo tido mais votos que os outros candidatos",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "2",
+    "bestRating": "4",
+    "worstRating": "1",
+    "alternateName": "Enganoso"
+  },
+  "itemReviewed": {
+    "@type": "Claim",
+    "datePublished": "2026-10-09T18:02:50.648Z",
+    "author": {
+      "@type": "Person",
+      "name": "Redes Sociais"
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Giovana Frioli"
+  }
+}

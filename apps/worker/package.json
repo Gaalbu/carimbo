@@ -1,0 +1,19 @@
+{
+  "name": "@carimbo/worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Worker de ingestão do Carimbo (filas BullMQ a partir da F1).",
+  "license": "MIT",
+  "main": "./dist/main.js",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "start": "node dist/main.js",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
+  }
+}

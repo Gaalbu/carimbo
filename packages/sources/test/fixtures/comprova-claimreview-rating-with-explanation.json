@@ -1,0 +1,24 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ClaimReview",
+  "url": "https://projetocomprova.com.br/publicações/eleitor-nao-perde-voto-ao-apertar-confirma-durante-aviso-para-conferir-escolha-na-urna-eletronica/",
+  "datePublished": "2024-09-09",
+  "claimReviewed": "Eleitor pode perder o voto ao apertar a tecla confirma",
+  "reviewRating": {
+    "@type": "Rating",
+    "alternateName": "Falso: O aviso de “Confira seu voto” foi implementado nas últimas eleições gerais para permitir que o eleitor revise o voto antes da confirmação."
+  },
+  "itemReviewed": {
+    "@type": "Claim",
+    "datePublished": "2024-09-04",
+    "author": {
+      "@type": "Person",
+      "name": "Boatos nas redes sociais"
+    }
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Comprova",
+    "url": "https://projetocomprova.com.br/"
+  }
+}

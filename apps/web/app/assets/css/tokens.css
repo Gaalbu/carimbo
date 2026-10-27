@@ -1,0 +1,56 @@
+/* Starting tokens from docs/PLANO.md §5. Dark is the default; light is opt-in via data-theme. */
+:root {
+  color-scheme: dark;
+  --bg: #0f0e0d;
+  --panel: #151412;
+  --panel-2: #1b1a17;
+  --line: rgba(250, 250, 249, 0.08);
+  --line-2: rgba(250, 250, 249, 0.16);
+  --fg: #fafaf9;
+  --fg-2: #d6d4cf;
+  --fg-3: #a6a39c;
+  --falso: #ff3b30;
+  --contexto: #ffb020;
+  --verdadeiro: #3dd68c;
+  --outro: #85827c;
+  --serif: 'Faustina', Georgia, serif;
+  --sans: 'Geist', 'Helvetica Neue', Arial, sans-serif;
+  --stamp: 'Anton', Impact, sans-serif;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --t-manchete: 27px;
+  --t-fig: 42px;
+  --t-body: 14px;
+  --t-micro: 11px;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f7f6f3;
+  --panel: #ffffff;
+  --fg: #1a1917;
+  --fg-3: #6b6862;
+  --falso: #b3261e;
+  --contexto: #8a5300;
+  --verdadeiro: #17774a;
+  --outro: #6b6862;
+  /* Not in the plan: without these the light theme inherits near-white lines and --fg-2. */
+  --panel-2: #efede8;
+  --line: rgba(26, 25, 23, 0.08);
+  --line-2: rgba(26, 25, 23, 0.16);
+  --fg-2: #3d3b37;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  font-size: var(--t-body);
+  line-height: 1.5;
+}

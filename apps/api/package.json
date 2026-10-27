@@ -1,0 +1,22 @@
+{
+  "name": "@carimbo/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API HTTP do Carimbo (Fastify).",
+  "license": "MIT",
+  "main": "./dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "fastify": "^5.12.7"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
+  }
+}

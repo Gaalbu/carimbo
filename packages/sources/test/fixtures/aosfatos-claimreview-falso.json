@@ -1,0 +1,36 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "Review",
+    "ClaimReview"
+  ],
+  "url": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "claimReviewed": "Lula passou mal e não irá ao debate da Globo no dia 23 de outubro de 2026",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": 1,
+    "bestRating": 6,
+    "alternateName": "falso"
+  },
+  "itemReviewed": {
+    "@type": "CreativeWork",
+    "datePublished": "2026-10-23",
+    "author": {
+      "@type": "Person",
+      "name": "desinformação"
+    }
+  },
+  "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Aos Fatos",
+    "url": "https://www.aosfatos.org/"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Luiz Fernando Menezes"
+    }
+  ]
+}

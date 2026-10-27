@@ -1,0 +1,27 @@
+{
+  "name": "@carimbo/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interface web do Carimbo (Nuxt 4).",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^4.6.3",
+    "vue": "^3.5.44",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^4.3.4",
+    "@vue/test-utils": "^2.5.1",
+    "happy-dom": "^21.0.4",
+    "vue-tsc": "^3.3.13"
+  }
+}
