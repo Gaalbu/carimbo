@@ -6,6 +6,8 @@ const props = withDefaults(defineProps<{ initial?: string; autofocus?: boolean }
 
 const query = ref(props.initial)
 const input = ref<HTMLInputElement | null>(null)
+// The no-JS form must post under the app base (`/carimbo/` on GitHub Pages).
+const action = withAppBase(useRuntimeConfig().app.baseURL, 'buscar')
 
 watch(
   () => props.initial,
@@ -15,6 +17,8 @@ watch(
 )
 
 onMounted(() => {
+  // Hydration keeps the prerendered (empty) value of a static page; show the query from the URL.
+  if (input.value && input.value.value !== query.value) input.value.value = query.value
   if (props.autofocus) input.value?.focus()
 })
 
@@ -26,7 +30,7 @@ async function submit() {
 
 <template>
   <!-- A plain GET form, so search also works before (or without) JavaScript. -->
-  <form class="search" role="search" action="/buscar" method="get" @submit.prevent="submit">
+  <form class="search" role="search" :action="action" method="get" @submit.prevent="submit">
     <label for="busca-q" class="search__label">Cole aqui o que você recebeu</label>
     <div class="search__row">
       <input
