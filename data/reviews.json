@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T23:42:48.783Z",
+  "generatedAt": "2026-10-28T05:38:14.574Z",
   "reviews": [
+    {
+      "id": "1979373922e02cce",
+      "checkerId": "aos-fatos",
+      "claimText": "Prorrogação da votação no segundo turno ajudou a eleger Lula.",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-27",
+      "reviewDate": "2026-10-27",
+      "reviewUrl": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
+        "fetchedAt": "2026-10-28T05:38:08.549Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "be9d1b4fb65b13ca7945edd277b3c09e66a8b54f1ee6209570522fede0b85c2f"
+      }
+    },
     {
       "id": "8bc169a9b805a0d3",
       "checkerId": "aos-fatos",
@@ -42,6 +63,27 @@
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "b7bdf9352ad2ee3169e941cc5ca61f2fe6e8e07097aa2d2759f42eb6969a2c0d"
+      }
+    },
+    {
+      "id": "b8f874dd4f0fa62f",
+      "checkerId": "aos-fatos",
+      "claimText": "Lula acaba de cortar quase R$ 6 Bilhões da Saúde e Educação",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-27",
+      "reviewDate": "2026-10-27",
+      "reviewUrl": "https://www.aosfatos.org/noticias/noticia-sobre-bloqueio-de-r-6-bilhoes-na-saude-e-educacao-e-de-julho-de-2024/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/noticia-sobre-bloqueio-de-r-6-bilhoes-na-saude-e-educacao-e-de-julho-de-2024/",
+        "fetchedAt": "2026-10-28T05:38:07.406Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "f982817f9eed9d1de83cd0fa20f3fe180ce527c914961dff4bf5bd3fa3e73ccc"
       }
     },
     {
