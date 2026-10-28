@@ -1,7 +1,217 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T12:49:34.053Z",
+  "generatedAt": "2026-10-28T22:32:56.076Z",
   "reviews": [
+    {
+      "id": "04514fab05f95c2c",
+      "checkerId": "estadao-verifica",
+      "claimText": "Jair Bolsonaro voltou à papuda após desacatar autoridade.",
+      "claimant": "Boatos em redes sociais",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/falso-jair-bolsonaro-desacato-autoridade-voltado-papuda/",
+      "headline": "É falso que Jair Bolsonaro tenha voltado à Papuda por desacato a autoridade",
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-jair-bolsonaro-desacato-autoridade-voltado-papuda/",
+        "fetchedAt": "2026-10-28T22:32:49.341Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "0621b7660c6769d83e9bddfe348b1947bd8ce7bbb3043167a4cbf2f9517af7b2"
+      }
+    },
+    {
+      "id": "12609ac5b73b0f95",
+      "checkerId": "estadao-verifica",
+      "claimText": "Blitz no Rio de Janeiro estão barrando eleitores do PT de irem votar.",
+      "claimant": "Moments of Brazilian Politics  @MomentsOfBrPol",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/denuncia-blitiz-rio-de-janeiro-eleitores-lula/",
+      "headline": "Denúncia sobre blitz para barrar eleitores de Lula no Rio de Janeiro não foi confirmada",
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/denuncia-blitiz-rio-de-janeiro-eleitores-lula/",
+        "fetchedAt": "2026-10-28T22:32:52.371Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "55a66d2263d0d9b6b5ee8ed10e136c55e901f9192c09face82433f8874de0b9a"
+      }
+    },
+    {
+      "id": "2ecb444e598f83ba",
+      "checkerId": "aos-fatos",
+      "claimText": "DENÚNCIA: Diferenças entre os votos registrados em boletins de urna impressos e os números divulgados no site do Tribunal Superior Eleitoral (TSE).",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.aosfatos.org/noticias/soma-votos-tres-secoes-ba-nao-comprova-fraude/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/soma-votos-tres-secoes-ba-nao-comprova-fraude/",
+        "fetchedAt": "2026-10-28T22:32:46.632Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "0e3864b5fcdc00856679e52e43dcb24d6229e2719fb854c5e3c4385cf99c613a"
+      }
+    },
+    {
+      "id": "31d3643c90cff01a",
+      "checkerId": "estadao-verifica",
+      "claimText": "Após eleição, Lula recua sobre escala 6x1 e vai manter modelo para vários setores",
+      "claimant": "Boato nas redes sociais",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/governo-lula-recua-escala-6x1-manter-varios-setores-falso/",
+      "headline": "É falso que governo Lula tenha recuado sobre fim da escala 6x1",
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/governo-lula-recua-escala-6x1-manter-varios-setores-falso/",
+        "fetchedAt": "2026-10-28T22:32:44.228Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "62be7599ba76924bb63c8573d5ce77db893a9e212da3d70d11ea222cb4b2c8c1"
+      }
+    },
+    {
+      "id": "33df84527b8f8fcb",
+      "checkerId": "estadao-verifica",
+      "claimText": "Vídeo mostra presídio comemorando reeleição de Lula",
+      "claimant": "Boatos de redes sociais",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/presidio-comemora-reeleicao-lula-falso/",
+      "headline": "Nikolas divulga vídeo de presos comemorando gol e sugere que é festa por Lula",
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/presidio-comemora-reeleicao-lula-falso/",
+        "fetchedAt": "2026-10-28T22:32:48.331Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "d314b78e5e8e293ffeaa5a28499c9ce0c37d9fcf5eb18fa6b4b40ec7104f286e"
+      }
+    },
+    {
+      "id": "51cdc0f0a36f5f51",
+      "checkerId": "aos-fatos",
+      "claimText": "Quem achava que ia receber 5.000 reais pode começar a ficar preocupado. Porque ou Lula vai pagar menos a todos os MEIs ou ele So vai pagar a alguns. Tambem existe a possibilidade dele não pagar a ninguem. Esta seria mais a cara dele.",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.aosfatos.org/noticias/governo-5000-mas-so-vai-pagar-363-pix-mei/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/governo-5000-mas-so-vai-pagar-363-pix-mei/",
+        "fetchedAt": "2026-10-28T22:32:48.622Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "95ff628eeffb76cfd0be84c2b0aaa3cc29b4a5e759a815d0d7b04fe74eafcb67"
+      }
+    },
+    {
+      "id": "7f7089c5901ac521",
+      "checkerId": "estadao-verifica",
+      "claimText": "Após a reeleição, Lula diz que o Brasil “não pode viver eternamente do Bolsa Família” e defende mudanças no benefício.",
+      "claimant": "Boatos de redes sociais",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/lula-brasil-nao-pode-viver-eternamente-bolsa-familia-enganoso/",
+      "headline": "Fala de Lula sobre Brasil não poder viver ‘eternamente’ do Bolsa Família é de 2025, não recente",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/lula-brasil-nao-pode-viver-eternamente-bolsa-familia-enganoso/",
+        "fetchedAt": "2026-10-28T22:32:45.445Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "bcf75fd00c66f73c3924555c8ada1d97f03e960e5c058e3c3240a9b368a1fa61"
+      }
+    },
+    {
+      "id": "8e194c1e46ded5e6",
+      "checkerId": "aos-fatos",
+      "claimText": "Homem mostra que conta do TSE não fechava e dava vantagem de Lula",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.aosfatos.org/noticias/lula-165-mil-votos-origem-nao-identificada/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/lula-165-mil-votos-origem-nao-identificada/",
+        "fetchedAt": "2026-10-28T22:32:45.620Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "aa75fe7a9957c3f4211a3cff30094e1da0dce7c18302fecc037d9a0ddf1c4232"
+      }
+    },
+    {
+      "id": "9d4994c8c6c2796f",
+      "checkerId": "aos-fatos",
+      "claimText": "O governo bloqueou hoje, 27 de dezembro de 2026, o Bolsa Família de 1,2 milhão de beneficiários",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.aosfatos.org/noticias/noticia-cortes-bolsa-familia-2023/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/noticia-cortes-bolsa-familia-2023/",
+        "fetchedAt": "2026-10-28T22:32:47.655Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "26c0b8aeb9e03cbbb3249d1cefe615e5fafc988d73ee61c2a28b33c48a998ce9"
+      }
+    },
+    {
+      "id": "bd3e89aca51665c6",
+      "checkerId": "aos-fatos",
+      "claimText": "Governo Lula bloqueou recursos que seriam destinados ao Auxílio-gás de dezembro",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-28",
+      "reviewDate": "2026-10-28",
+      "reviewUrl": "https://www.aosfatos.org/noticias/governo-lula-pagamento-dezembro-gas-do-povo/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/governo-lula-pagamento-dezembro-gas-do-povo/",
+        "fetchedAt": "2026-10-28T22:32:49.626Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "40e5fb2d4e0e3ff88835a52cb083878d82a3cf377dd4975c064e7e4ba515e460"
+      }
+    },
     {
       "id": "1979373922e02cce",
       "checkerId": "aos-fatos",
