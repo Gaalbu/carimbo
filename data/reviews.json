@@ -1,7 +1,175 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T12:57:40.075Z",
+  "generatedAt": "2026-10-29T22:43:35.854Z",
   "reviews": [
+    {
+      "id": "3a581930449f33d1",
+      "checkerId": "aos-fatos",
+      "claimText": "Mais de 8,6 milhões de votos foram emitidos sem verificação biométrica digital, quase o dobro da diferença que decidiu a Presidência.",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-29",
+      "reviewDate": "2026-10-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+      "headline": null,
+      "textualRating": "não_é_bem_assim",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+        "fetchedAt": "2026-10-29T22:43:30.873Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "afa8159c6d5159958318c9e63226a0189cb98231e53db7860ce69b11b820bd5a"
+      }
+    },
+    {
+      "id": "669a9e9a776d5c40",
+      "checkerId": "aos-fatos",
+      "claimText": "PROFESSORES PETISTAS ENTRAM EM GREVE EM MENOS DE TRÊS DIAS APÓS ELEIÇÕES, DEPOIS QUE LULA ANUNCIOU CORTE DE 6 BILHÕES NA EDUCAÇÃO",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-29",
+      "reviewDate": "2026-10-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/",
+        "fetchedAt": "2026-10-29T22:43:31.850Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "34ec28839465d59ca19b8cacc23a3a51b4d9a78efce575cc8b05d6e28418c94c"
+      }
+    },
+    {
+      "id": "6bd8d465b4ff0d0d",
+      "checkerId": "aos-fatos",
+      "claimText": "Governo Lula prevê cortes de 670 mil benefícios do BPC",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-29",
+      "reviewDate": "2026-10-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/governo-corte-670-mil-bpc/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/governo-corte-670-mil-bpc/",
+        "fetchedAt": "2026-10-29T22:43:32.850Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "d642a8a2f3637b20bb649974f78c53a82d1a9a6ea120b1ddfb05f48384455ec9"
+      }
+    },
+    {
+      "id": "78082694bd16f870",
+      "checkerId": "aos-fatos",
+      "claimText": "Os dados foram sonegados da sociedade por 72 horas",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-29",
+      "reviewDate": "2026-10-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+        "fetchedAt": "2026-10-29T22:43:30.873Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "afa8159c6d5159958318c9e63226a0189cb98231e53db7860ce69b11b820bd5a"
+      }
+    },
+    {
+      "id": "98e6f8aa90f55a6b",
+      "checkerId": "aos-fatos",
+      "claimText": "Urna é flagrada votando automaticamente durante prorrogação do 2º turno",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-29",
+      "reviewDate": "2026-10-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/video-nao-mostra-urna-registrando-votos-sozinha/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/video-nao-mostra-urna-registrando-votos-sozinha/",
+        "fetchedAt": "2026-10-29T22:43:29.860Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "3faab865da0774d21877bdab844d328753597b9edd2178671f11b6feba5a7887"
+      }
+    },
+    {
+      "id": "d8b233fc6f141cbc",
+      "checkerId": "aos-fatos",
+      "claimText": "Submetemos o conjunto de 499.205 seções eleitorais ao teste forense do primeiro dígito significativo de Benford, uma ferramenta matemática consagrada internacionalmente para detectar manipulação",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-29",
+      "reviewDate": "2026-10-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+        "fetchedAt": "2026-10-29T22:43:30.873Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "afa8159c6d5159958318c9e63226a0189cb98231e53db7860ce69b11b820bd5a"
+      }
+    },
+    {
+      "id": "f33309f46e22a5eb",
+      "checkerId": "aos-fatos",
+      "claimText": "A eleição regulamentar até às 17h00 foi vencida por Flávio Bolsonaro",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-29",
+      "reviewDate": "2026-10-29",
+      "reviewUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
+        "fetchedAt": "2026-10-29T22:43:30.873Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "afa8159c6d5159958318c9e63226a0189cb98231e53db7860ce69b11b820bd5a"
+      }
+    },
+    {
+      "id": "ff201d30da3be475",
+      "checkerId": "comprova",
+      "claimText": "COMPRA APROVADA por JANJA LULA DA SILVA: Bolsa BIRKIN Coleção 2027 no valor de R$ 130.000,00",
+      "claimant": "redes sociais",
+      "claimDate": "2026-10-26",
+      "reviewDate": "2026-10-29",
+      "reviewUrl": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/post-atribui-a-janja-compra-de-bolsa-inexistente-no-mercado/",
+      "headline": null,
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/post-atribui-a-janja-compra-de-bolsa-inexistente-no-mercado/",
+        "fetchedAt": "2026-10-29T22:43:29.754Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "4a72f15dc75be8b55fa99327dbcc7f018cdfe196394909a1f5377c27dedae90e"
+      }
+    },
     {
       "id": "04514fab05f95c2c",
       "checkerId": "estadao-verifica",
