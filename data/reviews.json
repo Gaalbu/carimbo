@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T05:44:29.786Z",
+  "generatedAt": "2026-10-30T12:50:14.995Z",
   "reviews": [
+    {
+      "id": "1f4d706f112505b0",
+      "checkerId": "estadao-verifica",
+      "claimText": "Crminosos armados comemoram vitória de Lula",
+      "claimant": "Boatos em redes sociais",
+      "claimDate": "2026-10-30",
+      "reviewDate": "2026-10-30",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/falso-criminosos-armados-comemoram-eleicao-lula/",
+      "headline": "Criminosos não comemoraram eleição de Lula; vídeo foi gravado antes do segundo turno",
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-criminosos-armados-comemoram-eleicao-lula/",
+        "fetchedAt": "2026-10-30T12:50:09.300Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "45c2d47c1fa65effed2578931e7569916d7ac36071dea82e29a6bd67218b49d8"
+      }
+    },
+    {
+      "id": "d649b4b3033aec30",
+      "checkerId": "estadao-verifica",
+      "claimText": "É 'simplesmente impossível' que Flávio Bolsonaro não tenha recebido votos em 106 seções",
+      "claimant": "Redes Sociais",
+      "claimDate": "2026-10-30",
+      "reviewDate": "2026-10-30",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/votacao-unanime-em-secoes-nao-prova-fraude/",
+      "headline": "Votação unânime de Lula em 106 seções eleitorais não prova fraude eleitoral",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/votacao-unanime-em-secoes-nao-prova-fraude/",
+        "fetchedAt": "2026-10-30T12:50:08.340Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "05b7894f34479bcd5871292f2b09d40eba68a2da59e3ab77467459eac9658755"
+      }
+    },
     {
       "id": "3a581930449f33d1",
       "checkerId": "aos-fatos",
