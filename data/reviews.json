@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T12:50:14.995Z",
+  "generatedAt": "2026-10-30T22:16:18.343Z",
   "reviews": [
+    {
+      "id": "043017ab2df26066",
+      "checkerId": "estadao-verifica",
+      "claimText": "Donald Trump diz estar ciente de que querem prender Flávio Bolsonaro",
+      "claimant": "Boato de redes sociais",
+      "claimDate": "2026-10-30",
+      "reviewDate": "2026-10-30",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/donald-trump-prisao-flavio-bolsonaro/",
+      "headline": "Declaração antiga de Trump de apoio aos Bolsonaros circula como se fosse atual",
+      "textualRating": "Fora de contexto",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/donald-trump-prisao-flavio-bolsonaro/",
+        "fetchedAt": "2026-10-30T22:16:14.475Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "9963cb89c5b7a2bc643ebde3607d1fa990342a1f9365af8d758a81f0b8d4a698"
+      }
+    },
     {
       "id": "1f4d706f112505b0",
       "checkerId": "estadao-verifica",
@@ -21,6 +42,111 @@
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "45c2d47c1fa65effed2578931e7569916d7ac36071dea82e29a6bd67218b49d8"
+      }
+    },
+    {
+      "id": "21dcde5d832d6855",
+      "checkerId": "aos-fatos",
+      "claimText": "Lula sancionou lei que corta auxílio-reclusão após fim das eleições",
+      "claimant": "desinformação",
+      "claimDate": "2026-10-30",
+      "reviewDate": "2026-10-30",
+      "reviewUrl": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/",
+        "fetchedAt": "2026-10-30T22:16:12.032Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "07643dd3fb4ee7f28b67ec81be004ae886db17d1a821820c7f0f7a6b569d5611"
+      }
+    },
+    {
+      "id": "54de53c3dbbf2a43",
+      "checkerId": "comprova",
+      "claimText": "Passada e eleição, governo Lula recua e vai manter a escala 6x1 para vários setores",
+      "claimant": "redes sociais",
+      "claimDate": "2026-10-27",
+      "reviewDate": "2026-10-30",
+      "reviewUrl": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/fim-da-escala-6x1-esta-mantido-ao-contrario-do-que-afirma-video/",
+      "headline": null,
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/fim-da-escala-6x1-esta-mantido-ao-contrario-do-que-afirma-video/",
+        "fetchedAt": "2026-10-30T22:16:12.247Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "38d776157f27baf9aac93c3726f1b951a437b56b9f32df1bb3601e98e7eb4394"
+      }
+    },
+    {
+      "id": "6b6e4cd1ff53d38b",
+      "checkerId": "estadao-verifica",
+      "claimText": "Votação em Brasília teve o mesmo número de votos em todas as zonas",
+      "claimant": "Boato nas redes sociais",
+      "claimDate": "2026-10-30",
+      "reviewDate": "2026-10-30",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/votacao-em-brasilia-teve-mesmo-numero-de-votos-em-todas-as-zonas-falso/",
+      "headline": "É falso que votação em Brasília tenha tido mesmo número de votos em todas as zonas eleitorais",
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/votacao-em-brasilia-teve-mesmo-numero-de-votos-em-todas-as-zonas-falso/",
+        "fetchedAt": "2026-10-30T22:16:12.472Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "768fc0bebb2f78ff937dd4e3e1e7d3c703979205f415ae20fe1010841504a607"
+      }
+    },
+    {
+      "id": "81f73783dc702414",
+      "checkerId": "estadao-verifica",
+      "claimText": "Reportagem diz que o governo Lula bloqueou o auxílio-gás de dezembro.",
+      "claimant": "Boato nas redes socias",
+      "claimDate": "2026-10-30",
+      "reviewDate": "2026-10-30",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/governo-nao-bloqueou-auxilio-gas-para-dezembro-2026/",
+      "headline": "Governo Lula não bloqueou auxílio-gás de dezembro; postagens usam reportagem antiga",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/governo-nao-bloqueou-auxilio-gas-para-dezembro-2026/",
+        "fetchedAt": "2026-10-30T22:16:13.414Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "6f9515f1dde96dee024e07e648f30d4c1d3000a2027d21aea45c0474f198e020"
+      }
+    },
+    {
+      "id": "d60b84ec998903fa",
+      "checkerId": "estadao-verifica",
+      "claimText": "Relatório prova fraude nas eleições de 2026",
+      "claimant": "Redes Sociais",
+      "claimDate": "2026-10-30",
+      "reviewDate": "2026-10-30",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/falso-relatorio-apocrifo-fraude-eleicoes/",
+      "headline": "‘Relatório pericial’ apócrifo distorce dados para alegar falsa fraude nas eleições",
+      "textualRating": "Falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-relatorio-apocrifo-fraude-eleicoes/",
+        "fetchedAt": "2026-10-30T22:16:11.251Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "fa2e0dedfc0ea9a9118a995accc2e08e86eb3f5208c61653e1d38464c34ebad0"
       }
     },
     {
