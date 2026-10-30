@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T22:43:35.854Z",
+  "generatedAt": "2026-10-30T05:44:29.786Z",
   "reviews": [
     {
       "id": "3a581930449f33d1",
@@ -17,7 +17,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
-        "fetchedAt": "2026-10-29T22:43:30.873Z",
+        "fetchedAt": "2026-10-30T05:44:29.779Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "afa8159c6d5159958318c9e63226a0189cb98231e53db7860ce69b11b820bd5a"
@@ -38,10 +38,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/",
-        "fetchedAt": "2026-10-29T22:43:31.850Z",
+        "fetchedAt": "2026-10-30T05:44:27.790Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "34ec28839465d59ca19b8cacc23a3a51b4d9a78efce575cc8b05d6e28418c94c"
+        "rawSha256": "c5845de893d1cf44ce7256afe05863670c1295cd4208fe46f237234445512b22"
       }
     },
     {
@@ -59,7 +59,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-corte-670-mil-bpc/",
-        "fetchedAt": "2026-10-29T22:43:32.850Z",
+        "fetchedAt": "2026-10-30T05:44:28.776Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "d642a8a2f3637b20bb649974f78c53a82d1a9a6ea120b1ddfb05f48384455ec9"
@@ -80,7 +80,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
-        "fetchedAt": "2026-10-29T22:43:30.873Z",
+        "fetchedAt": "2026-10-30T05:44:29.779Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "afa8159c6d5159958318c9e63226a0189cb98231e53db7860ce69b11b820bd5a"
@@ -122,7 +122,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
-        "fetchedAt": "2026-10-29T22:43:30.873Z",
+        "fetchedAt": "2026-10-30T05:44:29.779Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "afa8159c6d5159958318c9e63226a0189cb98231e53db7860ce69b11b820bd5a"
@@ -143,7 +143,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
-        "fetchedAt": "2026-10-29T22:43:30.873Z",
+        "fetchedAt": "2026-10-30T05:44:29.779Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "afa8159c6d5159958318c9e63226a0189cb98231e53db7860ce69b11b820bd5a"
@@ -227,7 +227,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/soma-votos-tres-secoes-ba-nao-comprova-fraude/",
-        "fetchedAt": "2026-10-28T22:32:46.632Z",
+        "fetchedAt": "2026-10-30T05:44:25.782Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "0e3864b5fcdc00856679e52e43dcb24d6229e2719fb854c5e3c4385cf99c613a"
@@ -290,7 +290,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-5000-mas-so-vai-pagar-363-pix-mei/",
-        "fetchedAt": "2026-10-29T12:57:39.127Z",
+        "fetchedAt": "2026-10-30T05:44:23.773Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "95ff628eeffb76cfd0be84c2b0aaa3cc29b4a5e759a815d0d7b04fe74eafcb67"
@@ -332,10 +332,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-165-mil-votos-origem-nao-identificada/",
-        "fetchedAt": "2026-10-28T22:32:45.620Z",
+        "fetchedAt": "2026-10-30T05:44:26.780Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "aa75fe7a9957c3f4211a3cff30094e1da0dce7c18302fecc037d9a0ddf1c4232"
+        "rawSha256": "03ac0bba0b69858dc4ad038bd15f9fe0b9bbc7dc67d2f4169e32e46900bbd7bf"
       }
     },
     {
@@ -353,7 +353,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/noticia-cortes-bolsa-familia-2023/",
-        "fetchedAt": "2026-10-29T12:57:40.069Z",
+        "fetchedAt": "2026-10-30T05:44:24.776Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "26c0b8aeb9e03cbbb3249d1cefe615e5fafc988d73ee61c2a28b33c48a998ce9"
@@ -374,7 +374,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-lula-pagamento-dezembro-gas-do-povo/",
-        "fetchedAt": "2026-10-29T12:57:38.067Z",
+        "fetchedAt": "2026-10-30T05:44:22.774Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "40e5fb2d4e0e3ff88835a52cb083878d82a3cf377dd4975c064e7e4ba515e460"
@@ -395,10 +395,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/votos-registrados-apos-as-17h-nao-mudam-resultado-das-eleicoes/",
-        "fetchedAt": "2026-10-29T12:57:37.069Z",
+        "fetchedAt": "2026-10-30T05:44:21.773Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "be9d1b4fb65b13ca7945edd277b3c09e66a8b54f1ee6209570522fede0b85c2f"
+        "rawSha256": "28a23e8ccd8ee72a0082b3fafdf2e1a5bfb447baa84cb33d1465b6009e870db7"
       }
     },
     {
@@ -416,7 +416,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/Lula-fim-escala-6x1/",
-        "fetchedAt": "2026-10-29T12:57:35.065Z",
+        "fetchedAt": "2026-10-30T05:44:19.773Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "4451610c8f62443c225c9258607f77f359624112eba6b8fa6015dac1f6ba09c8"
@@ -458,10 +458,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/noticia-sobre-bloqueio-de-r-6-bilhoes-na-saude-e-educacao-e-de-julho-de-2024/",
-        "fetchedAt": "2026-10-29T12:57:36.069Z",
+        "fetchedAt": "2026-10-30T05:44:20.774Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "f982817f9eed9d1de83cd0fa20f3fe180ce527c914961dff4bf5bd3fa3e73ccc"
+        "rawSha256": "2e9e8c2cc182a5b511bb00891ad93a40c37ee34b2f169eaf599227f6d17d0d9a"
       }
     },
     {
@@ -521,7 +521,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
-        "fetchedAt": "2026-10-29T12:57:30.069Z",
+        "fetchedAt": "2026-10-30T05:44:14.952Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "3f8a4aee403df3dae54cf14e1141d5cf14c62503f15c819bc6b2bfce5c3fc9be"
@@ -584,7 +584,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-antigo-circula-nas-redes-para-sugerir-que-flavio-foi-para-os-eua/",
-        "fetchedAt": "2026-10-29T12:57:32.105Z",
+        "fetchedAt": "2026-10-30T05:44:16.775Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "6c45b40bb15c8cef6eb948568963de018227a7e63a2136f10d8540e867cf0915"
@@ -605,7 +605,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-flavio-chorando/",
-        "fetchedAt": "2026-10-29T12:57:29.074Z",
+        "fetchedAt": "2026-10-30T05:44:14.031Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "3c295b2395fe1656fa725c4ad45f903e8abd19d1908e35956d4112d2848ce902"
@@ -626,7 +626,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/presos-comemorando-gol-santa-cruz-lula/",
-        "fetchedAt": "2026-10-29T12:57:33.071Z",
+        "fetchedAt": "2026-10-30T05:44:17.773Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "64f3b0fdc410e69db653d4dc37cec9c6c5e926e24af71d54a00b6014a82a05dc"
@@ -647,7 +647,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/derrotado-flavio-mente-sugerir-eleicao-fraudada/",
-        "fetchedAt": "2026-10-29T12:57:30.069Z",
+        "fetchedAt": "2026-10-30T05:44:14.952Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "3f8a4aee403df3dae54cf14e1141d5cf14c62503f15c819bc6b2bfce5c3fc9be"
@@ -668,7 +668,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/jair-bolsonaro-nao-foi-preso-desacato/",
-        "fetchedAt": "2026-10-29T12:57:31.074Z",
+        "fetchedAt": "2026-10-30T05:44:15.776Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8c9c97f5d0885d433db4b43358dd98eddb4ec51fe3a402bee61b40fcb1c0737c"
@@ -731,7 +731,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/eleitores-impedidos-londres-primeiro-turno/",
-        "fetchedAt": "2026-10-29T12:57:27.068Z",
+        "fetchedAt": "2026-10-30T05:44:11.776Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "c37da2c0620944dfe18b1714fb1e057e8740c31a191038241ec11949c1a7be87"
@@ -815,7 +815,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-debate-globo-marginais/",
-        "fetchedAt": "2026-10-29T12:57:18.064Z",
+        "fetchedAt": "2026-10-30T05:43:30.726Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8e9fb4a27cd77df87b83db45f78179017bcc0e42a0199ccc3d82d0b82613a5a8"
@@ -836,7 +836,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/venda-de-pele-frango-mercados-2022/",
-        "fetchedAt": "2026-10-29T12:57:21.072Z",
+        "fetchedAt": "2026-10-30T05:43:33.679Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "5dd564cf44d5762b64d84bd07bcee40f91c07c51c19e1cba0cb2267c4a502447"
@@ -899,10 +899,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/",
-        "fetchedAt": "2026-10-29T12:57:14.066Z",
+        "fetchedAt": "2026-10-30T05:43:26.682Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "d5e58a501e01ceb831db84e2bb00727676721ef32052d1874d368b6fb8ea70a2"
+        "rawSha256": "b74f03ea78376312fd9a97df6e224a8d1299422e32ad22d75b4429f305efdec3"
       }
     },
     {
@@ -962,7 +962,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/",
-        "fetchedAt": "2026-10-29T12:57:23.069Z",
+        "fetchedAt": "2026-10-30T05:43:35.680Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "cf0bae0335008369a89c58496b5f928537fae02acfb010cf875debc0249a5482"
@@ -1193,7 +1193,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/",
-        "fetchedAt": "2026-10-29T12:57:24.066Z",
+        "fetchedAt": "2026-10-30T05:43:36.679Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "258c08d11af37a552c404d137641357d695d6680c185eb1d28f691d7ab96bce1"
