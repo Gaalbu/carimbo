@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T00:57:19.925Z",
+  "generatedAt": "2026-11-03T14:09:13.850Z",
   "reviews": [
+    {
+      "id": "8a2d9751492070fa",
+      "checkerId": "estadao-verifica",
+      "claimText": "Urna com a tecla 2 colada pra prejudicar o voto em Flávio Bolsonaro",
+      "claimant": "Delegado Richard Serrano",
+      "claimDate": "2026-11-03",
+      "reviewDate": "2026-11-03",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/urna-eletronica-tecla-2-colada/",
+      "headline": "Vídeo sobre urna eletrônica vandalizada omite a existência de equipamentos de contingência",
+      "textualRating": "Fora de contexto",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/urna-eletronica-tecla-2-colada/",
+        "fetchedAt": "2026-11-03T14:09:08.980Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "7ff4492f912e24aeb888c284932bb0b42cc44ce8667e01e78e5dbf79ff236186"
+      }
+    },
+    {
+      "id": "b3c7a8f700f49223",
+      "checkerId": "estadao-verifica",
+      "claimText": "Reportagem mostra que governo Lula anunciou corte de R$6 bi na Saúde e Educação.",
+      "claimant": "Boato nas redes sociais",
+      "claimDate": "2026-11-03",
+      "reviewDate": "2026-11-03",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/governo-nao-anunciou-corte-de-r6-bi-na-saude-e-educacao/",
+      "headline": "Governo não anunciou corte de R$ 6 bilhões em Saúde e Educação; contenção de gastos ocorreu em 2024",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/governo-nao-anunciou-corte-de-r6-bi-na-saude-e-educacao/",
+        "fetchedAt": "2026-11-03T14:09:07.979Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "1ad06700d34e7aa98bfa2e8586e1d72aaa52210733c784b68c9ef022eee0868c"
+      }
+    },
     {
       "id": "043017ab2df26066",
       "checkerId": "estadao-verifica",
