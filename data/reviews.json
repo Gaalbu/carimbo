@@ -1,7 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T14:30:37.428Z",
+  "generatedAt": "2026-11-04T19:13:40.578Z",
   "reviews": [
+    {
+      "id": "5fdfed1a859e3db3",
+      "checkerId": "aos-fatos",
+      "claimText": "Só na Bahia eles incluíram 2 milhões de votos depois das 17h. Aqui em São Paulo entrou seis pessoas",
+      "claimant": "desinformação",
+      "claimDate": "2026-11-04",
+      "reviewDate": "2026-11-04",
+      "reviewUrl": "https://www.aosfatos.org/noticias/bahia-votos-prorrogacao-do-segundo-turno/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/bahia-votos-prorrogacao-do-segundo-turno/",
+        "fetchedAt": "2026-11-04T19:13:31.560Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "d3ef89bdee7b75594531f57289706d79a49193d26cd0a326ff96d117d7de1cdb"
+      }
+    },
     {
       "id": "900b8efdb729c7e7",
       "checkerId": "estadao-verifica",
@@ -105,6 +126,27 @@
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "7ff4492f912e24aeb888c284932bb0b42cc44ce8667e01e78e5dbf79ff236186"
+      }
+    },
+    {
+      "id": "a497bc05957c6ef5",
+      "checkerId": "aos-fatos",
+      "claimText": "Daniel Vorcaro foi solto após término das eleições",
+      "claimant": "desinformação",
+      "claimDate": "2026-11-03",
+      "reviewDate": "2026-11-03",
+      "reviewUrl": "https://www.aosfatos.org/noticias/vorcaro-prisao-eleicoes-2026/",
+      "headline": null,
+      "textualRating": "falso",
+      "verdict": "false",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.aosfatos.org/noticias/vorcaro-prisao-eleicoes-2026/",
+        "fetchedAt": "2026-11-04T19:13:32.564Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "25ea7ba1f405de1efe7608a179e83afe128b7c1e67e0e9e03aa5b5e7d40416f1"
       }
     },
     {
