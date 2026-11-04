@@ -17,3 +17,6 @@ coverage/
 
 # Raw pages fetched by the worker: private, only for reprocessing (docs/PLANO.md §4.5)
 data/raw/
+
+# Transient worker lock; retained after crashes until manually inspected.
+data/.ingest.lock
