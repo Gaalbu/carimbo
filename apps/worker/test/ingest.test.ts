@@ -1,4 +1,4 @@
-import { mkdtemp, readFile, readdir } from 'node:fs/promises'
+import { mkdtemp, readFile, readdir, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 
@@ -103,6 +103,7 @@ describe('runIngest', () => {
       skipped: 0,
       fetched: 4,
       failed: 0,
+      discoveryFailures: 0,
       withoutClaimReview: 2,
       reviews: 2,
     })
@@ -131,6 +132,97 @@ describe('runIngest', () => {
     const refreshed = await runIngest({ ...OPTIONS, refresh: true }, deps)
     expect(fetcher.requested).toHaveLength(5)
     expect(refreshed.updated).toBe(2)
+  })
+
+  it('resumes after an interrupted page checkpoint without losing earlier reviews', async () => {
+    const { deps, stored } = setup()
+    let saves = 0
+    const saveStore = deps.saveStore
+    const interrupted = {
+      ...deps,
+      saveStore: async (store: ReviewStore) => {
+        if (++saves === 2) throw new Error('interrupted')
+        await saveStore(store)
+      },
+    }
+    await expect(runIngest(OPTIONS, interrupted)).rejects.toThrow('interrupted')
+    expect(stored().reviews).toHaveLength(1)
+    await runIngest(OPTIONS, deps)
+    expect(stored().reviews).toHaveLength(2)
+    expect(new Set(stored().reviews.map((review) => review.id)).size).toBe(2)
+  })
+
+  it('reopens durable checkpoints after interruption and resumes without duplicates', async () => {
+    const dir = await mkdtemp(join(tmpdir(), 'carimbo-resume-'))
+    const rawDir = join(dir, 'raw')
+    const storePath = join(dir, 'reviews.json')
+    const { deps } = setup()
+    let writes = 0
+    const diskDeps = {
+      ...deps,
+      rawStore: await openRawStore(rawDir),
+      loadStore: () => readStore(storePath),
+      saveStore: async (store: ReviewStore) => {
+        if (++writes === 2) throw new Error('interrupted')
+        await writeStore(storePath, store)
+      },
+    }
+    await expect(runIngest(OPTIONS, diskDeps)).rejects.toThrow('interrupted')
+    const resumed = {
+      ...diskDeps,
+      rawStore: await openRawStore(rawDir),
+      saveStore: (store: ReviewStore) => writeStore(storePath, store),
+    }
+    await runIngest(OPTIONS, resumed)
+    const reviews = (await readStore(storePath)).reviews
+    expect(reviews).toHaveLength(2)
+    expect(new Set(reviews.map((review) => review.id)).size).toBe(2)
+    expect((await openRawStore(rawDir)).getFetch('https://aos.test/falso/')).toBeDefined()
+  })
+
+  it('counts discovery failures', async () => {
+    const { deps } = setup()
+    const broken = {
+      ...SOURCES[0],
+      checkerId: 'aos-fatos',
+      status: 'active' as const,
+      backfill: null,
+      factCheckSite: null,
+      recent: [{ kind: 'rss' as const, url: 'https://missing.test/feed' }],
+    }
+    const summary = await runIngest(OPTIONS, { ...deps, sources: [broken] })
+    expect(summary.checkers['aos-fatos']?.discoveryFailures).toBe(1)
+  })
+
+  it('warns when Fact Check stops with a continuation token or partial error', async () => {
+    const { deps, log } = setup()
+    const source = {
+      ...SOURCES[0],
+      checkerId: 'aos-fatos',
+      status: 'active' as const,
+      backfill: null,
+      recent: [],
+      factCheckSite: 'aos.test',
+    }
+    let calls = 0
+    const factCheck = {
+      search: () => {
+        calls++
+        return Promise.resolve({
+          raw: '{}',
+          reviews: [],
+          nextPageToken: 'next',
+          requestUrl: 'https://api.test/',
+          fetchedAt: '2026-10-26T00:00:00Z',
+        })
+      },
+    }
+    await runIngest(OPTIONS, { ...deps, sources: [source], factCheck: factCheck as never })
+    expect(calls).toBe(10)
+    expect(log.lines.some((line) => /Fact Check.*truncad/i.test(line))).toBe(true)
+    factCheck.search = () => Promise.reject(new Error('quota'))
+    await runIngest(OPTIONS, { ...deps, sources: [source], factCheck: factCheck as never })
+    expect(log.lines.some((line) => /Fact Check.*parcial.*quota/i.test(line))).toBe(true)
   })
 
   it('respects --max-pages and --checker', async () => {
@@ -162,6 +254,12 @@ describe('checker sources', () => {
 })
 
 describe('store files', () => {
+  it('rejects a corrupt fetch index instead of silently starting over', async () => {
+    const dir = await mkdtemp(join(tmpdir(), 'carimbo-index-'))
+    await writeFile(join(dir, 'fetched.json'), '{broken')
+    await expect(openRawStore(dir)).rejects.toThrow()
+  })
+
   it('round-trips reviews.json and keeps raw pages gzipped with a fetch index', async () => {
     const dir = await mkdtemp(join(tmpdir(), 'carimbo-worker-'))
     const path = join(dir, 'reviews.json')

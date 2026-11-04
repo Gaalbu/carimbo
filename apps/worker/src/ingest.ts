@@ -47,6 +47,7 @@ export interface CheckerReport {
   skipped: number
   fetched: number
   failed: number
+  discoveryFailures: number
   withoutClaimReview: number
   reviews: number
 }
@@ -74,11 +75,6 @@ const MS_PER_DAY = 86_400_000
 export async function runIngest(options: IngestOptions, deps: IngestDeps): Promise<IngestSummary> {
   const { log } = deps
   let store = await deps.loadStore()
-  const known = new Set<string>()
-  for (const review of store.reviews) {
-    known.add(safeCanonical(review.reviewUrl))
-    known.add(safeCanonical(review.provenance.sourceUrl))
-  }
 
   const checkers: Record<string, CheckerReport> = {}
   const unknownRatings = new Map<string, number>()
@@ -120,21 +116,32 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
 
   const selected = selectCheckers(deps.sources ?? CHECKER_SOURCES, options.checkerIds, log)
 
-  await Promise.all(
+  const results = await Promise.allSettled(
     selected.map(async (checker) => {
       const report: CheckerReport = {
         candidates: 0,
         skipped: 0,
         fetched: 0,
         failed: 0,
+        discoveryFailures: 0,
         withoutClaimReview: 0,
         reviews: 0,
       }
       checkers[checker.checkerId] = report
-      const candidates = await pollSources(checker, deps.fetcher, { since: options.since }, log)
+      const candidates = await pollSources(
+        checker,
+        deps.fetcher,
+        {
+          since: options.since,
+          onFailure: () => {
+            report.discoveryFailures++
+          },
+        },
+        log,
+      )
       report.candidates = candidates.length
       const toFetch = candidates.filter((candidate) => {
-        const skip = !options.refresh && alreadySeen(candidate, known, deps.rawStore)
+        const skip = !options.refresh && alreadySeen(candidate, deps.rawStore)
         if (skip) report.skipped++
         return !skip
       })
@@ -143,7 +150,6 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
         `[${checker.checkerId}] ${String(candidates.length)} páginas listadas, ${String(report.skipped)} já vistas, ${String(limited.length)} a buscar`,
       )
 
-      const reviews: Review[] = []
       for (const candidate of limited) {
         let page
         try {
@@ -172,7 +178,8 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
         }
         if (pageReviews.length === 0) report.withoutClaimReview++
         pageReviews.forEach(noteUnknown)
-        reviews.push(...pageReviews)
+        await merge(pageReviews)
+        report.reviews += pageReviews.length
         deps.rawStore.recordFetch(canonicalUrl(candidate.url), {
           checkerId: checker.checkerId,
           fetchedAt: page.fetchedAt,
@@ -180,19 +187,19 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
           rawSha256,
           reviewIds: pageReviews.map((review) => review.id),
         })
+        await deps.rawStore.flush()
       }
-      report.reviews = reviews.length
-      await merge(reviews)
       log.info(
         `[${checker.checkerId}] ${String(report.fetched)} buscadas, ${String(report.reviews)} checagens, ${String(report.withoutClaimReview)} sem ClaimReview, ${String(report.failed)} falhas`,
       )
     }),
   )
 
+  const failure = results.find((result) => result.status === 'rejected')
+  if (failure?.status === 'rejected') throw failure.reason
+
   if (deps.factCheck) {
-    const apiReviews = await pollFactCheckApi(deps.factCheck, options, deps, noteUnknown)
-    // The checker's own page is the primary source; the API only fills gaps.
-    await merge(apiReviews, true)
+    await pollFactCheckApi(deps.factCheck, options, deps, noteUnknown, merge)
   }
   await saving
 
@@ -224,13 +231,9 @@ function selectCheckers(
   return sources.filter((source) => source.status === 'active')
 }
 
-function alreadySeen(
-  candidate: Candidate,
-  known: ReadonlySet<string>,
-  rawStore: RawStore,
-): boolean {
+function alreadySeen(candidate: Candidate, rawStore: RawStore): boolean {
   const url = safeCanonical(candidate.url)
-  return known.has(url) || rawStore.getFetch(url) !== undefined
+  return rawStore.getFetch(url) !== undefined
 }
 
 function safeCanonical(url: string): string {
@@ -247,7 +250,8 @@ async function pollFactCheckApi(
   options: IngestOptions,
   deps: IngestDeps,
   noteUnknown: (review: Review) => void,
-): Promise<Review[]> {
+  merge: (reviews: readonly Review[], keepExisting?: boolean) => Promise<void>,
+): Promise<void> {
   const sources = (deps.sources ?? CHECKER_SOURCES).filter(
     (source) =>
       source.factCheckSite !== null &&
@@ -257,47 +261,55 @@ async function pollFactCheckApi(
     options.since === null
       ? FACTCHECK_DEFAULT_MAX_AGE_DAYS
       : Math.max(1, Math.ceil((deps.now().getTime() - Date.parse(options.since)) / MS_PER_DAY))
-  const reviews: Review[] = []
   for (const source of sources) {
     const site = source.factCheckSite
     if (site === null) continue
     let pageToken: string | undefined
     for (let page = 0; page < FACTCHECK_MAX_PAGES; page++) {
+      let result
       try {
-        const result = await client.search({
+        result = await client.search({
           reviewPublisherSiteFilter: site,
           maxAgeDays,
           pageSize: FACTCHECK_PAGE_SIZE,
           ...(pageToken === undefined ? {} : { pageToken }),
         })
-        const rawSha256 = sha256Hex(result.raw)
-        await deps.rawStore.saveRaw(
-          source.checkerId,
-          rawSha256,
-          new TextEncoder().encode(result.raw),
-          'json',
-        )
-        for (const extracted of result.reviews) {
-          const review = buildReview(extracted, {
-            checkerId: source.checkerId,
-            provenance: {
-              sourceUrl: result.requestUrl,
-              fetchedAt: result.fetchedAt,
-              method: 'factcheck_api',
-              parserVersion: FACTCHECK_API_PARSER_VERSION,
-              rawSha256,
-            },
-          })
-          noteUnknown(review)
-          reviews.push(review)
-        }
-        if (result.nextPageToken === null) break
-        pageToken = result.nextPageToken
       } catch (error) {
-        deps.log.warn(`[${source.checkerId}] Fact Check API falhou: ${describeError(error)}`)
+        deps.log.warn(
+          `[${source.checkerId}] Fact Check API resultado parcial: ${describeError(error)}`,
+        )
         break
       }
+      const reviews: Review[] = []
+      const rawSha256 = sha256Hex(result.raw)
+      await deps.rawStore.saveRaw(
+        source.checkerId,
+        rawSha256,
+        new TextEncoder().encode(result.raw),
+        'json',
+      )
+      for (const extracted of result.reviews) {
+        const review = buildReview(extracted, {
+          checkerId: source.checkerId,
+          provenance: {
+            sourceUrl: result.requestUrl,
+            fetchedAt: result.fetchedAt,
+            method: 'factcheck_api',
+            parserVersion: FACTCHECK_API_PARSER_VERSION,
+            rawSha256,
+          },
+        })
+        noteUnknown(review)
+        reviews.push(review)
+      }
+      await merge(reviews, true)
+      if (result.nextPageToken === null) break
+      if (page === FACTCHECK_MAX_PAGES - 1) {
+        deps.log.warn(
+          `[${source.checkerId}] Fact Check API truncada após ${String(FACTCHECK_MAX_PAGES)} páginas; resultado parcial`,
+        )
+      }
+      pageToken = result.nextPageToken
     }
   }
-  return reviews
 }

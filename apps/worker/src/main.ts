@@ -67,7 +67,9 @@ const stderrLog: Logger = {
 }
 
 export function formatSummary(summary: IngestSummary): string {
-  const lines = ['checador\tlistadas\tjá vistas\tbuscadas\tsem ClaimReview\tfalhas\tchecagens']
+  const lines = [
+    'checador\tlistadas\tjá vistas\tbuscadas\tsem ClaimReview\tfalhas\tfalhas de descoberta\tchecagens',
+  ]
   for (const [id, report] of Object.entries(summary.checkers)) {
     lines.push(
       [
@@ -77,6 +79,7 @@ export function formatSummary(summary: IngestSummary): string {
         report.fetched,
         report.withoutClaimReview,
         report.failed,
+        report.discoveryFailures,
         report.reviews,
       ].join('\t'),
     )
