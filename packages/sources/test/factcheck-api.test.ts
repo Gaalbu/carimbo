@@ -25,6 +25,14 @@ const RESPONSE = {
 }
 
 describe('FactCheckApiClient', () => {
+  it('treats an empty pagination token as the end of results', async () => {
+    const client = new FactCheckApiClient({
+      apiKey: 'x',
+      fetch: () => Promise.resolve(new Response(JSON.stringify({ nextPageToken: '' }))),
+    })
+    expect((await client.search({ query: 'urna' })).nextPageToken).toBeNull()
+  })
+
   it('searches in Portuguese, sends the key in a header and maps reviews', async () => {
     const seen: { url: string; key: string | null }[] = []
     const fakeFetch: typeof fetch = (input, init) => {

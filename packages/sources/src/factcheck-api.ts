@@ -109,7 +109,7 @@ export class FactCheckApiClient {
       reviews: parsed.claims.flatMap((claim) =>
         claim.claimReview.map((review) => toReview(claim, review)),
       ),
-      nextPageToken: parsed.nextPageToken ?? null,
+      nextPageToken: parsed.nextPageToken === '' ? null : (parsed.nextPageToken ?? null),
       raw,
       requestUrl: url.href,
       fetchedAt: new Date(this.now()).toISOString(),
