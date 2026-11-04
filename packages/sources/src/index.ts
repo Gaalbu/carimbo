@@ -24,6 +24,12 @@ export {
   type PoliteFetcherOptions,
 } from './http.js'
 export { hasType, nodeTypes, scanJsonLd, type JsonLdNode, type JsonLdScan } from './jsonld.js'
-export { buildReview, reviewIdFor, sha256Hex, type ReviewOrigin } from './review.js'
+export {
+  buildReview,
+  reconcileReviewIdentities,
+  reviewIdFor,
+  sha256Hex,
+  type ReviewOrigin,
+} from './review.js'
 export { parseRobots, productToken, type RobotsRules } from './robots.js'
 export { parseSitemap, SitemapFormatError, type Sitemap, type SitemapEntry } from './sitemap.js'

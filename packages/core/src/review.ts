@@ -22,7 +22,8 @@ export interface Provenance {
 export interface Review {
   /**
    * Stable id: first 16 hex chars of SHA-256 of `reviewUrl`; for the 2nd+ review of a page that
-   * shares one URL, of `reviewUrl + "\n" + claimText`.
+   * shares one URL, of `reviewUrl + "\n" + claimText`. These legacy IDs depend on extraction
+   * order. Reconciliation must preserve stored IDs; newer IDs may use a versioned identity key.
    */
   readonly id: string
   /** Key into the checker catalog (`FactChecker.id`). */

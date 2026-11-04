@@ -3,7 +3,6 @@ import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 
 import { CHECKER_IDS, RATING_MAP_VERSION, type ReviewStore } from '@carimbo/core'
-import { reviewIdFor } from '@carimbo/sources'
 import { describe, expect, it } from 'vitest'
 
 import { CHECKER_SOURCES, type CheckerSource } from '../src/checkers.js'
@@ -76,6 +75,30 @@ function setup(initial: ReviewStore = storeOf([])) {
 }
 
 describe('runIngest', () => {
+  it('keeps each claim linked to its original id when a page reorders its reviews', async () => {
+    const { deps, stored } = setup()
+    const block = (text: string) => ({
+      '@type': 'ClaimReview',
+      claimReviewed: text,
+      reviewRating: { alternateName: 'Falso' },
+    })
+    const url = 'https://aos.test/multiplas/'
+    const pages = (first: string, second: string) =>
+      fakeFetcher({
+        'https://aos.test/feed/': rss(url),
+        [url]: claimReviewPage(block(first), block(second)),
+      })
+    await runIngest(OPTIONS, { ...deps, fetcher: pages('A', 'B') })
+    const original = Object.fromEntries(
+      stored().reviews.map((review) => [review.claimText, review.id]),
+    )
+    await runIngest({ ...OPTIONS, refresh: true }, { ...deps, fetcher: pages('B', 'A') })
+    expect(stored().reviews).toHaveLength(2)
+    expect(
+      Object.fromEntries(stored().reviews.map((review) => [review.claimText, review.id])),
+    ).toEqual(original)
+  })
+
   it('ingests active checkers, logging unknown ratings and parse failures', async () => {
     const { deps, fetcher, rawStore, log, stored } = setup()
 
@@ -88,7 +111,7 @@ describe('runIngest', () => {
       ['https://aos.test/subestimado/', 'unknown'],
     ])
     expect(stored().reviews[0]).toMatchObject({
-      id: reviewIdFor('https://aos.test/falso/'),
+      id: expect.stringMatching(/^[0-9a-f]{16}$/) as unknown,
       checkerId: 'aos-fatos',
       claimant: 'desinformação',
       claimDate: '2026-10-22',

@@ -3,6 +3,7 @@ import {
   buildReview,
   type FactCheckApiClient,
   FACTCHECK_API_PARSER_VERSION,
+  reconcileReviewIdentities,
   sha256Hex,
 } from '@carimbo/sources'
 
@@ -86,7 +87,8 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
   let saving = Promise.resolve()
   const merge = (incoming: readonly Review[], keepExisting = false): Promise<void> => {
     saving = saving.then(async () => {
-      const result = dedupe(store.reviews, incoming, { keepExisting })
+      const resolved = reconcileReviewIdentities(incoming, store.reviews)
+      const result = dedupe(store.reviews, resolved, { keepExisting })
       added += result.added
       updated += result.updated
       for (const change of result.ratingChanges) {
@@ -185,7 +187,9 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
           fetchedAt: page.fetchedAt,
           finalUrl: page.finalUrl,
           rawSha256,
-          reviewIds: pageReviews.map((review) => review.id),
+          reviewIds: reconcileReviewIdentities(pageReviews, store.reviews).map(
+            (review) => review.id,
+          ),
         })
         await deps.rawStore.flush()
       }
