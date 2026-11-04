@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T06:13:53.449Z",
+  "generatedAt": "2026-11-04T14:30:37.428Z",
   "reviews": [
+    {
+      "id": "900b8efdb729c7e7",
+      "checkerId": "estadao-verifica",
+      "claimText": "Vídeo mostra urna votando sozinha durante a prorrogação do horário de votação",
+      "claimant": "Redes Sociais",
+      "claimDate": "2026-11-04",
+      "reviewDate": "2026-11-04",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/video-falha-urna-eletronica-votando-sozinha-2014/",
+      "headline": "Vídeo mostra falha em urna eletrônica em 2014, e não máquina votando sozinha",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-falha-urna-eletronica-votando-sozinha-2014/",
+        "fetchedAt": "2026-11-04T14:30:22.947Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "625cce71ac52a519abb539ac68724e50d456e716a38e8c7e79a71c7d736bfca7"
+      }
+    },
+    {
+      "id": "b12a81f189c39503",
+      "checkerId": "estadao-verifica",
+      "claimText": "Bahia tem 23 municípios com mais eleitores que habitantes, o que indica fraude do PT",
+      "claimant": "Boato nas redes sociais",
+      "claimDate": "2026-11-04",
+      "reviewDate": "2026-11-04",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/bahia-tem-23-municipios-com-mais-eleitores-que-habitantes-fraude-petista-enganoso/",
+      "headline": "Existência de municípios com mais eleitores do que habitantes não é indício de fraude",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/bahia-tem-23-municipios-com-mais-eleitores-que-habitantes-fraude-petista-enganoso/",
+        "fetchedAt": "2026-11-04T14:30:23.862Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "355f324a2f63b16ebe9523dea4cd23aa183fbf0c39d503bfc584a4001e4acf14"
+      }
+    },
     {
       "id": "3af20760532ab394",
       "checkerId": "estadao-verifica",
@@ -164,7 +206,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lei-restringe-auxilio-reclusao-sancionada-marco/",
-        "fetchedAt": "2026-11-04T06:13:50.291Z",
+        "fetchedAt": "2026-11-04T14:30:34.170Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "f7ee4e8cf118c32d3c1ffbdbdcb06fd0897bacd6ecb0d8740ddfc044c7e9e3f0"
@@ -290,7 +332,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
-        "fetchedAt": "2026-11-04T06:13:53.443Z",
+        "fetchedAt": "2026-11-04T14:30:37.421Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "5ed59c3b5379b98805ad64e73b1da7409a986248d3915aaa89f70e398c2d19cb"
@@ -311,7 +353,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-protesto-professores-setembro/",
-        "fetchedAt": "2026-11-04T06:13:44.437Z",
+        "fetchedAt": "2026-11-04T14:30:28.173Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "2077778f3bb0d840ec595d85b3dfa32ad59e1f51e3f585a7c6212505f705bda9"
@@ -332,7 +374,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-corte-670-mil-bpc/",
-        "fetchedAt": "2026-11-04T06:13:51.301Z",
+        "fetchedAt": "2026-11-04T14:30:35.166Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "c9b55f35d5702ac92816920d2530a61ab0c5e30ae8d0752d9f8f65fbc3444442"
@@ -353,7 +395,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
-        "fetchedAt": "2026-11-04T06:13:53.443Z",
+        "fetchedAt": "2026-11-04T14:30:37.421Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "5ed59c3b5379b98805ad64e73b1da7409a986248d3915aaa89f70e398c2d19cb"
@@ -374,7 +416,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-nao-mostra-urna-registrando-votos-sozinha/",
-        "fetchedAt": "2026-11-04T06:13:47.292Z",
+        "fetchedAt": "2026-11-04T14:30:31.291Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "f5824817f9b91da1f7871de055e0c9e25ca0ffdeebf62cb360d086279510cf2d"
@@ -395,7 +437,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
-        "fetchedAt": "2026-11-04T06:13:53.443Z",
+        "fetchedAt": "2026-11-04T14:30:37.421Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "5ed59c3b5379b98805ad64e73b1da7409a986248d3915aaa89f70e398c2d19cb"
@@ -416,7 +458,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/relatorio-fraude-eleitoral-distorce-dados-omite-fatos/",
-        "fetchedAt": "2026-11-04T06:13:53.443Z",
+        "fetchedAt": "2026-11-04T14:30:37.421Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "5ed59c3b5379b98805ad64e73b1da7409a986248d3915aaa89f70e398c2d19cb"
@@ -500,7 +542,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/soma-votos-tres-secoes-ba-nao-comprova-fraude/",
-        "fetchedAt": "2026-11-04T06:13:42.317Z",
+        "fetchedAt": "2026-11-04T14:30:26.173Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "b78a2bba9df6652a7af0fca9d9f11dae0c926846bc027d2f27e5194eb08dedfe"
@@ -563,7 +605,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-5000-mas-so-vai-pagar-363-pix-mei/",
-        "fetchedAt": "2026-11-04T06:13:46.291Z",
+        "fetchedAt": "2026-11-04T14:30:30.171Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "1886727b3be1b30b450cb81a89671147c9cf0d29fe8f843ce409986617363a3d"
@@ -605,7 +647,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-165-mil-votos-origem-nao-identificada/",
-        "fetchedAt": "2026-11-04T06:13:52.292Z",
+        "fetchedAt": "2026-11-04T14:30:36.168Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "91c7bb2dddc7bd87132ef219272adf8d0ed3c1391ef7b72032d995a1b150bacc"
@@ -626,7 +668,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/noticia-cortes-bolsa-familia-2023/",
-        "fetchedAt": "2026-11-04T06:13:49.292Z",
+        "fetchedAt": "2026-11-04T14:30:33.174Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "9034860a4f3719fd88432680719043c98b71335f7fcc7edb1bb595122905294c"
@@ -647,7 +689,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-lula-pagamento-dezembro-gas-do-povo/",
-        "fetchedAt": "2026-11-04T06:13:48.291Z",
+        "fetchedAt": "2026-11-04T14:30:32.171Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "ae2075b50f5bfbdec101fbdb9b7fe13f0bbe060c32a4c1a763729ca368f706b8"
