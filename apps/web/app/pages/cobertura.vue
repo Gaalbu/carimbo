@@ -19,6 +19,11 @@ usePageSeo({
         método de coleta. Onde não há dado, a tabela diz “sem cobertura”: nenhum número é estimado
         nem preenchido com zero.
       </p>
+      <p>
+        Os números representam apenas o que já foi indexado. Mesmo onde há registros, a coleta
+        histórica pode estar incompleta; as quantidades não indicam o total publicado pelos
+        checadores.
+      </p>
     </div>
 
     <StateMessage v-if="error" kind="error" title="A tabela de cobertura não carregou agora.">
