@@ -36,6 +36,7 @@ export interface CheckerSource {
 
 const DAY_IN_URL = /\/(\d{4}-\d{2}-\d{2})\//
 const MONTH_IN_FILE = /\.(\d{4})(\d{2})\.xml$/
+const ARCHIVED_YEAR_IN_FILE = /sitemap-posttype-archived-answer\.(\d{4})\.xml$/
 
 /** Estadão splits its sitemap by day: `/sitemap/2026-10-20/?outputType=xml`. */
 function dayOnOrAfter(loc: string, since: string): boolean {
@@ -46,7 +47,10 @@ function dayOnOrAfter(loc: string, since: string): boolean {
 /** Comprova splits by month: `sitemap-posttype-answer-french.202610.xml`. */
 function monthOnOrAfter(loc: string, since: string): boolean {
   const match = MONTH_IN_FILE.exec(loc)
-  if (match === null) return false
+  if (match === null) {
+    const archived = ARCHIVED_YEAR_IN_FILE.exec(loc)?.[1]
+    return archived !== undefined && archived >= since.slice(0, 4)
+  }
   return `${match[1] ?? ''}-${match[2] ?? ''}` >= since.slice(0, 'YYYY-MM'.length)
 }
 
@@ -96,7 +100,8 @@ export const CHECKER_SOURCES: readonly CheckerSource[] = [
     backfill: {
       indexUrl: 'https://projetocomprova.com.br/sitemap.xml',
       includeChild: monthOnOrAfter,
-      includePage: pathStartsWith('/publica%C3%A7%C3%B5es/'),
+      includePage: (loc) =>
+        pathStartsWith('/publica%C3%A7%C3%B5es/')(loc) || pathStartsWith('/post/')(loc),
     },
     factCheckSite: 'projetocomprova.com.br',
   },
