@@ -11,3 +11,11 @@ Plano e critérios completos: [plan.md](plan.md). Registrar evidências e falhas
 - [ ] **7. Google e Wayback:** investigar paginação, limites e snapshots reais; chave Google é pré-requisito do teste da API. Carga depende de 2–3.
 - [ ] **8. Cobertura:** expor estado, universo conhecido, falhas e origem por fonte × ano, sem tratar lacuna como zero. Depende de 1–7 conforme cada fonte for concluída.
 - [ ] **9. Fechamento:** auditoria de até 20 registros por fonte × eleição, testes/build, commits pequenos e push; documentar o que ainda não pôde ser coberto.
+
+## Progresso — 04/11/2026
+
+- Inventário inicial e ensaios de arquivo: [S6](../docs/spikes/S6-inventario-historico.md) e [S7](../docs/spikes/S7-arquivos.md); permanecem anos, layouts e universos não investigados.
+- Páginas não são descartadas só pelo `lastmod`; falhas de listagem têm contagem; o worker salva avaliações após cada página e não trata índice bruto corrompido como vazio. Falta manifesto completo e exclusão mútua entre processos.
+- A reconciliação preserva IDs já existentes ao reordenar alegações de uma página, sem presumir equivalência quando o texto muda; mudanças na avaliação passam a ser mantidas no arquivo de dados. Ainda falta avaliar migração ou resolução de divergências históricas e persistência dos brutos em runners efêmeros.
+- [S8](../docs/spikes/S8-g1.md) registra os obstáculos da investigação do g1; nenhum parser foi atribuído sem amostra verificável.
+- [S9](../docs/spikes/S9-auditoria-amostral.md) registra conferência automatizada de 61 amostras e 87 com brutos locais indisponíveis. Não substitui a revisão humana por amostra.
