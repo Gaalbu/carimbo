@@ -168,8 +168,8 @@ describe('runIngest', () => {
     fetcher.requested.length = 0
 
     const again = await runIngest(OPTIONS, deps)
-    expect(fetcher.requested).toEqual(['https://aos.test/feed/'])
-    expect(again.checkers['aos-fatos']?.skipped).toBe(4)
+    expect(fetcher.requested).toEqual(['https://aos.test/feed/', 'https://aos.test/quebrada/'])
+    expect(again.checkers['aos-fatos']?.skipped).toBe(3)
     expect(again.added).toBe(0)
 
     fetcher.requested.length = 0
@@ -234,8 +234,20 @@ describe('runIngest', () => {
       factCheckSite: null,
       recent: [{ kind: 'rss' as const, url: 'https://missing.test/feed' }],
     }
-    const summary = await runIngest(OPTIONS, { ...deps, sources: [broken] })
+    const summary = await runIngest(OPTIONS, {
+      ...deps,
+      sources: [broken],
+      fetcher: { get: () => Promise.reject(new Error('HTTP 403')) },
+    })
     expect(summary.checkers['aos-fatos']?.discoveryFailures).toBe(1)
+    expect(deps.rawStore.getManifest().entries).toContainEqual(
+      expect.objectContaining({
+        kind: 'discovery',
+        status: 'failed',
+        url: 'https://missing.test/feed',
+        diagnostics: [expect.stringContaining('403')],
+      }),
+    )
   })
 
   it('warns when Fact Check stops with a continuation token or partial error', async () => {
@@ -264,9 +276,20 @@ describe('runIngest', () => {
     await runIngest(OPTIONS, { ...deps, sources: [source], factCheck: factCheck as never })
     expect(calls).toBe(10)
     expect(log.lines.some((line) => /Fact Check.*truncad/i.test(line))).toBe(true)
+    expect(deps.rawStore.getManifest().runs.some((run) => run.truncated)).toBe(true)
+    expect(deps.rawStore.getManifest().entries).toContainEqual(
+      expect.objectContaining({ url: 'factcheck-api://aos.test/', status: 'discovered' }),
+    )
     factCheck.search = () => Promise.reject(new Error('quota'))
     await runIngest(OPTIONS, { ...deps, sources: [source], factCheck: factCheck as never })
     expect(log.lines.some((line) => /Fact Check.*parcial.*quota/i.test(line))).toBe(true)
+    expect(deps.rawStore.getManifest().entries).toContainEqual(
+      expect.objectContaining({
+        url: 'factcheck-api://aos.test/',
+        status: 'failed',
+        diagnostics: ['quota'],
+      }),
+    )
   })
 
   it('respects --max-pages and --checker', async () => {
@@ -298,6 +321,55 @@ describe('checker sources', () => {
 })
 
 describe('store files', () => {
+  it('keeps simultaneous checker updates in the persistent manifest', async () => {
+    const dir = await mkdtemp(join(tmpdir(), 'carimbo-concurrent-'))
+    const rawStore = await openRawStore(dir)
+    const { deps } = setup()
+    await runIngest({ ...OPTIONS, checkerIds: ['aos-fatos', 'lupa'] }, { ...deps, rawStore })
+    const manifest = (await openRawStore(dir)).getManifest()
+    expect(new Set(manifest.runs.map((run) => run.checkerId))).toEqual(
+      new Set(['aos-fatos', 'lupa']),
+    )
+    expect(
+      manifest.entries.some((entry) => entry.checkerId === 'lupa' && entry.kind === 'page'),
+    ).toBe(true)
+    expect(manifest.entries.find((entry) => entry.url.endsWith('/quebrada/'))).toMatchObject({
+      status: 'failed',
+      diagnostics: [expect.stringContaining('JSON-LD')],
+    })
+    expect(manifest.runs.find((run) => run.checkerId === 'aos-fatos')?.parseFailures).toBe(1)
+  })
+  it('persists concurrent manifest updates and retries failed or pending pages on resume', async () => {
+    const dir = await mkdtemp(join(tmpdir(), 'carimbo-manifest-'))
+    const rawStore = await openRawStore(dir)
+    const { deps } = setup()
+    const firstFetcher = fakeFetcher({
+      'https://aos.test/feed/': rss('https://aos.test/ok/', 'https://aos.test/blocked/'),
+      'https://aos.test/ok/': PAGES['https://aos.test/falso/'],
+    })
+    const get = firstFetcher.get.bind(firstFetcher)
+    firstFetcher.get = (url) =>
+      url.includes('blocked') ? Promise.reject(new Error('HTTP 403')) : get(url)
+    const options = { ...OPTIONS, since: '2020-01-01', maxPages: 1 }
+    await runIngest(options, { ...deps, rawStore, fetcher: firstFetcher })
+    let manifest = (await openRawStore(dir)).getManifest()
+    expect(
+      manifest.entries.some(
+        (entry) => entry.url.endsWith('/blocked/') && entry.status === 'discovered',
+      ),
+    ).toBe(true)
+    expect(manifest.runs[0]).toMatchObject({ since: '2020-01-01', truncated: true })
+    const resumed = await openRawStore(dir)
+    await runIngest(
+      { ...options, maxPages: null },
+      { ...deps, rawStore: resumed, fetcher: firstFetcher },
+    )
+    manifest = (await openRawStore(dir)).getManifest()
+    expect(manifest.entries.find((entry) => entry.url.endsWith('/blocked/'))).toMatchObject({
+      status: 'failed',
+      diagnostics: ['HTTP 403'],
+    })
+  })
   it('rejects a corrupt fetch index instead of silently starting over', async () => {
     const dir = await mkdtemp(join(tmpdir(), 'carimbo-index-'))
     await writeFile(join(dir, 'fetched.json'), '{broken')

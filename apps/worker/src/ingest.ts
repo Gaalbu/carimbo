@@ -9,7 +9,6 @@ import {
 
 import { CHECKER_SOURCES, type CheckerSource } from './checkers.js'
 import {
-  type Candidate,
   canonicalUrl,
   dedupe,
   describeError,
@@ -19,7 +18,7 @@ import {
   type PageFetcher,
   pollSources,
 } from './queues.js'
-import type { RawStore } from './raw-store.js'
+import type { ManifestEntry, ManifestRun, RawStore } from './raw-store.js'
 import { recordRatingChanges } from './rating-history.js'
 
 export interface IngestOptions {
@@ -135,24 +134,100 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
         reviews: 0,
       }
       checkers[checker.checkerId] = report
-      const candidates = await pollSources(
+      let run: ManifestRun = {
+        id: crypto.randomUUID(),
+        checkerId: checker.checkerId,
+        since: options.since,
+        startedAt: deps.now().toISOString(),
+        status: 'running',
+        maxPages: options.maxPages,
+        truncated: false,
+        parseFailures: 0,
+        discoveryFailures: 0,
+      }
+      const record = (
+        url: string,
+        kind: ManifestEntry['kind'],
+        status: ManifestEntry['status'],
+        diagnostics: readonly string[] = [],
+      ): void => {
+        deps.rawStore.recordManifestEntry({
+          checkerId: checker.checkerId,
+          since: options.since,
+          url: safeCanonical(url),
+          kind,
+          status,
+          diagnostics,
+          updatedAt: deps.now().toISOString(),
+        })
+      }
+      deps.rawStore.recordManifestRun(run)
+      await deps.rawStore.flush()
+      const discovered = await pollSources(
         checker,
-        deps.fetcher,
+        {
+          get: async (url) => {
+            const page = await deps.fetcher.get(url)
+            record(url, 'discovery', 'processed')
+            return page
+          },
+        },
         {
           since: options.since,
-          onFailure: () => {
+          onFailure: (url, error) => {
             report.discoveryFailures++
+            record(url, 'discovery', 'failed', [describeError(error)])
           },
         },
         log,
       )
+      const existingPages = new Map(
+        deps.rawStore
+          .getManifest()
+          .entries.filter(
+            (entry) =>
+              entry.checkerId === checker.checkerId &&
+              entry.since === options.since &&
+              entry.kind === 'page',
+          )
+          .map((entry) => [entry.url, entry]),
+      )
+      const pending = [...existingPages.values()].filter(
+        (entry) => entry.status === 'discovered' || entry.status === 'failed',
+      )
+      const candidates = [...discovered]
+      const urls = new Set(candidates.map((candidate) => safeCanonical(candidate.url)))
+      for (const entry of pending) {
+        if (!urls.has(entry.url))
+          candidates.push({
+            checkerId: checker.checkerId,
+            url: entry.url,
+            via: 'sitemap',
+            listedAt: null,
+          })
+      }
       report.candidates = candidates.length
       const toFetch = candidates.filter((candidate) => {
-        const skip = !options.refresh && alreadySeen(candidate, deps.rawStore)
+        const existing = existingPages.get(safeCanonical(candidate.url))
+        const skip =
+          !options.refresh &&
+          (existing?.status === 'processed' || existing?.status === 'without_markup')
         if (skip) report.skipped++
+        if (existing === undefined) record(candidate.url, 'page', skip ? 'processed' : 'discovered')
         return !skip
       })
       const limited = options.maxPages === null ? toFetch : toFetch.slice(0, options.maxPages)
+      run = {
+        ...run,
+        truncated: limited.length < toFetch.length,
+        discoveryFailures: report.discoveryFailures,
+      }
+      if (run.truncated)
+        log.warn(
+          `[${checker.checkerId}] resultado parcial: limite --max-pages deixou ${String(toFetch.length - limited.length)} páginas pendentes`,
+        )
+      deps.rawStore.recordManifestRun(run)
+      await deps.rawStore.flush()
       log.info(
         `[${checker.checkerId}] ${String(candidates.length)} páginas listadas, ${String(report.skipped)} já vistas, ${String(limited.length)} a buscar`,
       )
@@ -163,6 +238,8 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
           page = await deps.fetcher.get(candidate.url)
         } catch (error) {
           report.failed++
+          record(candidate.url, 'page', 'failed', [describeError(error)])
+          await deps.rawStore.flush()
           log.warn(
             `[${checker.checkerId}] falha ao buscar ${candidate.url}: ${describeError(error)}`,
           )
@@ -173,6 +250,7 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
         await deps.rawStore.saveRaw(checker.checkerId, rawSha256, page.body, 'html')
 
         const extraction = extract(page)
+        run = { ...run, parseFailures: run.parseFailures + extraction.errors.length }
         for (const message of extraction.errors) {
           parseFailures++
           log.warn(`[${checker.checkerId}] falha de leitura em ${page.finalUrl}: ${message}`)
@@ -187,17 +265,32 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
         pageReviews.forEach(noteUnknown)
         await merge(pageReviews)
         report.reviews += pageReviews.length
-        deps.rawStore.recordFetch(canonicalUrl(candidate.url), {
-          checkerId: checker.checkerId,
-          fetchedAt: page.fetchedAt,
-          finalUrl: page.finalUrl,
-          rawSha256,
-          reviewIds: reconcileReviewIdentities(pageReviews, store.reviews).map(
-            (review) => review.id,
-          ),
-        })
+        if (extraction.errors.length === 0)
+          deps.rawStore.recordFetch(canonicalUrl(candidate.url), {
+            checkerId: checker.checkerId,
+            fetchedAt: page.fetchedAt,
+            finalUrl: page.finalUrl,
+            rawSha256,
+            reviewIds: reconcileReviewIdentities(pageReviews, store.reviews).map(
+              (review) => review.id,
+            ),
+          })
+        record(
+          candidate.url,
+          'page',
+          extraction.errors.length > 0
+            ? 'failed'
+            : pageReviews.length === 0
+              ? 'without_markup'
+              : 'processed',
+          extraction.errors,
+        )
+        deps.rawStore.recordManifestRun(run)
         await deps.rawStore.flush()
       }
+      run = { ...run, status: 'finished' }
+      deps.rawStore.recordManifestRun(run)
+      await deps.rawStore.flush()
       log.info(
         `[${checker.checkerId}] ${String(report.fetched)} buscadas, ${String(report.reviews)} checagens, ${String(report.withoutClaimReview)} sem ClaimReview, ${String(report.failed)} falhas`,
       )
@@ -240,11 +333,6 @@ function selectCheckers(
   return sources.filter((source) => source.status === 'active')
 }
 
-function alreadySeen(candidate: Candidate, rawStore: RawStore): boolean {
-  const url = safeCanonical(candidate.url)
-  return rawStore.getFetch(url) !== undefined
-}
-
 function safeCanonical(url: string): string {
   try {
     return canonicalUrl(url)
@@ -273,6 +361,35 @@ async function pollFactCheckApi(
   for (const source of sources) {
     const site = source.factCheckSite
     if (site === null) continue
+    let run: ManifestRun = {
+      id: crypto.randomUUID(),
+      checkerId: source.checkerId,
+      since: options.since,
+      startedAt: deps.now().toISOString(),
+      status: 'running',
+      maxPages: FACTCHECK_MAX_PAGES,
+      truncated: false,
+      parseFailures: 0,
+      discoveryFailures: 0,
+    }
+    const apiUrl = `factcheck-api://${site}/`
+    const saveApiState = async (
+      status: ManifestEntry['status'],
+      diagnostics: readonly string[] = [],
+    ): Promise<void> => {
+      deps.rawStore.recordManifestEntry({
+        checkerId: source.checkerId,
+        since: options.since,
+        url: apiUrl,
+        kind: 'discovery',
+        status,
+        diagnostics,
+        updatedAt: deps.now().toISOString(),
+      })
+      deps.rawStore.recordManifestRun(run)
+      await deps.rawStore.flush()
+    }
+    await saveApiState('discovered')
     let pageToken: string | undefined
     for (let page = 0; page < FACTCHECK_MAX_PAGES; page++) {
       let result
@@ -284,6 +401,8 @@ async function pollFactCheckApi(
           ...(pageToken === undefined ? {} : { pageToken }),
         })
       } catch (error) {
+        run = { ...run, discoveryFailures: run.discoveryFailures + 1, status: 'finished' }
+        await saveApiState('failed', [describeError(error)])
         deps.log.warn(
           `[${source.checkerId}] Fact Check API resultado parcial: ${describeError(error)}`,
         )
@@ -314,11 +433,19 @@ async function pollFactCheckApi(
       await merge(reviews, true)
       if (result.nextPageToken === null) break
       if (page === FACTCHECK_MAX_PAGES - 1) {
+        run = { ...run, truncated: true }
         deps.log.warn(
           `[${source.checkerId}] Fact Check API truncada após ${String(FACTCHECK_MAX_PAGES)} páginas; resultado parcial`,
         )
       }
       pageToken = result.nextPageToken
+    }
+    if (run.status !== 'finished') {
+      run = { ...run, status: 'finished' }
+      await saveApiState(
+        run.truncated ? 'discovered' : 'processed',
+        run.truncated ? ['Fact Check API: limite de páginas atingido'] : [],
+      )
     }
   }
 }

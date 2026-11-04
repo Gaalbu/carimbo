@@ -2,7 +2,7 @@ import type { Review, ReviewStore } from '@carimbo/core'
 import type { FetchedResource } from '@carimbo/sources'
 
 import type { Logger, PageFetcher } from '../src/queues.js'
-import type { FetchRecord, RawStore } from '../src/raw-store.js'
+import type { FetchRecord, ManifestEntry, ManifestRun, RawStore } from '../src/raw-store.js'
 
 export const FETCHED_AT = '2026-10-26T12:00:00.000Z'
 
@@ -37,6 +37,8 @@ export function resource(url: string, text: string): FetchedResource {
 export function memoryRawStore(): RawStore & { readonly saved: string[] } {
   const index = new Map<string, FetchRecord>()
   const saved: string[] = []
+  const entries: ManifestEntry[] = []
+  const runs: ManifestRun[] = []
   return {
     saved,
     saveRaw(checkerId, rawSha256, _body, extension) {
@@ -46,6 +48,23 @@ export function memoryRawStore(): RawStore & { readonly saved: string[] } {
     getFetch: (url) => index.get(url),
     recordFetch: (url, record) => {
       index.set(url, record)
+    },
+    getManifest: () => ({ entries: [...entries], runs: [...runs] }),
+    recordManifestEntry(entry) {
+      const i = entries.findIndex(
+        (item) =>
+          item.checkerId === entry.checkerId &&
+          item.since === entry.since &&
+          item.url === entry.url &&
+          item.kind === entry.kind,
+      )
+      if (i < 0) entries.push(entry)
+      else entries[i] = entry
+    },
+    recordManifestRun(run) {
+      const i = runs.findIndex((item) => item.id === run.id)
+      if (i < 0) runs.push(run)
+      else runs[i] = run
     },
     flush: () => Promise.resolve(),
   }
