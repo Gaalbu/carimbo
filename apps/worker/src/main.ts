@@ -5,6 +5,7 @@ import { parseArgs } from 'node:util'
 import { FactCheckApiClient, PoliteFetcher } from '@carimbo/sources'
 
 import { type IngestOptions, type IngestSummary, runIngest } from './ingest.js'
+import { withDataLock } from './lock.js'
 import type { Logger } from './queues.js'
 import { openRawStore } from './raw-store.js'
 import { readStore, writeStore } from './store.js'
@@ -20,6 +21,10 @@ const USAGE = `uso: npm run ingest:once -w @carimbo/worker -- [opções]
   --refresh            busca de novo páginas já vistas
   --checker ID         só este checador (repetível; aceita os pulados por status)
   --data-dir CAMINHO   pasta do reviews.json e do raw/ (padrão: data/ do repositório)
+
+O lock .ingest.lock impede ingestões simultâneas no mesmo diretório local.
+Após interrupção, confirme que todas as ingestões pararam antes de remover um lock órfão.
+O lock é cooperativo e depende de criação exclusiva atômica no sistema de arquivos.
 
 FACTCHECK_API_KEY no ambiente liga a Google Fact Check Tools API.
 `
@@ -102,18 +107,20 @@ async function main(): Promise<void> {
     process.stdout.write(USAGE)
     return
   }
-  const storePath = join(args.dataDir, 'reviews.json')
-  const apiKey = process.env.FACTCHECK_API_KEY
-  const summary = await runIngest(args, {
-    fetcher: new PoliteFetcher(),
-    rawStore: await openRawStore(join(args.dataDir, 'raw')),
-    loadStore: () => readStore(storePath),
-    saveStore: (store) => writeStore(storePath, store),
-    log: stderrLog,
-    now: () => new Date(),
-    factCheck: apiKey === undefined || apiKey === '' ? null : new FactCheckApiClient({ apiKey }),
+  await withDataLock(args.dataDir, async () => {
+    const storePath = join(args.dataDir, 'reviews.json')
+    const apiKey = process.env.FACTCHECK_API_KEY
+    const summary = await runIngest(args, {
+      fetcher: new PoliteFetcher(),
+      rawStore: await openRawStore(join(args.dataDir, 'raw')),
+      loadStore: () => readStore(storePath),
+      saveStore: (store) => writeStore(storePath, store),
+      log: stderrLog,
+      now: () => new Date(),
+      factCheck: apiKey === undefined || apiKey === '' ? null : new FactCheckApiClient({ apiKey }),
+    })
+    process.stdout.write(formatSummary(summary))
   })
-  process.stdout.write(formatSummary(summary))
 }
 
 if (process.argv[1] !== undefined && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
