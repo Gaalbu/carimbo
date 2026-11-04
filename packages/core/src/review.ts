@@ -68,4 +68,6 @@ export interface ReviewStore {
   /** ISO instant of the last ingest run. */
   readonly generatedAt: string
   readonly reviews: readonly Review[]
+  /** Previous and replacement records when the checker's textual rating changes. */
+  readonly ratingHistory?: readonly { readonly before: Review; readonly after: Review }[]
 }

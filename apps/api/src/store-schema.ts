@@ -32,8 +32,10 @@ export const reviewStoreSchema = z.object({
   schemaVersion: z.literal(1),
   generatedAt: z.string().min(1),
   reviews: z.array(reviewSchema),
+  ratingHistory: z.array(z.object({ before: reviewSchema, after: reviewSchema })).optional(),
 })
 
 export function parseReviewStore(json: unknown): ReviewStore {
-  return reviewStoreSchema.parse(json)
+  const { ratingHistory, ...store } = reviewStoreSchema.parse(json)
+  return ratingHistory === undefined ? store : { ...store, ratingHistory }
 }

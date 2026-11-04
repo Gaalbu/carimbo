@@ -20,6 +20,7 @@ import {
   pollSources,
 } from './queues.js'
 import type { RawStore } from './raw-store.js'
+import { recordRatingChanges } from './rating-history.js'
 
 export interface IngestOptions {
   /** YYYY-MM-DD: also walk the sitemaps back to this date. */
@@ -97,9 +98,13 @@ export async function runIngest(options: IngestOptions, deps: IngestDeps): Promi
         )
       }
       store = {
+        ...store,
         schemaVersion: 1,
         generatedAt: deps.now().toISOString(),
         reviews: result.reviews,
+        ...(result.ratingChanges.length > 0
+          ? { ratingHistory: recordRatingChanges(store.ratingHistory ?? [], result.ratingChanges) }
+          : {}),
       }
       await deps.saveStore(store)
       await deps.rawStore.flush()

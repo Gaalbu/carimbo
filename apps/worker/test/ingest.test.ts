@@ -75,6 +75,27 @@ function setup(initial: ReviewStore = storeOf([])) {
 }
 
 describe('runIngest', () => {
+  it('persists both evaluations and their provenance when a checker changes a rating', async () => {
+    const { deps, stored } = setup()
+    const url = 'https://aos.test/revisada/'
+    const pages = (rating: string) =>
+      fakeFetcher({
+        'https://aos.test/feed/': rss(url),
+        [url]: claimReviewPage({
+          claimReviewed: 'Uma alegação',
+          reviewRating: { alternateName: rating },
+        }),
+      })
+    await runIngest(OPTIONS, { ...deps, fetcher: pages('Falso') })
+    await runIngest({ ...OPTIONS, refresh: true }, { ...deps, fetcher: pages('Enganoso') })
+    expect(stored().reviews).toHaveLength(1)
+    expect(stored().reviews[0]?.textualRating).toBe('Enganoso')
+    expect(stored().ratingHistory).toHaveLength(1)
+    expect(stored().ratingHistory?.[0]?.before.textualRating).toBe('Falso')
+    expect(stored().ratingHistory?.[0]?.after.textualRating).toBe('Enganoso')
+    expect(stored().ratingHistory?.[0]?.before.provenance.rawSha256).toMatch(/^[a-f0-9]{64}$/)
+  })
+
   it('keeps each claim linked to its original id when a page reorders its reviews', async () => {
     const { deps, stored } = setup()
     const block = (text: string) => ({
