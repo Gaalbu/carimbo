@@ -1,4 +1,11 @@
 import { mountSuspended } from '@nuxt/test-utils/runtime'
+import {
+  coverage as queryCoverage,
+  dedupeReviews,
+  EMPTY_SNAPSHOT,
+  type ReviewStore,
+} from '@carimbo/core'
+import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 
 import ClaimCard from '~/components/ClaimCard.vue'
@@ -78,16 +85,36 @@ describe('<ClaimCard>', () => {
 })
 
 describe('<CoverageTable>', () => {
-  it('shows "sem cobertura" for missing pairs, never zero', async () => {
+  it('distinguishes indexed records from unknown investigation', async () => {
     const table = await mountSuspended(CoverageTable, { props: { coverage } })
     const cells = table.findAll('tbody td').map((cell) => cell.text())
 
     // Rows: Aos Fatos, Lupa; columns: 2022, 2018.
     expect(cells[0]).toContain('120')
     expect(cells[0]).toContain('16/08/2022 a 30/10/2022')
-    expect(cells.slice(1)).toEqual(['sem cobertura', 'sem cobertura', 'sem cobertura'])
+    expect(cells[0]).toContain('cobertura não avaliada; falhas desconhecidas')
+    expect(cells.slice(1)).toEqual(Array(3).fill('sem registros; situação desconhecida'))
     expect(cells.some((cell) => cell === '0')).toBe(false)
     expect(table.findAll('tbody th').map((th) => th.text())).toEqual(checkers.map((c) => c.name))
+  })
+
+  it('renders real indexed data without claiming an investigation status', async () => {
+    const store = JSON.parse(readFileSync('../../data/reviews.json', 'utf8')) as ReviewStore
+    const result = queryCoverage(
+      { ...EMPTY_SNAPSHOT, generatedAt: store.generatedAt, reviews: dedupeReviews(store.reviews) },
+      new Date('2026-11-04T12:00:00Z'),
+    )
+    const table = await mountSuspended(CoverageTable, {
+      props: { coverage: result, years: [2026] },
+    })
+    const row = result.rows.find((item) => item.year === 2026 && item.count > 0)
+    if (!row) throw new Error('A base real precisa conter checagens datadas em 2026')
+    const checkerIndex = result.checkers.findIndex((checker) => checker.id === row.checkerId)
+    expect(checkerIndex).toBeGreaterThanOrEqual(0)
+    const cell = table.findAll('tbody td')[checkerIndex]?.text() ?? ''
+    expect(cell).toContain(row.count.toLocaleString('pt-BR'))
+    expect(cell).toContain('cobertura não avaliada')
+    expect(cell).not.toMatch(/parcial|concluíd|bloquead/i)
   })
 
   it('can be restricted to one year', async () => {

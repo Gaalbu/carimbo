@@ -29,7 +29,7 @@ npm run dev -w @carimbo/api   # http://127.0.0.1:3001, documentação em /docs
 | `GET /v1/checkers`         | `CheckerWithCount[]`     |                                                                     |
 | `GET /v1/themes`           | `ThemeWithCount[]`       | Tema é filtro de assunto, nunca veredito.                           |
 | `GET /v1/elections`        | `Election[]`             | Período oficial de campanha (TSE), mais recente primeiro.           |
-| `GET /v1/coverage`         | `CoverageResponse`       | Par checador × ano sem linha é lacuna, não zero.                    |
+| `GET /v1/coverage`         | `CoverageResponse`       | Contagens indexadas por checador × ano; situação e falhas desconhecidas sem relatório persistido. |
 | `GET /v1/export.json`      | `ReviewStore`            | Todas as checagens com proveniência (download).                     |
 | `GET /v1/export.csv`       | CSV UTF-8 com BOM        | RFC 4180, CRLF, mesma informação do JSON.                           |
 | `GET /docs`                | Swagger UI               | OpenAPI em `/docs/json`.                                            |

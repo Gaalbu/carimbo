@@ -48,8 +48,8 @@ export function registerStatsRoutes(app: ZodApp, { store, now }: RouteDeps): voi
       schema: {
         summary: 'Cobertura por checador e ano',
         description:
-          'Uma linha por checador × ano com checagens datadas. Par ausente é lacuna ("sem ' +
-          'cobertura"), nunca zero.',
+          'Uma linha por checador × ano com checagens datadas. Par ausente indica ausência de ' +
+          'registros, não ausência de investigação. Situação e falhas ainda são desconhecidas.',
         tags: ['números'],
       },
     },

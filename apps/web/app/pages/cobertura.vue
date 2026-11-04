@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import type { CoverageResponse } from '@carimbo/core'
 
+import { formatInstant } from '~/utils/format'
+
 const { data: coverage, error } = await useApi<CoverageResponse>('/v1/coverage')
 
 usePageSeo({
@@ -16,8 +18,15 @@ usePageSeo({
       <h1 class="manchete">Cobertura do arquivo</h1>
       <p>
         Checagens indexadas pelo Carimbo por checador e por ano, com a primeira e a última data e o
-        método de coleta. Onde não há dado, a tabela diz “sem cobertura”: nenhum número é estimado
-        nem preenchido com zero.
+        método de coleta. Onde não há registros, não sabemos se houve investigação.
+      </p>
+      <p>
+        A situação da investigação e as falhas por fonte e ano ainda não estão disponíveis: não há
+        relatório persistido com esses dados.
+      </p>
+      <p v-if="coverage">
+        Última geração do arquivo de checagens:
+        {{ formatInstant(coverage.updatedAt) ?? 'data indisponível' }}.
       </p>
       <p>
         Os números representam apenas o que já foi indexado. Mesmo onde há registros, a coleta

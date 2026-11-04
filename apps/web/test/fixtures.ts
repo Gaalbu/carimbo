@@ -90,6 +90,7 @@ export function stats(overrides: Partial<StatsResponse> = {}): StatsResponse {
 }
 
 export const coverage: CoverageResponse = {
+  updatedAt: '2026-10-26T12:00:00Z',
   years: [2022, 2018],
   checkers,
   rows: [
@@ -100,6 +101,8 @@ export const coverage: CoverageResponse = {
       firstDate: '2022-08-16',
       lastDate: '2022-10-30',
       methods: ['claimreview'],
+      investigation: null,
+      failures: null,
     },
   ],
 }

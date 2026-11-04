@@ -282,6 +282,8 @@ describe('GET /v1/coverage', () => {
       firstDate: '2024-09-09',
       lastDate: '2024-09-09',
       methods: ['claimreview'],
+      investigation: null,
+      failures: null,
     })
     expect(body.rows.find((row) => row.checkerId === 'lupa' && row.year === 2024)).toBeUndefined()
     expect(body.rows.filter((row) => row.checkerId === 'estadao-verifica')).toEqual([

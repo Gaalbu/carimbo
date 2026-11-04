@@ -72,11 +72,12 @@ describe('search page', () => {
 })
 
 describe('coverage page', () => {
-  it('renders gaps as "sem cobertura"', async () => {
+  it('renders missing records without assuming investigation', async () => {
     registerEndpoint('/v1/coverage', () => coverage)
     const page = await mountSuspended(CoberturaPage, { route: '/cobertura' })
 
-    expect(page.text()).toContain('sem cobertura')
+    expect(page.text()).toContain('sem registros; situação desconhecida')
+    expect(page.text()).toContain('cobertura não avaliada')
     expect(page.text()).toContain('120')
   })
 })

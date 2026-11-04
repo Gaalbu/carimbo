@@ -94,9 +94,15 @@ export interface CoverageRow {
   readonly firstDate: string | null
   readonly lastDate: string | null
   readonly methods: readonly string[]
+  /** No source/year investigation report is available yet. */
+  readonly investigation: null
+  /** Failures are unknown until a source/year report is persisted. */
+  readonly failures: null
 }
 
 export interface CoverageResponse {
+  /** Generation time of the indexed review store, not an investigation completion date. */
+  readonly updatedAt: string | null
   readonly years: readonly number[]
   readonly checkers: readonly FactChecker[]
   readonly rows: readonly CoverageRow[]

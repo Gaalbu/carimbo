@@ -178,7 +178,7 @@ export function electionsWithCounts(snapshot: StoreSnapshot): Election[] {
   })
 }
 
-/** First election with fact-checking on record (docs/PLANO.md §4.5): coverage starts here. */
+/** First year used in the coverage display; it does not establish a historical beginning. */
 export const FIRST_COVERAGE_YEAR = 2014
 
 function coverageRows(reviews: readonly Review[]): CoverageRow[] {
@@ -202,6 +202,8 @@ function coverageRows(reviews: readonly Review[]): CoverageRow[] {
         firstDate: dates[0] ?? null,
         lastDate: dates.at(-1) ?? null,
         methods: [...new Set(list.map((review) => review.provenance.method))].sort(),
+        investigation: null,
+        failures: null,
       }
     })
     .sort(
@@ -219,6 +221,7 @@ export function coverage(snapshot: StoreSnapshot, now: Date): CoverageResponse {
   const first = Math.min(FIRST_COVERAGE_YEAR, ...dataYears)
   const last = Math.max(Number(saoPauloDay(now).slice(0, 4)), ...dataYears)
   return {
+    updatedAt: snapshot.generatedAt,
     years: Array.from({ length: last - first + 1 }, (_, index) => first + index),
     checkers: FACT_CHECKERS,
     rows,

@@ -47,7 +47,7 @@ function span(row: CoverageRow): string {
     <table class="table coverage">
       <caption class="visually-hidden">
         Checagens indexadas pelo Carimbo por checador e ano. Pares sem dado aparecem como sem
-        cobertura.
+        registros indexados. O estado da investigação e as falhas ainda são desconhecidos.
       </caption>
       <thead>
         <tr>
@@ -65,8 +65,9 @@ function span(row: CoverageRow): string {
               }}</strong>
               <span class="coverage__meta">{{ span(cell(checker.id, year)!) }}</span>
               <span class="coverage__meta">{{ methods(cell(checker.id, year)!) }}</span>
+              <span class="coverage__meta">cobertura não avaliada; falhas desconhecidas</span>
             </template>
-            <span v-else class="coverage__gap">sem cobertura</span>
+            <span v-else class="coverage__gap">sem registros; situação desconhecida</span>
           </td>
         </tr>
       </tbody>

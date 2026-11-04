@@ -146,6 +146,7 @@ describe('catalog counts', () => {
 describe('coverage', () => {
   it('spans 2014 to the current year with one row per checker and year', () => {
     const result = coverage(snapshot, NOW)
+    expect(result.updatedAt).toBe(STORE.generatedAt)
     expect(result.years[0]).toBe(2014)
     expect(result.years.at(-1)).toBe(2026)
     const aosFatos2026 = result.rows.find(
@@ -156,9 +157,17 @@ describe('coverage', () => {
       firstDate: '2026-10-26',
       lastDate: '2026-10-26',
       methods: ['claimreview'],
+      investigation: null,
+      failures: null,
     })
     // Undated reviews have no year: no row.
     expect(result.rows.reduce((sum, row) => sum + row.count, 0)).toBe(4)
+  })
+
+  it('does not invent an update date or investigation for an empty store', () => {
+    const result = coverage(buildSnapshot(null), NOW)
+    expect(result.updatedAt).toBeNull()
+    expect(result.rows).toEqual([])
   })
 })
 
