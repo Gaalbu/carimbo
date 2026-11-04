@@ -58,11 +58,11 @@ Fazer adaptadores HTML versionados para Lupa e g1 somente depois de verificar o 
 
 **Aceite:** testes com exemplos reais reduzidos e negativos por layout, texto e avaliação originais preservados, vereditos não reconhecidos como `unknown`, e auditoria por amostra antes de cada lote.
 
-### 5. Google Fact Check e arquivos históricos
+### 5. Arquivos históricos e fontes alternativas
 
-Com chave própria, executar o spike S1: cobertura por domínio e época, paginação, limites, erros e correspondência com a fonte. Detectar explicitamente resultados truncados ao atingir o teto; não presumir que `maxAgeDays` segmenta um ano. Em paralelo, investigar Wayback/CDX e eventuais fontes autorizadas para URLs originais indisponíveis, limites e termos; verificar snapshots reais antes de planejar qualquer ingestão automática.
+Por decisão do usuário em 04/11/2026, a carga histórica seguirá sem chave ou consulta à API Google. Investigar Wayback/CDX e eventuais fontes autorizadas para URLs originais indisponíveis, limites e termos; verificar snapshots reais antes de planejar qualquer ingestão automática. O cliente Google pré-existente permanece opcional e fora desta execução.
 
-**Aceite:** API secundária não substitui revisão mais confiável; origem, data de coleta, hash e link de snapshot são preservados. Arquivo indisponível ou sem prova de alegação/veredito fica como lacuna, sem preencher dados por inferência.
+**Aceite:** origem, data de coleta, hash e link de snapshot são preservados. Arquivo indisponível ou sem prova de alegação/veredito fica como lacuna, sem preencher dados por inferência.
 
 ### 6. Publicar cobertura e operar continuamente
 
@@ -82,4 +82,4 @@ Antes de executar rede em grande escala, confirmar o estado atualizado do remoto
 npm run ingest:once -w @carimbo/worker -- --checker aos-fatos --since 2018-01-01 --max-pages 10 --data-dir /tmp/carimbo-piloto
 ```
 
-O piloto isolado não recebe automaticamente os registros nem o índice existentes; portanto pode baixar páginas já conhecidas. Não usar `--refresh` em massa. O progresso histórico depende da disponibilidade das fontes, da chave Google quando aplicável e da persistência escolhida para dados brutos; duração e completude não são estimáveis antes do inventário.
+O piloto isolado não recebe automaticamente os registros nem o índice existentes; portanto pode baixar páginas já conhecidas. Não usar `--refresh` em massa. O progresso histórico depende da disponibilidade das fontes, da persistência escolhida para dados brutos; duração e completude não são estimáveis antes do inventário.
