@@ -50,6 +50,8 @@ export interface Candidate {
 export interface PollOptions {
   /** YYYY-MM-DD; when set, the checker's sitemap is walked back to this date. */
   readonly since: string | null
+  /** Reports incomplete discovery separately from individual page failures. */
+  readonly onFailure?: (url: string, error: unknown) => void
 }
 
 /**
@@ -72,7 +74,7 @@ export async function pollSources(
               loc: item.link,
               lastmod: item.publishedAt,
             }))
-          : await sitemapPages(listing, fetcher, () => true, log)
+          : await sitemapPages(listing, fetcher, () => true, log, options.onFailure)
       for (const item of items) {
         candidates.push({
           checkerId: checker.checkerId,
@@ -82,6 +84,7 @@ export async function pollSources(
         })
       }
     } catch (error) {
+      options.onFailure?.(source.url, error)
       log.warn(`[${checker.checkerId}] falha ao ler ${source.url}: ${describeError(error)}`)
     }
   }
@@ -96,6 +99,7 @@ export async function pollSources(
         fetcher,
         (loc) => backfill.includeChild(loc, since),
         log,
+        options.onFailure,
       )
       const candidatesInSitemap = entries
         .filter((entry) => backfill.includePage(entry.loc))
@@ -109,6 +113,7 @@ export async function pollSources(
         })
       }
     } catch (error) {
+      options.onFailure?.(backfill.indexUrl, error)
       log.warn(
         `[${checker.checkerId}] falha no sitemap ${backfill.indexUrl}: ${describeError(error)}`,
       )
@@ -123,6 +128,7 @@ async function sitemapPages(
   fetcher: PageFetcher,
   includeChild: (loc: string) => boolean,
   log: Logger,
+  onFailure?: (url: string, error: unknown) => void,
 ): Promise<SitemapEntry[]> {
   const sitemap = parseSitemap(listing.text, listing.finalUrl)
   if (sitemap.kind === 'urlset') return [...sitemap.entries]
@@ -134,6 +140,7 @@ async function sitemapPages(
       const childSitemap = parseSitemap(fetched.text, fetched.finalUrl)
       if (childSitemap.kind === 'urlset') pages.push(...childSitemap.entries)
     } catch (error) {
+      onFailure?.(child.loc, error)
       log.warn(`falha no sitemap ${child.loc}: ${describeError(error)}`)
     }
   }

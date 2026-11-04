@@ -88,14 +88,36 @@ describe('pollSources', () => {
 
   it('logs a broken listing and carries on', async () => {
     const log = memoryLog()
+    const failures: string[] = []
     const candidates = await pollSources(
       { ...CHECKER, recent: [{ kind: 'rss', url: 'https://example.org/sumiu/' }] },
       fetcher,
-      { since: null },
+      { since: null, onFailure: (url) => failures.push(url) },
       log,
     )
     expect(candidates).toEqual([])
     expect(log.lines.join('\n')).toMatch(/falha ao ler https:\/\/example.org\/sumiu\//)
+    expect(failures).toEqual(['https://example.org/sumiu/'])
+  })
+
+  it('reports a failed child sitemap instead of silently treating discovery as complete', async () => {
+    const failures: string[] = []
+    const broken = fakeFetcher({
+      'https://example.org/feed/': rss(),
+      'https://example.org/sitemap-index.xml': sitemapIndex(
+        'https://example.org/sitemap/2026-10-20.xml',
+      ),
+    })
+    await pollSources(
+      CHECKER,
+      broken,
+      {
+        since: '2026-10-01',
+        onFailure: (url) => failures.push(url),
+      },
+      memoryLog(),
+    )
+    expect(failures).toEqual(['https://example.org/sitemap/2026-10-20.xml'])
   })
 })
 
