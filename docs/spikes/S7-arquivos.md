@@ -1,0 +1,24 @@
+# S7 — Arquivos e decisão sobre fontes arquivadas
+
+Pesquisa em 4/11/2026. Consultas pequenas, sem varredura ou contorno de bloqueios. [Documentação oficial da Availability API](https://archive.org/help/wayback_api.php) descreve a captura disponível mais próxima; [documentação CDX](https://github.com/internetarchive/wayback/blob/master/wayback-cdx-server/README.md) descreve parâmetros e resultados. A captura retornada é uma candidata, não comprovação de que todo o conteúdo, imagens, datas, alegações e selos foram preservados.
+
+## Ensaios reproduzíveis
+
+| Objeto e consulta | Resultado real | Significado e limite |
+|---|---|---|
+| [Availability: especial Truco, timestamp 2014](https://archive.org/wayback/available?url=apublica.org%2Fespecial%2Ftruco2014%2F&timestamp=2014) | HTTP 200; `closest.available=true`, `status=200`, timestamp `20180122042253`. | O ano pedido não é filtro estrito: devolveu captura de **2018**. O [snapshot](https://web.archive.org/web/20180122042253/http://apublica.org:80/especial/truco2014/) respondeu HTTP 200 e retornou HTML. É página de projeto, não prova de recuperação de checagem individual ou de todos os selos. |
+| [CDX: mesmo especial, limite 2](https://web.archive.org/cdx/search/cdx?url=apublica.org%2Fespecial%2Ftruco2014%2F&output=json&limit=2) | HTTP 200, JSON com duas linhas, capturas `20180122042253` e `20180123052213`, `text/html`, status arquivado 200. | Limite deliberado de duas linhas; não lista todas as capturas. Status indexado não garante reprodução atual nem conteúdo correto. |
+| [Availability: edição nº 6](https://archive.org/wayback/available?url=apublica.org%2Fchecagem%2F2014%2F08%2Ftruco-programa-6%2F&timestamp=2014) | HTTP 200, disponível, timestamp `20230602022601`, [URL de snapshot](https://web.archive.org/web/20230602022601/https://apublica.org/checagem/2014/08/truco-programa-6/). | Snapshot **não aberto nesta pesquisa**. A fonte original atual foi lida (S6); a versão arquivada não está verificada e não demonstra estado de 2014. |
+| [Availability: caminho candidato de Preto no Branco](https://archive.org/wayback/available?url=oglobo.globo.com%2Fblogs%2Fpreto-no-branco%2F&timestamp=2015) | HTTP 200, `archived_snapshots: {}`. | Apenas esta grafia/caminho foi consultada; não prova inexistência do blog, de outra URL ou captura. O original possui restrições para agentes específicos; respeitá-las e restrições do arquivo. |
+
+[robots do web.archive.org](https://web.archive.org/robots.txt) respondeu 404; [robots de archive.org](https://archive.org/robots.txt) respondeu 200 e restringe `/control/` e `/report/` para `*`. Isso não substitui regras próprias das APIs, termos nem permissões do titular. Os testes não receberam 429; isso não estabelece taxa permitida. Não encontramos limite numérico oficial confiável para Availability/CDX nesta pesquisa: **desconhecido**. Não tratar o limite do pedido CDX como cota do serviço. Solicitar orientação ao Internet Archive antes de uso sistemático; respeitar 429, `Retry-After` quando presente, erros, exclusões e condições de acesso.
+
+## ADR — fonte arquivada (proposta, não implementação)
+
+**Contexto:** URLs jornalísticas mudam e capturas diferem da publicação original. Um índice ou `available=true` não garante extração nem direitos.
+
+**Decisão proposta:** utilizar arquivo apenas como evidência secundária para URLs identificadas, após conferir autorização e conteúdo acessível. Preservar URL original, URL exata do snapshot, timestamp da captura, data original somente quando comprovada na página, data de acesso, método, versão do extrator e SHA-256 do conteúdo bruto efetivamente obtido. Registrar também falhas, redirecionamentos, restrições e ausência de selo. Distinguir explicitamente publicação, modificação e captura; nunca preencher data de publicação com timestamp da captura.
+
+Uma página só é candidata a ingestão após inspeção da alegação e do selo originais, direitos e proveniência; se não houver avaliação textual comprovada, registrar a lacuna e não criar checagem; `unknown` é reservado a uma avaliação textual existente ainda não mapeada. Versões divergentes exigem preservar histórico e revisão humana. Um HTML sem imagens pode perder selos; textos de imagem/alt precisam ser verificados, não presumidos. Não guardar nem publicar texto integral sem base e política apropriadas; o plano prevê bruto privado e publicação limitada.
+
+**Consequências:** URLs e fontes inacessíveis ficam como lacuna; nenhuma completude nem contagem por eleição decorre de uma consulta vazia, limite atingido ou snapshot isolado. Não há evidência de recuperação de checagem individual do Preto no Branco, e a captura do Truco de 2023 ainda precisa ser aberta e validada. Descoberta futura deve partir de URLs documentadas e autorizadas, lotes pequenos e manifesto com tentativas e falhas, sem contornar bloqueios. A implementação e qualquer carga em massa ficam fora deste spike.
