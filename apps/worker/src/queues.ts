@@ -43,7 +43,7 @@ export interface Candidate {
   readonly checkerId: string
   readonly url: string
   readonly via: 'rss' | 'sitemap'
-  /** When the listing says it was published or modified; only used to order and filter. */
+  /** When the listing says it was published or modified; only used to order. */
   readonly listedAt: string | null
 }
 
@@ -97,11 +97,10 @@ export async function pollSources(
         (loc) => backfill.includeChild(loc, since),
         log,
       )
-      const recentEnough = entries
+      const candidatesInSitemap = entries
         .filter((entry) => backfill.includePage(entry.loc))
-        .filter((entry) => entry.lastmod === null || entry.lastmod.slice(0, since.length) >= since)
         .sort((a, b) => (b.lastmod ?? '').localeCompare(a.lastmod ?? ''))
-      for (const entry of recentEnough) {
+      for (const entry of candidatesInSitemap) {
         candidates.push({
           checkerId: checker.checkerId,
           url: entry.loc,

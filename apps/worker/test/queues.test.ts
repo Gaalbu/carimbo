@@ -81,6 +81,7 @@ describe('pollSources', () => {
     expect(candidates.map((candidate) => [candidate.url, candidate.via])).toEqual([
       ['https://example.org/verifica/a/', 'rss'],
       ['https://example.org/verifica/b/', 'sitemap'],
+      ['https://example.org/verifica/velha/', 'sitemap'],
     ])
     expect(fetcher.requested).not.toContain('https://example.org/sitemap/2026-08-01.xml')
   })
