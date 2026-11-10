@@ -1,6 +1,6 @@
 # Deploy
 
-O Carimbo no MVP são duas peças sem banco (ADR 0003): a **API** (Fastify, lê
+O Carimbo no MVP são duas peças sem banco (ADR 0003): a **API** (NestJS com adaptador Fastify, lê
 `data/reviews.json`) e o **site** (Nuxt 4, SSR com cache). A coleta roda no GitHub Actions e
 versiona o arquivo de dados no próprio repositório.
 

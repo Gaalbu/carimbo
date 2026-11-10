@@ -1,4 +1,4 @@
-# ADR 0002: Fastify em vez de Express ou NestJS
+# ADR 0002: NestJS com adaptador Fastify
 
 Data: 26/10/2026 · Status: aceita
 
@@ -7,12 +7,17 @@ Data: 26/10/2026 · Status: aceita
 A API serve feed, busca, estatísticas e exportação. As vagas pedem "Node.js" bem mais que NestJS,
 e NestJS já está provado em outros projetos do autor.
 
-## Decisão
+## Decisão anterior (substituída)
 
-Fastify 5 com validação por schema (zod via `fastify-type-provider-zod`) e OpenAPI gerado pelo
-`@fastify/swagger`.
+Fastify 5 direto, validação por schema e OpenAPI pelo plugin do Fastify.
+
+## Decisão atual
+
+NestJS 12 com o adaptador oficial para Fastify. Os controllers usam `StoreSource` e as funções
+de domínio de `packages/core`; a ingestão continua como processo separado. OpenAPI e CORS são
+configurados no bootstrap Nest. O armazenamento segue em JSON conforme ADR 0003.
 
 ## Consequências
 
-- Menos mágica que Nest; rotas testáveis com `fastify.inject`, sem subir porta.
-- Organização de módulos fica por conta do projeto (rotas finas, domínio em `packages/core`).
+- A estrutura dos controllers e providers passa a ser explícita e alinhada à experiência NestJS.
+- O adaptador Fastify mantém o servidor HTTP leve e compatível com a infraestrutura existente.

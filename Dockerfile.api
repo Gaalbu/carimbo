@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-# API do Carimbo (Fastify). Build: docker build -f Dockerfile.api -t carimbo-api .
+# API do Carimbo (NestJS sobre Fastify). Build: docker build -f Dockerfile.api -t carimbo-api .
 
 ARG NODE_IMAGE=node:22-alpine
 

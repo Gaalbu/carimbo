@@ -1,6 +1,6 @@
 # @carimbo/api
 
-API HTTP do Carimbo (Fastify 5 + zod). Lê o `ReviewStore` gravado pelo worker, agrupa as checagens
+API HTTP do Carimbo (NestJS com adaptador Fastify 5 e zod). Lê o `ReviewStore` gravado pelo worker, agrupa as checagens
 por alegação e serve tudo em JSON. Os tipos das respostas estão em
 `packages/core/src/api-contract.ts`.
 
@@ -32,7 +32,7 @@ npm run dev -w @carimbo/api   # http://127.0.0.1:3001, documentação em /docs
 | `GET /v1/coverage`         | `CoverageResponse`       | Contagens indexadas por checador × ano; situação e falhas desconhecidas sem relatório persistido. |
 | `GET /v1/export.json`      | `ReviewStore`            | Todas as checagens com proveniência (download).                     |
 | `GET /v1/export.csv`       | CSV UTF-8 com BOM        | RFC 4180, CRLF, mesma informação do JSON.                           |
-| `GET /docs`                | Swagger UI               | OpenAPI em `/docs/json`.                                            |
+| `GET /docs`                | Swagger UI               | OpenAPI em `/docs/json`, gerado pelo NestJS.                        |
 
 Erros sempre em JSON: `{ statusCode, error, message }`, com `Cache-Control: no-store`. Respostas
 200 de `/v1/*` saem com `Cache-Control: public, max-age=60, stale-while-revalidate=300`.

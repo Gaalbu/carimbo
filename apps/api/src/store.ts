@@ -2,7 +2,6 @@ import { readFile, stat } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 
 import { buildSnapshot, EMPTY_SNAPSHOT, type StoreSnapshot } from '@carimbo/core'
-import type { FastifyBaseLogger } from 'fastify'
 
 import { parseReviewStore } from './store-schema.js'
 
@@ -13,6 +12,12 @@ export const DEFAULT_DATA_FILE = fileURLToPath(
 
 export interface StoreSource {
   current(): Promise<StoreSnapshot>
+}
+
+export interface StoreLogger {
+  info(fields: object, message: string): void
+  warn(fields: object, message: string): void
+  error(fields: object, message: string): void
 }
 
 /** A fixed snapshot, for tests and tools. */
@@ -29,7 +34,7 @@ function isMissingFile(error: unknown): boolean {
  * when its mtime changes. A missing file serves an empty store; an invalid one is logged and the
  * last good snapshot keeps being served.
  */
-export function fileStore(path: string, log: FastifyBaseLogger): StoreSource {
+export function fileStore(path: string, log: StoreLogger): StoreSource {
   let snapshot = EMPTY_SNAPSHOT
   let loadedMtime: number | null = null
   let pending: Promise<StoreSnapshot> | null = null
