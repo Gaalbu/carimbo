@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T06:10:53.400Z",
+  "generatedAt": "2026-11-11T14:17:27.900Z",
   "reviews": [
     {
       "id": "0790abb5f7510f35",
@@ -17,7 +17,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/",
-        "fetchedAt": "2026-11-11T06:10:20.224Z",
+        "fetchedAt": "2026-11-11T14:17:08.042Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "a706daac7284908483e6278a55ef91a7ed292bcfa54f6a4a823cf4ba742bc168"
@@ -38,10 +38,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-votacoes-de-lula-e-flavio-bolsonaro-tenham-sido-trocadas/",
-        "fetchedAt": "2026-11-11T06:10:28.291Z",
+        "fetchedAt": "2026-11-11T14:17:09.004Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "400046c7d1b397b549e92e200e0f5c22f1f9f7b08cba087401952c1cfcf28f41"
+        "rawSha256": "4aca5394691eece6ba8d85b96fa4b6f8e6345b3d7411df2ecc2b0d9f5ab78ba0"
       }
     },
     {
@@ -59,10 +59,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-homem-corindo-camera-secao-de-votacao-nao-prova-fraude/",
-        "fetchedAt": "2026-11-11T06:10:29.560Z",
+        "fetchedAt": "2026-11-11T14:17:09.994Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "90274f73a0e8d1d5b5e9dcfb2444d49e3dd0d02113916ef424607d6cea037700"
+        "rawSha256": "9a51f1a5f73828baabc9c8a7713e5c9905adbc42d94e4624899f89bb9012a11b"
       }
     },
     {
@@ -80,7 +80,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/trump-flavio-assumir-presidencia-lula/",
-        "fetchedAt": "2026-11-11T06:10:21.429Z",
+        "fetchedAt": "2026-11-11T14:17:09.155Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8b9f52892387ee8100efd21375a5c621a50ca962e41da3b0cd7ba23bcefe0c15"
@@ -101,7 +101,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/trump-lula-extraditar-flavio/",
-        "fetchedAt": "2026-11-11T06:10:23.376Z",
+        "fetchedAt": "2026-11-11T14:17:11.054Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "dff08b28f2ec12e9c941a4608474d16311823800408c1cd84fcf31f888ab0c23"
@@ -122,10 +122,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/boletins-urna-mostram-vitoria-flavio-bolsonaro-eleicoes-enganoso/",
-        "fetchedAt": "2026-11-11T06:10:32.347Z",
+        "fetchedAt": "2026-11-11T14:17:13.280Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ef1d7da9a6ae04b157d12578b91e6e04fa45d0a83e41d1e1dabfc63ea834c578"
+        "rawSha256": "b9dff645202d2a74f2c58e70fbb28f48d6107b4ee415984153780fe0247b1f54"
       }
     },
     {
@@ -143,7 +143,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/protesto-contra-lula-formula-1-2022/",
-        "fetchedAt": "2026-11-11T06:10:22.376Z",
+        "fetchedAt": "2026-11-11T14:17:10.107Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "4b6365ae886cb2563e7503b45b0aa956bfd22c5ea824eefa551222d1440006fe"
@@ -164,10 +164,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-scarlett-johansson-e-contra-criancas-assistirem-a-desenhos-com-questoes-de-genero/",
-        "fetchedAt": "2026-11-11T06:10:30.925Z",
+        "fetchedAt": "2026-11-11T14:17:11.002Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "3b0bc434f55f1d998d66f59524b4e0793ae6a8479978d522bec3b0377a8d07c1"
+        "rawSha256": "bf0626734e67a2fef48278ad71740eab97782084997db6986aa5d39014547b04"
       }
     },
     {
@@ -185,7 +185,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/governo-lula-volta-dpvat-2027/",
-        "fetchedAt": "2026-11-11T06:10:26.374Z",
+        "fetchedAt": "2026-11-11T14:17:14.041Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "02c19f094123256d500bd4373636e86551512555862df50e3c6f6fe0a88eb2ed"
@@ -206,10 +206,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-de-pessoas-procurando-comida-em-caminhao-de-lixo-em-fortaleza-e-de-2021/",
-        "fetchedAt": "2026-11-11T06:10:38.919Z",
+        "fetchedAt": "2026-11-11T14:17:18.595Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "9819816b44317b14e2e63d338ea9db775455c59aa2d46c968270020c950ec66b"
+        "rawSha256": "676822f06d31a44764b981025483bb7510218c75467e69953d511d4cea0d2ed1"
       }
     },
     {
@@ -227,10 +227,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/audio-falso-flavio-dino-arruinar-a-economia-volta-a-circular/",
-        "fetchedAt": "2026-11-11T06:10:40.973Z",
+        "fetchedAt": "2026-11-11T14:17:18.783Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "fac3b705db8d50eb6aa00e5659bc79b88766a27fb7c0864039aa9b5f40bf279f"
+        "rawSha256": "bcae47c6c4dbb53e94635139b9608523b24828a85762b4b0694680c5827c1d24"
       }
     },
     {
@@ -248,10 +248,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/grafico-eolucao-votos-eleicoes-fraude-eleitoral-falso/",
-        "fetchedAt": "2026-11-11T06:10:34.034Z",
+        "fetchedAt": "2026-11-11T14:17:13.492Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "16f33670d55f80e2151037b83294a9b1aa3c1835f6cb9d0f1e96f30995d1370a"
+        "rawSha256": "5e4572a9f9f97493d500746322f47c7285ae1b418a60fd5c0b08488c9b9850aa"
       }
     },
     {
@@ -269,7 +269,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/beneficio-inss-donas-casa-nao-contribuiram/",
-        "fetchedAt": "2026-11-11T06:10:24.377Z",
+        "fetchedAt": "2026-11-11T14:17:12.076Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "b4d4dd83b3caa392ddefa7d2d890027db84e629fd029f0db4b283338d886a01f"
@@ -290,7 +290,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-filho-fiscal-resultados-governo/",
-        "fetchedAt": "2026-11-11T06:10:27.374Z",
+        "fetchedAt": "2026-11-11T14:17:15.114Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "d2a5e0426b36f16ea7755f199bcdb5ba3c06d6d3d7d56c03c3b3b2e9d5107588"
@@ -311,10 +311,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/predominancia-votos-lula-secoes-nao-prova-fraude/",
-        "fetchedAt": "2026-11-11T06:10:38.540Z",
+        "fetchedAt": "2026-11-11T14:17:16.503Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "68c31954992b719fba215539b186012ddb339395903b863143132fbbcf20bf42"
+        "rawSha256": "6c2c69fde4f2cea7e524e068953a209ec7a0d3b818cc8f4f7f9d417f6dbd0837"
       }
     },
     {
@@ -332,10 +332,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/vulcoes-submarinos-nao-sao-responsaveis-pelo-el-nino-e-por-aquecer-os-oceanos/",
-        "fetchedAt": "2026-11-11T06:10:46.453Z",
+        "fetchedAt": "2026-11-11T14:17:22.733Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "2b88445d236c29c2872f717d23833c3b9bd867ab304fbec459eea5d4af102611"
+        "rawSha256": "2440a073f537f29d62ac9645a1f197ae17d62efce7892d0d5c84733e7b0cce1f"
       }
     },
     {
@@ -353,7 +353,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/protesto-cortes-bolsa-familia-vale-gas/",
-        "fetchedAt": "2026-11-11T06:10:28.381Z",
+        "fetchedAt": "2026-11-11T14:17:16.263Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "127fa1e630265e46242f01c4a6002c7f2780f0d162534b17ad8db53f492f0f58"
@@ -374,7 +374,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/servidores-inss-criticando-lula/",
-        "fetchedAt": "2026-11-11T06:10:29.375Z",
+        "fetchedAt": "2026-11-11T14:17:17.041Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "dd933c6680d05dbd2eed4902504b0ed402f1dc1f1e1209435db274d2df4ac34a"
@@ -395,7 +395,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/pec-da-seguranca-publica-nao-transfere-controle-das-forcas-policiais-a-lula/",
-        "fetchedAt": "2026-11-11T06:10:31.374Z",
+        "fetchedAt": "2026-11-11T14:17:19.042Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "a59af3748ae3b1176ced8cf0e1a6888c2997f7f00e54a1ca4c5be56f41e164a3"
@@ -416,10 +416,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/vereador-usa-imagens-descontextualizadas-para-associar-vitoria-de-lula-a-comemoracoes-de-traficantes/",
-        "fetchedAt": "2026-11-11T06:10:19.619Z",
+        "fetchedAt": "2026-11-11T14:17:07.889Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "a56557823250f5ac8a279bb33a33d545f89332419f0c238ba218384d21cb5612"
+        "rawSha256": "5bcab605ffb63d17f1f38ef8c0b2fe5d0e2634872dd9404b6a319a309bde8673"
       }
     },
     {
@@ -437,7 +437,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/reportagem-gasolina-marco-2026/",
-        "fetchedAt": "2026-11-11T06:10:35.394Z",
+        "fetchedAt": "2026-11-11T14:17:23.040Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "ea7f44160edfa498c15b4a1c49e1bd814c70c5ae872b3728925965733407e135"
@@ -458,7 +458,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lista-cidades-mais-votos-que-habitantes/",
-        "fetchedAt": "2026-11-11T06:10:32.386Z",
+        "fetchedAt": "2026-11-11T14:17:20.536Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "b87d00d6d8b95aa8a3d0c28c8e87d59673885cfe8a9df3397b5c8a95a6495706"
@@ -479,7 +479,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-pessoas-buscam-comida-caminhao-lixo-reeleicao-lula/",
-        "fetchedAt": "2026-11-11T06:10:33.374Z",
+        "fetchedAt": "2026-11-11T14:17:21.327Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "15d33f3331482b11f1e5ef96c61151129aa9d984e51ac4bdb468882114ed1599"
@@ -500,7 +500,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/mpf-prova-corrupcao-governo-bolsonaro/",
-        "fetchedAt": "2026-11-11T06:10:34.394Z",
+        "fetchedAt": "2026-11-11T14:17:22.098Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "d49782408124b35812ba1e10b45744e5d184ec20a3eefe54570b1758c00527f9"
@@ -521,7 +521,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-tornado-eua-santa-catarina/",
-        "fetchedAt": "2026-11-11T06:10:36.402Z",
+        "fetchedAt": "2026-11-11T14:17:24.069Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "95f71293a9e334dfd9c7f89dbd78bdceec53901f215f56867d65de6e73f10e76"
@@ -542,10 +542,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-daniel-vorcaro-tenha-deixado-a-prisao-apos-decisao-da-justica/",
-        "fetchedAt": "2026-11-11T06:10:49.260Z",
+        "fetchedAt": "2026-11-11T14:17:24.765Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "47d298ae3b4befb1e2cee26c14abf2b6dbf4bf0ae4c15d4b86c92a4139bf4355"
+        "rawSha256": "cd3a214c53bf444f97909257a2453e73ef87db1f7f063421b00acbafa611442a"
       }
     },
     {
@@ -563,7 +563,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/reportagem-fila-bloqueio-auxilio-gas/",
-        "fetchedAt": "2026-11-11T06:10:38.393Z",
+        "fetchedAt": "2026-11-11T14:17:26.081Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "458010fd07ddb5ed44306ecd0f7b97478a24221ad06ed9cab86caffff16d17eb"
@@ -626,7 +626,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/urnas-roubar-votos-apos-17h01/",
-        "fetchedAt": "2026-11-11T06:10:37.403Z",
+        "fetchedAt": "2026-11-11T14:17:25.076Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "0de259f9de4678ee66d842f729c5adcf9cad2496be02b6a790de90455e830ad4"
@@ -668,7 +668,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/decisao-stj-suspender-cnh-devedores-2025/",
-        "fetchedAt": "2026-11-11T06:10:39.392Z",
+        "fetchedAt": "2026-11-11T14:17:27.073Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "1db5e8773967aa04289bf2a77491ec8938d96f6d9443ac4f65d3b76ce756be18"
@@ -1970,10 +1970,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/frude-transmissao-alteracao-votos-leicoes/",
-        "fetchedAt": "2026-11-11T06:10:51.943Z",
+        "fetchedAt": "2026-11-11T14:17:26.752Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "77b235e092f8880e17f7955f4d21cb001c114572078fdae99257c3467b25cbe6"
+        "rawSha256": "569c73789dc0ec983cdfd3567b70c80fceff9282b95bdc3c5b54f5c6582aac2b"
       }
     },
     {
@@ -1991,10 +1991,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/homem-video-nao-foi-preso-500-8-de-janeiro/",
-        "fetchedAt": "2026-11-11T06:10:50.629Z",
+        "fetchedAt": "2026-11-11T14:17:25.890Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ad874f49d6c8dd4bff1b60afbd2a14988ca4a44527b29b7b10524b5df03e5e55"
+        "rawSha256": "2bd4a3c217b9a887191eb235259592df39c5681acc11b09292cc0f94fc2359a5"
       }
     },
     {
@@ -2012,10 +2012,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/lula-tomar-o-poder-mesmo-se-pais-entrar-crise-falso/",
-        "fetchedAt": "2026-11-11T06:10:53.387Z",
+        "fetchedAt": "2026-11-11T14:17:27.885Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "d480c0ade776bfe0a399df33d8390dc6e89f7ac67108868c08a56b80692e6f14"
+        "rawSha256": "6b216507eef9cb9dde1baadc7b687b4a2b727fcad16b773911860c4b59984044"
       }
     },
     {
@@ -2537,10 +2537,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/artigo-de-opiniao-de-2025-acusando-golpe-de-estado-no-stf-circula-como-se-fosse-recente/",
-        "fetchedAt": "2026-11-11T06:10:35.322Z",
+        "fetchedAt": "2026-11-11T14:17:14.443Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "7f86a0cd49584c01eb861b9ed0f60c28bdb1c2f80441ad89060943722f2d2f28"
+        "rawSha256": "e4f5e18747ec6c59151af097cee6d82e8acdbd8ef0088079ad24c3ecbbc1b81b"
       }
     },
     {
@@ -7850,10 +7850,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-doenca-creutzfeldt-jakob-vacinas-lito-souza/",
-        "fetchedAt": "2026-11-11T06:10:45.136Z",
+        "fetchedAt": "2026-11-11T14:17:21.777Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "4b1295cfa7b1a7c2f5cd66f19505c63dd84f17fe6dd66ec4b4ea88bb927bc1ad"
+        "rawSha256": "efb986e827b279c1d1808eaef4d0ff2eaca20d1bc2ba9befef0a8d8068bca9b8"
       }
     },
     {
@@ -9845,10 +9845,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/tumulto-em-paris-eliminacao-da-franca-na-copa-do-mundo/",
-        "fetchedAt": "2026-11-11T06:10:46.749Z",
+        "fetchedAt": "2026-11-11T14:17:23.768Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "523616d22bffce02867b1be3ccf483b2687be72da388411b0d20ad3e6dc1de77"
+        "rawSha256": "45348a9160262f5c3d47ba024d458fea61ea5efca7c1cf18c7b317598cd9c5df"
       }
     },
     {
