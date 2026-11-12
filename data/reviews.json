@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T00:40:49.851Z",
+  "generatedAt": "2026-11-12T15:10:02.339Z",
   "reviews": [
     {
       "id": "1f15b2454895137c",
@@ -59,10 +59,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/nordeste-sem-agua-abandono-lula-falta-contexto/",
-        "fetchedAt": "2026-11-12T00:40:19.994Z",
+        "fetchedAt": "2026-11-12T15:09:38.170Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "a1d7c41c2117681b7c5ecb45d6c1a1131fb40b96bb3d96b9e4cd16996bf95c8b"
+        "rawSha256": "19d99f4f752eeed08fbe3b877161dc1ec24cd3f4e2204cab89ab75e780332487"
       }
     },
     {
@@ -80,10 +80,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-golpe-urna-eletronica-paralisacao-eleicoes/",
-        "fetchedAt": "2026-11-12T00:40:16.225Z",
+        "fetchedAt": "2026-11-12T15:09:35.831Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "99039caaf7d76b570769ed716cdc4d1230fdbbae5f54b075d8ae261c4fd9d03c"
+        "rawSha256": "19f2ba7d37639e9a307538b9f256d4acabd2b4e0cfb94e874183e0623c42f6bc"
       }
     },
     {
@@ -164,10 +164,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-votacoes-de-lula-e-flavio-bolsonaro-tenham-sido-trocadas/",
-        "fetchedAt": "2026-11-12T00:40:22.780Z",
+        "fetchedAt": "2026-11-12T15:09:41.243Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "033e315c2b89071791dedb5eddb40e0a778760f4c2d02725c6a4d7a6cacb5920"
+        "rawSha256": "7d8193f3fb0ea055f407be30b7803b9461899edd69d151c4d60b7526aae3e555"
       }
     },
     {
@@ -185,10 +185,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-homem-corindo-camera-secao-de-votacao-nao-prova-fraude/",
-        "fetchedAt": "2026-11-12T00:40:24.220Z",
+        "fetchedAt": "2026-11-12T15:09:41.496Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "8a7ea0319e12c8ffcb7b807d84475e086028519a938c458dd7f2dac8f0b3432b"
+        "rawSha256": "9ab8ed683bf271c10e15308176ffda7ed3806e4be8016a9e1c026bd4206dc62c"
       }
     },
     {
@@ -248,10 +248,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/boletins-urna-mostram-vitoria-flavio-bolsonaro-eleicoes-enganoso/",
-        "fetchedAt": "2026-11-12T00:40:27.384Z",
+        "fetchedAt": "2026-11-12T15:09:45.357Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "1e9ed782b179dce7fc7bb137dcb2b6090e8e510a03327bca94fb4a70e7d65e73"
+        "rawSha256": "fe188951441e6967e1c45d2cf705a39b221eded7e2b4909c188990acaa418d3a"
       }
     },
     {
@@ -290,10 +290,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-scarlett-johansson-e-contra-criancas-assistirem-a-desenhos-com-questoes-de-genero/",
-        "fetchedAt": "2026-11-12T00:40:25.909Z",
+        "fetchedAt": "2026-11-12T15:09:43.742Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ba0708732772ac5f095a180b2c6e980815e0f60deb96beaa6e9fc6cda1e63d98"
+        "rawSha256": "eb7a893063cb0f3e0aa246dc4aa6faf18d8c742c8ad1ae1fb9d130bd4bf8f320"
       }
     },
     {
@@ -332,10 +332,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-de-pessoas-procurando-comida-em-caminhao-de-lixo-em-fortaleza-e-de-2021/",
-        "fetchedAt": "2026-11-12T00:40:35.031Z",
+        "fetchedAt": "2026-11-12T15:09:52.554Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "2a2ad791707f8d9f0a63271f3db18a91be64e6cf2f8a152c44dd1461d4fceca5"
+        "rawSha256": "4a500cae44331326551e4e1e6100574b5739d0739c1d0b5463f108a7c0f1298b"
       }
     },
     {
@@ -353,10 +353,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/audio-falso-flavio-dino-arruinar-a-economia-volta-a-circular/",
-        "fetchedAt": "2026-11-12T00:40:37.694Z",
+        "fetchedAt": "2026-11-12T15:09:53.894Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "71e9085f13010e1765f731fc713a227e2e81cfe00b0fa72c5a631ff69c454bc6"
+        "rawSha256": "b58f78be97fe185a4280071dfaa4a0e14639eb85d3f4c686bdfaa5ceaba89ee7"
       }
     },
     {
@@ -374,10 +374,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/grafico-eolucao-votos-eleicoes-fraude-eleitoral-falso/",
-        "fetchedAt": "2026-11-12T00:40:28.851Z",
+        "fetchedAt": "2026-11-12T15:09:46.643Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "25da87090b9fad018aa11a4c3c533e1faccc9dd932f97ea332f46dd79b38a69c"
+        "rawSha256": "f441fd71b650a64bd65f44de5c5cd3cbe7318870d210ebaa6b08c43cd8a74faa"
       }
     },
     {
@@ -437,10 +437,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/predominancia-votos-lula-secoes-nao-prova-fraude/",
-        "fetchedAt": "2026-11-12T00:40:33.281Z",
+        "fetchedAt": "2026-11-12T15:09:50.862Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "a720ee9737ff5cdf1b24a3b1c3913f261ded61d6c12d827a0917ad7ee4e92f72"
+        "rawSha256": "50491666629892017f1eb79dd8cea2abff840d51aa7d5975371d0c04ffc93280"
       }
     },
     {
@@ -458,10 +458,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/vulcoes-submarinos-nao-sao-responsaveis-pelo-el-nino-e-por-aquecer-os-oceanos/",
-        "fetchedAt": "2026-11-12T00:40:47.139Z",
+        "fetchedAt": "2026-11-12T15:09:58.290Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "4e53b0cb17e69224ba142c06a4a085e171eb9b94d9b686a5f15fc9ed199307b8"
+        "rawSha256": "273c8e3c91da3c061f2d7f7610ce38b28b94e74a7383b40baa80b6027d70b38a"
       }
     },
     {
@@ -542,10 +542,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/vereador-usa-imagens-descontextualizadas-para-associar-vitoria-de-lula-a-comemoracoes-de-traficantes/",
-        "fetchedAt": "2026-11-12T00:40:16.332Z",
+        "fetchedAt": "2026-11-12T15:09:34.673Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "6ba7a40bd4ce8f085a4a73e3a24be8c75c154741ecf54fc9e9d88cb66906ad82"
+        "rawSha256": "cb25fa58a24213b1ee6fede1a318ed12fea5884ba37df0b6647dd84492e8b1dd"
       }
     },
     {
@@ -668,10 +668,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-daniel-vorcaro-tenha-deixado-a-prisao-apos-decisao-da-justica/",
-        "fetchedAt": "2026-11-12T00:40:49.834Z",
+        "fetchedAt": "2026-11-12T15:10:02.322Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "1eab1c0c4fd025110235ce78efacb6023aafc5532fbc12a4b05fde7ea827d7b2"
+        "rawSha256": "283250e3da4a05f7a0ae8a527e3f5a03b8679ccbbb758a999da084ed8bc31399"
       }
     },
     {
@@ -2663,10 +2663,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/artigo-de-opiniao-de-2025-acusando-golpe-de-estado-no-stf-circula-como-se-fosse-recente/",
-        "fetchedAt": "2026-11-12T00:40:29.116Z",
+        "fetchedAt": "2026-11-12T15:09:48.069Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "07f7b2111492fbb84b0dabd187c9fa6e674b3a083aa5b9c8be05d185192f1ad8"
+        "rawSha256": "0373d625b3b36732a14c722f40fc47496a6d7cdf8f801a39da5ca759151c8889"
       }
     },
     {
@@ -7976,10 +7976,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-doenca-creutzfeldt-jakob-vacinas-lito-souza/",
-        "fetchedAt": "2026-11-12T00:40:44.756Z",
+        "fetchedAt": "2026-11-12T15:09:58.075Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "4b91dcb8d5a900b61ed2fd2fe620ab53b06aa0c2ef632701218cf11f8d9ce285"
+        "rawSha256": "3716ae23b8f4d1124fbc38a3e98cedab593722fa9622e5f85cc4dc8e127d8d79"
       }
     },
     {
@@ -9971,10 +9971,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/tumulto-em-paris-eliminacao-da-franca-na-copa-do-mundo/",
-        "fetchedAt": "2026-11-12T00:40:49.521Z",
+        "fetchedAt": "2026-11-12T15:10:00.672Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "424cb9801533e41a50049c77a0e5c621554ebe3ee47f392cab0bce044f805236"
+        "rawSha256": "6e95927b72cd031fb10e843cdaa8a7b46462830b0c9a54ff84bf807c6eb368bb"
       }
     },
     {
