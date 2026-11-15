@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T22:21:51.823Z",
+  "generatedAt": "2026-11-15T06:25:03.858Z",
   "reviews": [
     {
       "id": "036d76943bdb4a2a",
@@ -17,10 +17,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/urnas-eletronicas-onibus-fraude-enganoso/",
-        "fetchedAt": "2026-11-14T22:21:34.006Z",
+        "fetchedAt": "2026-11-15T06:24:46.833Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "449b28563f5ee6312b68c9e8fed71d1eff9841551e71b45f257d217cd1d9010d"
+        "rawSha256": "1027b784ff32540e74f9e8ccda75bb9c506dcf2e92d5bc092f9d522f343db7a8"
       }
     },
     {
@@ -80,10 +80,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/lula-nao-se-referia-a-tornados-ao-dizer-que-vento-esta-levando-o-odio-em-santa-catarina/",
-        "fetchedAt": "2026-11-14T22:21:32.984Z",
+        "fetchedAt": "2026-11-15T06:24:45.823Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "a92ba67d3230c10ec364c0d38ff3caf5952491031a7bb4c15d5f6c272d513a1c"
+        "rawSha256": "fecb8dd357ff9d278e4d8f8cc09a004ff10f35109afdc63433b585ff626e73ca"
       }
     },
     {
@@ -101,10 +101,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/lula-nao-disse-que-lulinha-fiscalizara-entregas-do-governo/",
-        "fetchedAt": "2026-11-14T22:21:36.937Z",
+        "fetchedAt": "2026-11-15T06:24:49.818Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "1786cf30edaecd8b682e0d1b29c88720bbca6f343d58cf608591e8863a26e0d7"
+        "rawSha256": "238165dcfa91d0161fe75bd54404ee44045c7d104ae678889a1f4ade1144bcf5"
       }
     },
     {
@@ -122,10 +122,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-urnas-desviaram-votos-flavio-lula-eleicoes/",
-        "fetchedAt": "2026-11-14T22:21:35.918Z",
+        "fetchedAt": "2026-11-15T06:24:48.785Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "3a305d8d67798b6f97b3b4374cee6a6f1c2dd3b1344f660c247fbe5adf814422"
+        "rawSha256": "4b4125290cddfcd89389eadc9e2a03fc56eee422e9c01f284fba8919fffb5e3f"
       }
     },
     {
@@ -248,10 +248,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/nordeste-sem-agua-abandono-lula-falta-contexto/",
-        "fetchedAt": "2026-11-14T22:21:31.935Z",
+        "fetchedAt": "2026-11-15T06:24:44.793Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "907abca2cd9c48d70369d211cf885198c309f058966ea8788a4e0c2eaa83e67c"
+        "rawSha256": "778fce1bddf1c960d09563e3a648d7506bc28e8457c60e2f0a95147adbffbb09"
       }
     },
     {
@@ -269,10 +269,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-golpe-urna-eletronica-paralisacao-eleicoes/",
-        "fetchedAt": "2026-11-14T22:21:38.064Z",
+        "fetchedAt": "2026-11-15T06:24:50.901Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "f9a5bd6189e832fe58b7091c514c398bf112f343e37296e31546e9514fab85ad"
+        "rawSha256": "782188ecb85378c19ec908ad490784bfab5a97b6ed84429ccea0abc7d4009f36"
       }
     },
     {
@@ -353,10 +353,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-votacoes-de-lula-e-flavio-bolsonaro-tenham-sido-trocadas/",
-        "fetchedAt": "2026-11-14T22:21:40.638Z",
+        "fetchedAt": "2026-11-15T06:24:53.784Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "4e6b8ccdb90d7de7d5afc54b92826cfd44636b1b0e80b8e809f5e5678b515799"
+        "rawSha256": "894fadf6bf04c5728f425821b3f2720ceadd5674664547f433f5b39d3a428713"
       }
     },
     {
@@ -374,10 +374,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-homem-corindo-camera-secao-de-votacao-nao-prova-fraude/",
-        "fetchedAt": "2026-11-14T22:21:41.951Z",
+        "fetchedAt": "2026-11-15T06:24:54.845Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "d68f9e7b9a7378032b610f9b7f60f22d432dd171f5deb139c5ab202370301537"
+        "rawSha256": "71dc539d90efece5a84533d39864b1f6d7eedef5bf007d9f3d41a023253f5553"
       }
     },
     {
@@ -437,10 +437,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/boletins-urna-mostram-vitoria-flavio-bolsonaro-eleicoes-enganoso/",
-        "fetchedAt": "2026-11-14T22:21:43.629Z",
+        "fetchedAt": "2026-11-15T06:24:56.834Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c641d4ee82343c4860e5ec565ccd7f59218b1afd4f6868d5142863ce3b44a56c"
+        "rawSha256": "3c1fdb11511ad03d55773ab77b3bc87d0fd16e165632656577df8c2d2a5e0007"
       }
     },
     {
@@ -479,10 +479,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-scarlett-johansson-e-contra-criancas-assistirem-a-desenhos-com-questoes-de-genero/",
-        "fetchedAt": "2026-11-14T22:21:42.889Z",
+        "fetchedAt": "2026-11-15T06:24:55.706Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c007db70eeae8c557f4a5b86ac1d0116a828efff4a3cb267db62733902476d6e"
+        "rawSha256": "b8e9d12b636d4babcc756942d53c0071989f1e10663adc50ee0a8d656fc311b3"
       }
     },
     {
@@ -521,10 +521,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-de-pessoas-procurando-comida-em-caminhao-de-lixo-em-fortaleza-e-de-2021/",
-        "fetchedAt": "2026-11-14T22:21:49.668Z",
+        "fetchedAt": "2026-11-15T06:25:01.788Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "9301719eda4073afe6345af4e9ef78d35da7e3a1bd7f6415d5a76ff10d537cf4"
+        "rawSha256": "4eb76b965cdae336c10b73cf851137f99626d43b89fdd01aa6e6f090c73592d1"
       }
     },
     {
@@ -542,10 +542,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/audio-falso-flavio-dino-arruinar-a-economia-volta-a-circular/",
-        "fetchedAt": "2026-11-14T22:21:51.670Z",
+        "fetchedAt": "2026-11-15T06:25:02.822Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "e799780273d9b7545eaf9b735cec407ec08a6f856bc20c43a3980411fb8c21f8"
+        "rawSha256": "d6a823597a11347538e5523ac49521dfcc956b2cb11b513c2789a07a72ec4c34"
       }
     },
     {
@@ -563,10 +563,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/grafico-eolucao-votos-eleicoes-fraude-eleitoral-falso/",
-        "fetchedAt": "2026-11-14T22:21:44.994Z",
+        "fetchedAt": "2026-11-15T06:24:57.776Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "4dbe78234e241c12028c31049257d623d155fe506ed5e1847784bf6363588d57"
+        "rawSha256": "64542bea6b26cd77651dd5e8557607c1065571d1b7a4643c9b8f894bbc225d82"
       }
     },
     {
@@ -626,10 +626,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/predominancia-votos-lula-secoes-nao-prova-fraude/",
-        "fetchedAt": "2026-11-14T22:21:48.529Z",
+        "fetchedAt": "2026-11-15T06:25:00.481Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "e18388133db4514453fc284d23c868ba857f6741652febcd55c3221051ca5eae"
+        "rawSha256": "799d402c31777ac70e4129f2d955797cbfedc3b8327c5623e34eedae750705b7"
       }
     },
     {
@@ -2852,10 +2852,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/artigo-de-opiniao-de-2025-acusando-golpe-de-estado-no-stf-circula-como-se-fosse-recente/",
-        "fetchedAt": "2026-11-14T22:21:47.170Z",
+        "fetchedAt": "2026-11-15T06:24:58.837Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "083ee3bf893be7ddabea99acec79c4a43220dea4fbf1e37bddaa7feef35d6403"
+        "rawSha256": "3cff89250b905897fafdd814dbcdce1c26e8f3a8b449acca35e5283cf61670d4"
       }
     },
     {
