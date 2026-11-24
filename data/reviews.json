@@ -1,7 +1,49 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T09:51:16.812Z",
+  "generatedAt": "2026-11-24T22:24:22.549Z",
   "reviews": [
+    {
+      "id": "398a3d06d9d44445",
+      "checkerId": "estadao-verifica",
+      "claimText": "Novo 'jipinho' chinês que custa R$ 19 mil já circula em São Paulo",
+      "claimant": "Postagens em redes sociais",
+      "claimDate": "2026-11-24",
+      "reviewDate": "2026-11-24",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/video-que-mostra-jipinho-chines-de-r-19-mil-nao-foi-feito-em-sao-paulo-e-sim-na-indonesia/",
+      "headline": "Vídeo que mostra ‘jipinho’ chinês de R$ 19 mil não foi feito em São Paulo, e sim na Indonésia",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-que-mostra-jipinho-chines-de-r-19-mil-nao-foi-feito-em-sao-paulo-e-sim-na-indonesia/",
+        "fetchedAt": "2026-11-24T22:24:03.517Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "534023a0bb7aaa801f461955406ec99ab66531c680fb1285cfdf39bf02f7673c"
+      }
+    },
+    {
+      "id": "acbf3a68ecaf5b05",
+      "checkerId": "estadao-verifica",
+      "claimText": "Vídeo mostra agricultores bolsonaristas jogando melancias fora.",
+      "claimant": "Boato nas redes sociais",
+      "claimDate": "2026-11-24",
+      "reviewDate": "2026-11-24",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/video-mostrando-descarte-de-melancias-e-antigo/",
+      "headline": "Vídeo de descarte de melancias é de 2023; produtores jogavam frutas no chão por causa de preço baixo",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-mostrando-descarte-de-melancias-e-antigo/",
+        "fetchedAt": "2026-11-24T22:24:04.484Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "f6f972515e084d60d3d5b9187663ce7d86f48ce3dd48d6c03fddd52ba8746f8e"
+      }
+    },
     {
       "id": "d978fea34e78a367",
       "checkerId": "estadao-verifica",
@@ -17,10 +59,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-programa-pe-de-meia-tenha-sido-cancelado-por-falta-de-verba/",
-        "fetchedAt": "2026-11-24T09:50:53.814Z",
+        "fetchedAt": "2026-11-24T22:24:06.442Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "49bee4d756079baba0911e31458b132a2a65db6772d75a13c576156d3cf47110"
+        "rawSha256": "e090ace29fe60cfc22af8e883fb3bd692e386f7eeac302557f09ed9ace805787"
       }
     },
     {
@@ -38,10 +80,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/jornal-nacional-nao-noticiou-onda-de-boicotes-a-artistas-sertanejos-no-nordeste/",
-        "fetchedAt": "2026-11-24T09:50:57.125Z",
+        "fetchedAt": "2026-11-24T22:24:05.116Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "7562899ab516de03eaba441d11510bc8314058d0c152d8449291e03a402e09b8"
+        "rawSha256": "fc0d907d7a9f91f3ef84546a40ace2808443d5e41a5d95bc5157f418f453a036"
       }
     },
     {
@@ -122,10 +164,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-tem-audio-alterado-para-fazer-parecer-que-jornalista-da-cnn-zombou-de-brasileiros-no-paraguai/",
-        "fetchedAt": "2026-11-24T09:50:55.803Z",
+        "fetchedAt": "2026-11-24T22:24:07.485Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "43c367540da83bdabf7296de7c2069629d08014a80c21afd1f28982d1a5a69d3"
+        "rawSha256": "e76b8d3066ba3fc8ffade83d3c9dbf3a913f141491ec3521f9983927de84d445"
       }
     },
     {
@@ -143,10 +185,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/capa-revista-veja-juiz-era-ladrao-sergio-moro-falsa/",
-        "fetchedAt": "2026-11-24T09:51:00.594Z",
+        "fetchedAt": "2026-11-24T22:24:11.396Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c4218ecdbf02a88fc672fed0d2de82fd861e156c8657f66cf0a99f1073d4baf0"
+        "rawSha256": "50d427b287e82177109f6c1aa07c16f08dc528b3368a3153591f91f0bf499aa8"
       }
     },
     {
@@ -185,10 +227,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/moraes-mandou-destruir-armas-nao-biblias-8-de-janeiro/",
-        "fetchedAt": "2026-11-24T09:50:59.571Z",
+        "fetchedAt": "2026-11-24T22:24:10.433Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "923c4c2f1ab0f8986511c3a531137713ac64bd21739741766b1562a5711870a4"
+        "rawSha256": "132097d701f1ca9d2516e94f1e34c2ae52b1383e0a4b40d489873c705f0ba6b6"
       }
     },
     {
@@ -227,10 +269,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/suposta-negociacao-de-maduro-para-delatar-lula-e-boato-sem-confirmacao/",
-        "fetchedAt": "2026-11-24T09:50:59.316Z",
+        "fetchedAt": "2026-11-24T22:24:09.408Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "94808a7b748ece5f0f7670eca548de115008b3ebc502fe5baf64370f00794f87"
+        "rawSha256": "3bd8060026d43bfa3ce110d27c0a01aaf2b211ca79cf93b63ce0e882a86f71cb"
       }
     },
     {
@@ -290,10 +332,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/plc-112-de-2021-nao-visa-penalizar-quem-questionar-sistema-eleitoral/",
-        "fetchedAt": "2026-11-24T09:51:05.202Z",
+        "fetchedAt": "2026-11-24T22:24:14.144Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "1c4ee0a7f8a7e09d01e9dd38e6892c9e3fbd64541b27627fc54c09aae308b676"
+        "rawSha256": "06cafc84d9b756db105ab606a645ed0e211182171c4596d81cb301bf1f3ccd58"
       }
     },
     {
@@ -395,10 +437,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/urnas-eletronicas-onibus-fraude-enganoso/",
-        "fetchedAt": "2026-11-24T09:51:11.136Z",
+        "fetchedAt": "2026-11-24T22:24:21.053Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "eaf07ef63a21f1d6148bf466cbd41c443960e9ffe018ab7a9826cf1fcf48243e"
+        "rawSha256": "ccfb2229b0dd68251bfa9ed5fd155a2d0206cef4ed8811bbec54ec80412304b1"
       }
     },
     {
@@ -458,10 +500,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/lula-nao-se-referia-a-tornados-ao-dizer-que-vento-esta-levando-o-odio-em-santa-catarina/",
-        "fetchedAt": "2026-11-24T09:51:10.802Z",
+        "fetchedAt": "2026-11-24T22:24:19.463Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c0bba8ce9af0a2aff4cf6fdfd93f02af0b3f28e4d8efe3e508592ca139875008"
+        "rawSha256": "0c9a6c2f3da49b4353e5c543ab924b387f55ab016efb350a89867d2aff389d76"
       }
     },
     {
@@ -479,10 +521,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/lula-nao-disse-que-lulinha-fiscalizara-entregas-do-governo/",
-        "fetchedAt": "2026-11-24T09:51:13.363Z",
+        "fetchedAt": "2026-11-24T22:24:22.532Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "716819c0302410c1c4641df9ec2f608ecd4b7a24367c3007ea9d85fa0258a0ed"
+        "rawSha256": "29b69bab8c26ef1a02cbc3aa0d61131cb2b511ea7c8894e3ab192e8456b9ad06"
       }
     },
     {
@@ -500,10 +542,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-urnas-desviaram-votos-flavio-lula-eleicoes/",
-        "fetchedAt": "2026-11-24T09:51:07.593Z",
+        "fetchedAt": "2026-11-24T22:24:16.379Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "3f1f448b71bc1c278d0e27fe7fe9dba2725152ebab16e8859bcf30b445b18e25"
+        "rawSha256": "fcc74802a2c860b582233b1d261f0a51ba5bc34cbcf84ba2d1ca96b78ba3b8b1"
       }
     },
     {
@@ -626,10 +668,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/nordeste-sem-agua-abandono-lula-falta-contexto/",
-        "fetchedAt": "2026-11-24T09:51:08.915Z",
+        "fetchedAt": "2026-11-24T22:24:17.414Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "917836d909a7a0176ff766e519df0555a9058e26941579bd51de6085d9e89abf"
+        "rawSha256": "b987deb79c079be994c246f63ecb50f5ce494c180bb4b8507ea5583534e9ae64"
       }
     },
     {
@@ -752,10 +794,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-homem-corindo-camera-secao-de-votacao-nao-prova-fraude/",
-        "fetchedAt": "2026-11-24T09:51:05.461Z",
+        "fetchedAt": "2026-11-24T22:24:15.420Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "6091ba0f27b08972bade50158d59b6af9fe6e7bf13c9eb3b7f60c2b3882cb99b"
+        "rawSha256": "43e362d666890304f43c87ee4a6d09986c05bf15fd2b02a0f2c53a413529c238"
       }
     },
     {
