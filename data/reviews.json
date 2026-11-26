@@ -1,7 +1,70 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T08:12:22.987Z",
+  "generatedAt": "2026-11-26T21:29:02.149Z",
   "reviews": [
+    {
+      "id": "784ab344316e5636",
+      "checkerId": "estadao-verifica",
+      "claimText": "PT apresentou projeto para taxar MEIs em 15%",
+      "claimant": "Boato nas redes sociais",
+      "claimDate": "2026-11-26",
+      "reviewDate": "2026-11-26",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/pt-apresentou-projeto-para-taxar-meis-em-15-enganoso/",
+      "headline": "Post enganoso diz que PT apresentou projeto para taxar MEIs em 15%",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/pt-apresentou-projeto-para-taxar-meis-em-15-enganoso/",
+        "fetchedAt": "2026-11-26T21:28:41.794Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "322f938689f411a2552091cda1703bf60dbc16af6e2b7961411e41c0b1339816"
+      }
+    },
+    {
+      "id": "b1d60b342533b8f8",
+      "checkerId": "estadao-verifica",
+      "claimText": "Sebastião Coelho denuncia iluminação vermelha no Palácio do Planalto",
+      "claimant": "Desembargador Sebastião Coelho",
+      "claimDate": "2026-11-26",
+      "reviewDate": "2026-11-26",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/iluminacao-vermelha-palacio-planalto-sebastiao-coelho/",
+      "headline": "Vídeo com críticas a iluminação vermelha do Palácio do Planalto desinforma ao ignorar contexto",
+      "textualRating": "Enganoso",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/iluminacao-vermelha-palacio-planalto-sebastiao-coelho/",
+        "fetchedAt": "2026-11-26T21:28:42.019Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "6c5d535b897dee02e3b46ac0c943631c1e1609b2bab26eff143a28593ae61c55"
+      }
+    },
+    {
+      "id": "e4bf58c2c2405955",
+      "checkerId": "estadao-verifica",
+      "claimText": "Vídeo mostra o ministro Alexandre de Moraes, do STF, recebendo xingamentos de um grupo de pessoas",
+      "claimant": "Boatos de redes sociais",
+      "claimDate": "2026-11-26",
+      "reviewDate": "2026-11-26",
+      "reviewUrl": "https://www.estadao.com.br/estadao-verifica/video-em-que-grupo-hostiliza-alexandre-de-moraes-e-antigo/",
+      "headline": "Vídeo em que grupo hostiliza Alexandre de Moraes é antigo",
+      "textualRating": "Fora de contexto",
+      "verdict": "out_of_context",
+      "ratingMapVersion": 3,
+      "archivedUrl": null,
+      "provenance": {
+        "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-em-que-grupo-hostiliza-alexandre-de-moraes-e-antigo/",
+        "fetchedAt": "2026-11-26T21:28:38.905Z",
+        "method": "claimreview",
+        "parserVersion": "claimreview@1",
+        "rawSha256": "b15e10a0aab878b92f770402cbb34b39142cab75b70629a83fb19207c3dd3240"
+      }
+    },
     {
       "id": "1e2997e1034a6473",
       "checkerId": "estadao-verifica",
@@ -17,10 +80,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-trump-confirmou-fraude-eleicoes/",
-        "fetchedAt": "2026-11-26T08:12:01.013Z",
+        "fetchedAt": "2026-11-26T21:28:44.694Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "6fb0e7dd0224d7f2902e8ae5c57687ad97b3c57761a9664adbe992d9f0362ede"
+        "rawSha256": "c5b003344e17f0651fd2a3123e5eebe7d9f52a9694691da6109a3e236e60c35f"
       }
     },
     {
@@ -59,10 +122,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/imagem-produtores-despejando-leite-enganoso/",
-        "fetchedAt": "2026-11-26T08:12:07.193Z",
+        "fetchedAt": "2026-11-26T21:28:50.393Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "bc967d367bd3353a3d5664411370ba474838bac355d5f0d6ac8c08618e22b25d"
+        "rawSha256": "046a981cd853c46aa035bd1c308d4d01da579accb2c3a384d564e0c3bdeb758a"
       }
     },
     {
@@ -80,10 +143,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/todo-mundo-tera-contas-bloqueadas-em-novembro-enganoso/",
-        "fetchedAt": "2026-11-26T08:12:01.774Z",
+        "fetchedAt": "2026-11-26T21:28:44.976Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "7cf39602ed084ab319ca3c4e8e3f83c1e50e753ee6745e7383dacb523fe89284"
+        "rawSha256": "f4896c49ee8da44d4d86185e6ebc204819064ecb4631740401e24539ba5cd6f0"
       }
     },
     {
@@ -143,10 +206,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/provas-fraude-eleicao-software-aumentou-votos-de-lula-com-queda-abstencao-falso/",
-        "fetchedAt": "2026-11-26T08:12:07.697Z",
+        "fetchedAt": "2026-11-26T21:28:51.541Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "80d49669a4792ad6c40457dd981695332ca43a92485339371fa2286ce0e6381d"
+        "rawSha256": "9841904173c285ecbc9612bfd2f4dddb784df7fba85443a714542fe2c485ac15"
       }
     },
     {
@@ -164,10 +227,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/foto-bolsonaro-hospital-2025-fora-de-contexto/",
-        "fetchedAt": "2026-11-26T08:12:04.012Z",
+        "fetchedAt": "2026-11-26T21:28:47.220Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c33ed7856035d6bea8cf185f47c30e75966ed2923a0c89ed03ea9c19aa1fe7eb"
+        "rawSha256": "ad9a8348d4b362e7659bedb6bc78508433f07e4d570325c8b28dd686a6daf2d0"
       }
     },
     {
@@ -185,10 +248,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/atendimento-digital-burger-king-nao-foi-motivado-fim-da-escala/",
-        "fetchedAt": "2026-11-26T08:12:04.707Z",
+        "fetchedAt": "2026-11-26T21:28:49.151Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "22dbb1385714ee7c2f1a0c07913308a5e006515e5f6d0bc8006a08afaa78535e"
+        "rawSha256": "eae7e847a46232c7edc6d841e5e83d48ff41d05d65637158cf8bebb8ce170782"
       }
     },
     {
@@ -248,10 +311,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-que-mostra-jipinho-chines-de-r-19-mil-nao-foi-feito-em-sao-paulo-e-sim-na-indonesia/",
-        "fetchedAt": "2026-11-26T08:12:09.767Z",
+        "fetchedAt": "2026-11-26T21:28:53.974Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "b91d89550b8eca7ef5f9bf8a4d60ebcacd1ceaeafedcf1b06fc7821153e6d18a"
+        "rawSha256": "ce90068be9ea89bcd80c18c610071236d7804a0e3a128a9d6c626f693e034518"
       }
     },
     {
@@ -311,10 +374,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-mostrando-descarte-de-melancias-e-antigo/",
-        "fetchedAt": "2026-11-26T08:12:10.783Z",
+        "fetchedAt": "2026-11-26T21:28:55.191Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "949a2e4c86106f987c89acdd24e3fa9711d0b8c39f492c64c4ea1eedcb11656b"
+        "rawSha256": "dbbc7a5bffa5b121887a611f9fa1a8cb4b4f911cf60e72cde07dde56e94690c6"
       }
     },
     {
@@ -332,10 +395,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-programa-pe-de-meia-tenha-sido-cancelado-por-falta-de-verba/",
-        "fetchedAt": "2026-11-26T08:12:13.573Z",
+        "fetchedAt": "2026-11-26T21:28:56.440Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "1eb8be45e55757315e5769fff064f9585969ff4190755c5f5545735efaa6ba35"
+        "rawSha256": "05d7612eed48460fec4ffbbd777d51cf92181abfe685a77e685bdac033f86904"
       }
     },
     {
@@ -353,10 +416,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/jornal-nacional-nao-noticiou-onda-de-boicotes-a-artistas-sertanejos-no-nordeste/",
-        "fetchedAt": "2026-11-26T08:12:12.967Z",
+        "fetchedAt": "2026-11-26T21:28:55.993Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "b4befa400acf8a28e37fe36541b0f20cdf10dc94524cc44331196d5736490833"
+        "rawSha256": "61cbf656fdd0f0e376730c5e60d243df976b163cac3ca4ac40da4495cd962013"
       }
     },
     {
@@ -437,10 +500,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-tem-audio-alterado-para-fazer-parecer-que-jornalista-da-cnn-zombou-de-brasileiros-no-paraguai/",
-        "fetchedAt": "2026-11-26T08:12:14.417Z",
+        "fetchedAt": "2026-11-26T21:28:57.584Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "db453101e41649a8eee8b9dfcbacac78cb243e4fa50e24853a973a943f45bb47"
+        "rawSha256": "29373809bd88c23b8e4b9465eeeb9ce54eac6a62cc18b50b4005bdc22ca81261"
       }
     },
     {
@@ -500,10 +563,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/moraes-mandou-destruir-armas-nao-biblias-8-de-janeiro/",
-        "fetchedAt": "2026-11-26T08:12:17.937Z",
+        "fetchedAt": "2026-11-26T21:29:02.134Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "f5bf3707b1ccfd060a1960ef8d29e451cda3a0f5fb402420a67ff74874756943"
+        "rawSha256": "f1fca9a00c676fff04db8191983fa2b93316f32fb70b93a710a9cf6220786a3b"
       }
     },
     {
@@ -542,10 +605,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/suposta-negociacao-de-maduro-para-delatar-lula-e-boato-sem-confirmacao/",
-        "fetchedAt": "2026-11-26T08:12:16.941Z",
+        "fetchedAt": "2026-11-26T21:29:00.353Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "0b290aa53f21aed9097514a80a90645f77e4d0afb013dfbb4528e74cefaa971b"
+        "rawSha256": "5f4d233a19bca4bb6c8ef79d5e8be6b72d9b12084d7bd731bd4a1f7a96207a04"
       }
     },
     {
