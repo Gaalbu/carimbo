@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T21:29:02.149Z",
+  "generatedAt": "2026-11-27T08:23:54.316Z",
   "reviews": [
     {
       "id": "784ab344316e5636",
@@ -17,10 +17,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/pt-apresentou-projeto-para-taxar-meis-em-15-enganoso/",
-        "fetchedAt": "2026-11-26T21:28:41.794Z",
+        "fetchedAt": "2026-11-27T08:23:32.171Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "322f938689f411a2552091cda1703bf60dbc16af6e2b7961411e41c0b1339816"
+        "rawSha256": "888acc386f2108dcf577f8638e08d6879189b9615bdf55d960aa8881898c2967"
       }
     },
     {
@@ -38,10 +38,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/iluminacao-vermelha-palacio-planalto-sebastiao-coelho/",
-        "fetchedAt": "2026-11-26T21:28:42.019Z",
+        "fetchedAt": "2026-11-27T08:23:34.237Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "6c5d535b897dee02e3b46ac0c943631c1e1609b2bab26eff143a28593ae61c55"
+        "rawSha256": "1da3a160ff93f03dd6faf22a6db37c22e7f9bdae8f82b2ca54d47c14515ee28b"
       }
     },
     {
@@ -59,10 +59,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-em-que-grupo-hostiliza-alexandre-de-moraes-e-antigo/",
-        "fetchedAt": "2026-11-26T21:28:38.905Z",
+        "fetchedAt": "2026-11-27T08:23:30.218Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "b15e10a0aab878b92f770402cbb34b39142cab75b70629a83fb19207c3dd3240"
+        "rawSha256": "fb274c4799ab4948567134338b3ae37c6c1f5b63d1e349750f14577171536462"
       }
     },
     {
@@ -80,10 +80,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-trump-confirmou-fraude-eleicoes/",
-        "fetchedAt": "2026-11-26T21:28:44.694Z",
+        "fetchedAt": "2026-11-27T08:23:36.556Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "c5b003344e17f0651fd2a3123e5eebe7d9f52a9694691da6109a3e236e60c35f"
+        "rawSha256": "711f99c1fe618299f21f7e2cb10eec308467925d2d84ca256964750b042e736d"
       }
     },
     {
@@ -101,7 +101,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-bolsonaro-impeachment-moraes/",
-        "fetchedAt": "2026-11-26T08:12:01.148Z",
+        "fetchedAt": "2026-11-27T08:23:29.978Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "8e95ffabd3ba7ed970f704bb2f80a757e7feecb1f1a3dd7abecaed34bac423ef"
@@ -122,10 +122,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/imagem-produtores-despejando-leite-enganoso/",
-        "fetchedAt": "2026-11-26T21:28:50.393Z",
+        "fetchedAt": "2026-11-27T08:23:41.762Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "046a981cd853c46aa035bd1c308d4d01da579accb2c3a384d564e0c3bdeb758a"
+        "rawSha256": "7d45d7085f444546791a43072e96f74fd3ef32d96affa13dc963ccacaed3f02d"
       }
     },
     {
@@ -143,10 +143,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/todo-mundo-tera-contas-bloqueadas-em-novembro-enganoso/",
-        "fetchedAt": "2026-11-26T21:28:44.976Z",
+        "fetchedAt": "2026-11-27T08:23:38.729Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "f4896c49ee8da44d4d86185e6ebc204819064ecb4631740401e24539ba5cd6f0"
+        "rawSha256": "88be14e048e0e9aa249e2eec429c469a59c05d40373761d69b183118e180e3f8"
       }
     },
     {
@@ -164,7 +164,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/pf-bolsa-familia-bpc/",
-        "fetchedAt": "2026-11-26T08:12:03.595Z",
+        "fetchedAt": "2026-11-27T08:23:32.972Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "0acfd3db0c5d293d5be4e6e7e94ad5ba9bb7a84592bf96bf7815aa52aedbad5a"
@@ -185,7 +185,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-descarte-melancias/",
-        "fetchedAt": "2026-11-26T08:12:02.595Z",
+        "fetchedAt": "2026-11-27T08:23:31.985Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "64677b6e08cc5048b8251de80fb1d030d457fd90d0d207d945e8957658ed564b"
@@ -206,10 +206,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/provas-fraude-eleicao-software-aumentou-votos-de-lula-com-queda-abstencao-falso/",
-        "fetchedAt": "2026-11-26T21:28:51.541Z",
+        "fetchedAt": "2026-11-27T08:23:42.748Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "9841904173c285ecbc9612bfd2f4dddb784df7fba85443a714542fe2c485ac15"
+        "rawSha256": "40f027ba67f89a0efe73f1bbfa031ca7f561aef7d43f108ac6eb9d01f5df2e1a"
       }
     },
     {
@@ -227,10 +227,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/foto-bolsonaro-hospital-2025-fora-de-contexto/",
-        "fetchedAt": "2026-11-26T21:28:47.220Z",
+        "fetchedAt": "2026-11-27T08:23:40.313Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ad9a8348d4b362e7659bedb6bc78508433f07e4d570325c8b28dd686a6daf2d0"
+        "rawSha256": "a0f24cb6d32b9b8ec1ffed46e4211d0289a02c8883c49947046adf2bedca5d7c"
       }
     },
     {
@@ -248,10 +248,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/atendimento-digital-burger-king-nao-foi-motivado-fim-da-escala/",
-        "fetchedAt": "2026-11-26T21:28:49.151Z",
+        "fetchedAt": "2026-11-27T08:23:40.811Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "eae7e847a46232c7edc6d841e5e83d48ff41d05d65637158cf8bebb8ce170782"
+        "rawSha256": "3bbe87eb53dfe5a9539884a62e05362ff6dda70d500047a258ff1cb7d027d81e"
       }
     },
     {
@@ -269,7 +269,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/sorteio-stf-moraes/",
-        "fetchedAt": "2026-11-26T08:12:07.602Z",
+        "fetchedAt": "2026-11-27T08:23:36.973Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "2a34c69a1bd2cbd51db86fc28adcabe1ada50d22400aebe22279b442552c595b"
@@ -290,7 +290,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/petistas-hospital-jair-bolsonaro/",
-        "fetchedAt": "2026-11-26T08:12:04.587Z",
+        "fetchedAt": "2026-11-27T08:23:33.966Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "3ce7d9b6a4806104d4ae63a7808f236afdbb4c547573f52f982c764d4904ad1c"
@@ -311,10 +311,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-que-mostra-jipinho-chines-de-r-19-mil-nao-foi-feito-em-sao-paulo-e-sim-na-indonesia/",
-        "fetchedAt": "2026-11-26T21:28:53.974Z",
+        "fetchedAt": "2026-11-27T08:23:45.864Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "ce90068be9ea89bcd80c18c610071236d7804a0e3a128a9d6c626f693e034518"
+        "rawSha256": "5207a1c3f05a6724ef990b3b6ce02f7f056c707d57312d1cc3ba0528f96cb4be"
       }
     },
     {
@@ -332,7 +332,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/escala-6x1-burger-king/",
-        "fetchedAt": "2026-11-26T08:12:05.606Z",
+        "fetchedAt": "2026-11-27T08:23:34.972Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "792f92e6f3970ea3ebbecd418c46693545adadc55ee004c15f4edc85259d20e0"
@@ -353,7 +353,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/tse-urnas-eleicoes-2026/",
-        "fetchedAt": "2026-11-26T08:12:06.602Z",
+        "fetchedAt": "2026-11-27T08:23:35.969Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "3163e97712807bbd0538587b1b1729ded4e58a868fc4ddf9aae653b80fcbcd55"
@@ -374,10 +374,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-mostrando-descarte-de-melancias-e-antigo/",
-        "fetchedAt": "2026-11-26T21:28:55.191Z",
+        "fetchedAt": "2026-11-27T08:23:46.425Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "dbbc7a5bffa5b121887a611f9fa1a8cb4b4f911cf60e72cde07dde56e94690c6"
+        "rawSha256": "3d943ff0ad6f63ffcf348c049a211578e1d3eabb5656567115236caf645a000f"
       }
     },
     {
@@ -395,10 +395,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-programa-pe-de-meia-tenha-sido-cancelado-por-falta-de-verba/",
-        "fetchedAt": "2026-11-26T21:28:56.440Z",
+        "fetchedAt": "2026-11-27T08:23:48.872Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "05d7612eed48460fec4ffbbd777d51cf92181abfe685a77e685bdac033f86904"
+        "rawSha256": "92a8f622d191e50df53e5d7679aab96ee647cd517c8700cb8fee8078c8f31809"
       }
     },
     {
@@ -416,10 +416,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/jornal-nacional-nao-noticiou-onda-de-boicotes-a-artistas-sertanejos-no-nordeste/",
-        "fetchedAt": "2026-11-26T21:28:55.993Z",
+        "fetchedAt": "2026-11-27T08:23:48.745Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "61cbf656fdd0f0e376730c5e60d243df976b163cac3ca4ac40da4495cd962013"
+        "rawSha256": "0d3da20b5dace17bdf1797c94c80b62e68f05fa6c2d29099e97a997e9fee8006"
       }
     },
     {
@@ -437,7 +437,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/flavio-bolsonaro-vestido-fuga/",
-        "fetchedAt": "2026-11-26T08:12:08.663Z",
+        "fetchedAt": "2026-11-27T08:23:37.972Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "19e8d55e1329575e8cfc633a35a21a0aeb62e38abc038dfe237c5b16ddb2f056"
@@ -458,7 +458,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/moraes-armas-condenados-8-janeiro/",
-        "fetchedAt": "2026-11-26T08:12:09.731Z",
+        "fetchedAt": "2026-11-27T08:23:38.972Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "10aa19a1795270efbde75dc8924c763868a8d0d209c2c372f3cec7025a1d39f2"
@@ -479,7 +479,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/e-falso-jair-bolsonaro-morreu/",
-        "fetchedAt": "2026-11-26T08:12:10.676Z",
+        "fetchedAt": "2026-11-27T08:23:39.968Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "fa42107c3c3e05953151e175ca8c9d809d22ac9ad7de8e8d4db930c84bda8569"
@@ -500,10 +500,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-tem-audio-alterado-para-fazer-parecer-que-jornalista-da-cnn-zombou-de-brasileiros-no-paraguai/",
-        "fetchedAt": "2026-11-26T21:28:57.584Z",
+        "fetchedAt": "2026-11-27T08:23:51.861Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "29373809bd88c23b8e4b9465eeeb9ce54eac6a62cc18b50b4005bdc22ca81261"
+        "rawSha256": "269f7d1ed1c5c213ae30339d027a48144de5c0fd8bed0396c34e56d3c7d728c6"
       }
     },
     {
@@ -542,7 +542,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-descarte-cebolas-campo-2024-nao-atual/",
-        "fetchedAt": "2026-11-26T08:12:12.602Z",
+        "fetchedAt": "2026-11-27T08:23:42.053Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "e47a5b290ff0d86288455483f9b4c2cc363cc9ae8e5655e66692f6c8e492f746"
@@ -563,10 +563,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/moraes-mandou-destruir-armas-nao-biblias-8-de-janeiro/",
-        "fetchedAt": "2026-11-26T21:29:02.134Z",
+        "fetchedAt": "2026-11-27T08:23:54.303Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "f1fca9a00c676fff04db8191983fa2b93316f32fb70b93a710a9cf6220786a3b"
+        "rawSha256": "3cd028d7fbbb202ee8caee4cacac2e1d8a134b00b90764c81eb10856634ba3f4"
       }
     },
     {
@@ -584,7 +584,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/nota-100-reais-lula/",
-        "fetchedAt": "2026-11-26T08:12:13.607Z",
+        "fetchedAt": "2026-11-27T08:23:42.993Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "769099b9931940b689b83bcdb680b98879ebabad329a24fd124916c181335ba0"
@@ -605,10 +605,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/suposta-negociacao-de-maduro-para-delatar-lula-e-boato-sem-confirmacao/",
-        "fetchedAt": "2026-11-26T21:29:00.353Z",
+        "fetchedAt": "2026-11-27T08:23:53.230Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "5f4d233a19bca4bb6c8ef79d5e8be6b72d9b12084d7bd731bd4a1f7a96207a04"
+        "rawSha256": "3d2111de02820456de2e5a01ff38bce12f085fed638a59973b9226417dea2c17"
       }
     },
     {
@@ -626,7 +626,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/video-descarte-leite/",
-        "fetchedAt": "2026-11-26T08:12:15.579Z",
+        "fetchedAt": "2026-11-27T08:23:44.986Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "ccdbcd4ef4f3f10762731e5e2424f9b5b9666c2e4d69cff9423453b22f8714c7"
@@ -647,7 +647,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/lula-uranio-brasil-china/",
-        "fetchedAt": "2026-11-26T08:12:14.583Z",
+        "fetchedAt": "2026-11-27T08:23:43.992Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "e1049f06757a650d5d29a20cc92256c627096bd6059b09bceb977b91d1317953"
@@ -689,7 +689,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/",
-        "fetchedAt": "2026-11-26T08:12:16.581Z",
+        "fetchedAt": "2026-11-27T08:23:46.034Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "7daeedffb1f50a3b418c95af2c2f6c024d571d229d6802e8c46926f7867b9b31"
@@ -710,7 +710,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/videos-que-mostram-descarte-de-tomates-nao-sao-recentes/",
-        "fetchedAt": "2026-11-26T08:12:18.594Z",
+        "fetchedAt": "2026-11-27T08:23:48.057Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "a0c18075b37b17c6679f4f62112439b20bdedce35a5b4b61c63ecc8e63df169a"
@@ -731,7 +731,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/foto-de-lula-com-dez-dedos-na-cop31-foi-gerada-por-ia/",
-        "fetchedAt": "2026-11-26T08:12:19.646Z",
+        "fetchedAt": "2026-11-27T08:23:49.010Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "09a22098e54e07172d53d45fd9673fa5eadb0708409e85f0990ded99d28a3744"
@@ -752,7 +752,7 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.aosfatos.org/noticias/videos-que-mostram-descarte-de-tomates-nao-sao-recentes/",
-        "fetchedAt": "2026-11-26T08:12:18.594Z",
+        "fetchedAt": "2026-11-27T08:23:48.057Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
         "rawSha256": "a0c18075b37b17c6679f4f62112439b20bdedce35a5b4b61c63ecc8e63df169a"
