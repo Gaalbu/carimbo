@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T08:23:54.316Z",
+  "generatedAt": "2026-11-27T21:14:17.883Z",
   "reviews": [
     {
       "id": "784ab344316e5636",
@@ -17,10 +17,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/pt-apresentou-projeto-para-taxar-meis-em-15-enganoso/",
-        "fetchedAt": "2026-11-27T08:23:32.171Z",
+        "fetchedAt": "2026-11-27T21:13:54.703Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "888acc386f2108dcf577f8638e08d6879189b9615bdf55d960aa8881898c2967"
+        "rawSha256": "0f8a4528ef5fbdd749fe8725fd2d1d4d4bcecd9fd4f2bac32faa82604a30577a"
       }
     },
     {
@@ -38,10 +38,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/iluminacao-vermelha-palacio-planalto-sebastiao-coelho/",
-        "fetchedAt": "2026-11-27T08:23:34.237Z",
+        "fetchedAt": "2026-11-27T21:14:00.715Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "1da3a160ff93f03dd6faf22a6db37c22e7f9bdae8f82b2ca54d47c14515ee28b"
+        "rawSha256": "baea1319fe83a15ebc50d9c96961b75fcc0f40bb027ef9b27cfa3cff95377b20"
       }
     },
     {
@@ -59,10 +59,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-em-que-grupo-hostiliza-alexandre-de-moraes-e-antigo/",
-        "fetchedAt": "2026-11-27T08:23:30.218Z",
+        "fetchedAt": "2026-11-27T21:13:59.077Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "fb274c4799ab4948567134338b3ae37c6c1f5b63d1e349750f14577171536462"
+        "rawSha256": "2945af91504b514335f87244568640ecca3a85f60b4a3a57ee09c698c0a34881"
       }
     },
     {
@@ -80,10 +80,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/falso-trump-confirmou-fraude-eleicoes/",
-        "fetchedAt": "2026-11-27T08:23:36.556Z",
+        "fetchedAt": "2026-11-27T21:14:02.974Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "711f99c1fe618299f21f7e2cb10eec308467925d2d84ca256964750b042e736d"
+        "rawSha256": "dd07b85647d8e0c646a5fb81ac2945d4a6827fc4160ebb6819f43ad09e6a0330"
       }
     },
     {
@@ -122,10 +122,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/imagem-produtores-despejando-leite-enganoso/",
-        "fetchedAt": "2026-11-27T08:23:41.762Z",
+        "fetchedAt": "2026-11-27T21:14:08.986Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "7d45d7085f444546791a43072e96f74fd3ef32d96affa13dc963ccacaed3f02d"
+        "rawSha256": "b1ec65194eebb538ce33b97e0193bedb2089b46aa2a01e66d181e28118709d00"
       }
     },
     {
@@ -143,10 +143,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/todo-mundo-tera-contas-bloqueadas-em-novembro-enganoso/",
-        "fetchedAt": "2026-11-27T08:23:38.729Z",
+        "fetchedAt": "2026-11-27T21:14:05.239Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "88be14e048e0e9aa249e2eec429c469a59c05d40373761d69b183118e180e3f8"
+        "rawSha256": "1c93ade38fa794c9a616b96ba1644b19309a88076ef5bbaa96a53bbaaadb1855"
       }
     },
     {
@@ -206,10 +206,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/provas-fraude-eleicao-software-aumentou-votos-de-lula-com-queda-abstencao-falso/",
-        "fetchedAt": "2026-11-27T08:23:42.748Z",
+        "fetchedAt": "2026-11-27T21:14:09.156Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "40f027ba67f89a0efe73f1bbfa031ca7f561aef7d43f108ac6eb9d01f5df2e1a"
+        "rawSha256": "016f333490b74aa5ea5a8bfae76f75dba89bdde4058a2e0981c5c2ccbfa32b61"
       }
     },
     {
@@ -227,10 +227,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/foto-bolsonaro-hospital-2025-fora-de-contexto/",
-        "fetchedAt": "2026-11-27T08:23:40.313Z",
+        "fetchedAt": "2026-11-27T21:14:05.874Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "a0f24cb6d32b9b8ec1ffed46e4211d0289a02c8883c49947046adf2bedca5d7c"
+        "rawSha256": "29b3de4bf64302eefc19041b48087b30e71734fd72752c40f8ffe392df1afe29"
       }
     },
     {
@@ -248,10 +248,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/atendimento-digital-burger-king-nao-foi-motivado-fim-da-escala/",
-        "fetchedAt": "2026-11-27T08:23:40.811Z",
+        "fetchedAt": "2026-11-27T21:14:06.430Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "3bbe87eb53dfe5a9539884a62e05362ff6dda70d500047a258ff1cb7d027d81e"
+        "rawSha256": "dc18f908db2c770e8762b97e56dc8a072045a2753f2916331e4ea029e59dcaa0"
       }
     },
     {
@@ -311,10 +311,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-que-mostra-jipinho-chines-de-r-19-mil-nao-foi-feito-em-sao-paulo-e-sim-na-indonesia/",
-        "fetchedAt": "2026-11-27T08:23:45.864Z",
+        "fetchedAt": "2026-11-27T21:14:12.595Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "5207a1c3f05a6724ef990b3b6ce02f7f056c707d57312d1cc3ba0528f96cb4be"
+        "rawSha256": "188d8ca10ba9bf9294fbfe8370765bc93fa8129a0309e4881cc380423207e735"
       }
     },
     {
@@ -374,10 +374,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/video-mostrando-descarte-de-melancias-e-antigo/",
-        "fetchedAt": "2026-11-27T08:23:46.425Z",
+        "fetchedAt": "2026-11-27T21:14:14.227Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "3d943ff0ad6f63ffcf348c049a211578e1d3eabb5656567115236caf645a000f"
+        "rawSha256": "b7c3f358c16c52815de22d8eff9a2d545398478d20864d431e2063c0ae8f17ef"
       }
     },
     {
@@ -395,10 +395,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/e-falso-que-programa-pe-de-meia-tenha-sido-cancelado-por-falta-de-verba/",
-        "fetchedAt": "2026-11-27T08:23:48.872Z",
+        "fetchedAt": "2026-11-27T21:14:17.868Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "92a8f622d191e50df53e5d7679aab96ee647cd517c8700cb8fee8078c8f31809"
+        "rawSha256": "ec4c7d43cb6b23c14d9b8c7b916b320a6437f438e8751cc7d8f220af516dae43"
       }
     },
     {
@@ -416,10 +416,10 @@
       "archivedUrl": null,
       "provenance": {
         "sourceUrl": "https://www.estadao.com.br/estadao-verifica/jornal-nacional-nao-noticiou-onda-de-boicotes-a-artistas-sertanejos-no-nordeste/",
-        "fetchedAt": "2026-11-27T08:23:48.745Z",
+        "fetchedAt": "2026-11-27T21:14:16.074Z",
         "method": "claimreview",
         "parserVersion": "claimreview@1",
-        "rawSha256": "0d3da20b5dace17bdf1797c94c80b62e68f05fa6c2d29099e97a997e9fee8006"
+        "rawSha256": "0eec29b4c46189ad93f6654f20873bb567984911e0dd7270ee59efe3b767dc80"
       }
     },
     {
